@@ -1,0 +1,76 @@
+SLID,HOSPITAL NAME,SHORT NAME,ESTABLISHED YEAR,SPECIALITY,REG NO,REGISTRATRION DATE,CERTIFICATION ID,ISO CERTIFIED,HOSPITAL TYPE,RATING,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,WEBSITE,BRANCH NAME,BRANCH TYPE,BRANCH REG NO,BRANCH EMAIL,BRANCH CONTACT NO,BRANCH FAX NO,NO OF BEDS,STATION ,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE(id),COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH PERSON NAME,BRANCH PERSON PHONE NO,BRANCH PERSON EMAIL ID,DepartMents,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE(id),BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Latitude ,Longitude
+HPTL-001,SRI KRISHNA HOSPITAL,SKH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-002,VENUS HOSPITAL,VH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-003,PUSHPA NURSING HOME,PNH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-004,SUSHRUTHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-005,KGH HOSPITAL,KH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-006,ANITHA NURSING HOME,ANH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-007,HEGDE HOSPITAL,HH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-008,HYD KIDNEY CENTRE,HKC,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-009,HYDERABAD MULTI SPECIALITY HOSPITAL,HMSH,,,,,,,,,,,,,,,,,,,,,Malakpet,,,MALAKPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+HPTL-010,NIKIL HOSPITAL,NH,,,,,,,,,,,,,,,,,,,,,Dilsuknagar,,,DILSUKNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+HPTL-011,SIGMA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Dilsuknagar,,,DILSUKNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+HPTL-012,KAMALA HOSPITAL,KH,,,,,,,,,,,,,,,,,,,,,Dilsuknagar,,,DILSUKNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+HPTL-013,SAVITHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Dilsuknagar,,,DILSUKNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+HPTL-014,SPACE HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Dilsuknagar,,,DILSUKNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+HPTL-015,JRD HOSPITAL,JH,,,,,,,,,,,,,,,,,,,,,Dilsuknagar,,,DILSUKNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+HPTL-016,RAKSHITHA HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-017,GEETHA HOSPITAL,GH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-018,OMNI HOSPITAL,OH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-019,SAPTHAGIRI HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-020,ANURAG ORTHO HOSPITAL,AOH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-021,ABHINAV OERHO HOSPITAL,AOH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-022,MANJUSUDHA HOSPITAL,MH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-023,REDIFINE HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-024,SHASHI HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-025,OZONE HOSPITAL,OH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-026,SAI SANJEEVANI HOSPITAL,SSH,,,,,,,,,,,,,,,,,,,,,Kothapet,,,KOTHAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+HPTL-027,SAI TEJA HOSPITAL,STH,,,,,,,,,,,,,,,,,,,,,Saroor Nagar,,,SAROOR NAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3556797,78.5084848
+HPTL-028,SAROOR NAGAR HOSPITAL,SNH,,,,,,,,,,,,,,,,,,,,,Saroor Nagar,,,SAROOR NAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3556797,78.5084848
+HPTL-029,PULSE HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Chaithanyapuri,,,CHAITHANYAPURI,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3780936,78.5343872
+HPTL-030,INDUS HOSPITAL,IH,,,,,,,,,,,,,,,,,,,,,Chaithanyapuri,,,CHAITHANYAPURI,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3780936,78.5343872
+HPTL-031,SAI NIKIL HOSPITAL,SNH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-032,SLMS HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-033,BHAVYA HOSPITAL,BH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-034,SUPRAJA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-035,PAVAN SAI HOSPITAL,PSH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-036,SRI SAI BALAJI HOSPITAL,SSBH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-037,SAI KRUPA HOSPITAL,SKH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-038,NAKSHTHRA HOSPITAL,NH,,,,,,,,,,,,,,,,,,,,,Nagole,,,NAGOLE,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3750903,78.5532244
+HPTL-039,NIGHTINGLE HOSPITAL,NH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-040,ANKITH HOSPITAL,AH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-041,ROHINI HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-042,PADMAJA HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-043,SAI NURSING HOME,SNH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-044,VIVEK HOSPITAL,VH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-045,RATNA HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-046,CAREWELL HOSPITAL,CH,,,,,,,,,,,,,,,,,,,,,Santhosh Nagar,,,SANTHOSHNAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+HPTL-047,MARUTHI HOSPITAL,MH,,,,,,,,,,,,,,,,,,,,,Champapet,,,CHAMPAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3460612,78.5085392
+HPTL-048,FOCUS HOSPITAL,FH,,,,,,,,,,,,,,,,,,,,,Champapet,,,CHAMPAPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3460612,78.5085392
+HPTL-049,KRISHNA SAI HOSPITAL,KSH,,,,,,,,,,,,,,,,,,,,,Karmangat,,,Karmangat,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+HPTL-050,SAI VENKATESHWARA HOSPITAL,SVH,,,,,,,,,,,,,,,,,,,,,Karmangat,,,Karmangat,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+HPTL-051,JEEVAN HOSPITAL,JH,,,,,,,,,,,,,,,,,,,,,Karmangat,,,Karmangat,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+HPTL-052,SAI MERCURY HOSPITAL,SMH,,,,,,,,,,,,,,,,,,,,,Karmangat,,,Karmangat,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+HPTL-053,PADHMA HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Karmangat,,,Karmangat,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+HPTL-054,OM SAI HOSPITAL,OSH,,,,,,,,,,,,,,,,,,,,,Balapur,,,BALAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+HPTL-055,SRI RADHIKA HOSPITAL,SRH,,,,,,,,,,,,,,,,,,,,,Balapur,,,BALAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+HPTL-056,S.V HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Balapur,,,BALAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+HPTL-057,R.K HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Balapur,,,BALAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+HPTL-058,VISHWAS HOSPITAL,VH,,,,,,,,,,,,,,,,,,,,,Balapur,,,BALAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+HPTL-059,S.S MULTI SPECIALITY HOSPITAL,SMSH,,,,,,,,,,,,,,,,,,,,,Omkar Nagar,,,OMKAR NAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3372802,78.5477038
+HPTL-060,THIRUMALA HOSPITAL,TH,,,,,,,,,,,,,,,,,,,,,Omkar Nagar,,,OMKAR NAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3372802,78.5477038
+HPTL-061,DELTA HOSPITAL,DH,,,,,,,,,,,,,,,,,,,,,Hasthinapur,,,HASTHINAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3268743,78.5447972
+HPTL-062,AMMA HOSPITALL,AH,,,,,,,,,,,,,,,,,,,,,Hasthinapur,,,HASTHINAPUR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3268743,78.5447972
+HPTL-063,ORANGE HOSPITAL,OH,,,,,,,,,,,,,,,,,,,,,Lb Nagar,,,LB NAGAR,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.358925,78.5325037
+HPTL-064,LEGEND HOSPITAL,LH,,,,,,,,,,,,,,,,,,,,,Hayatnagar,,,Hayatnagar,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+HPTL-065,SADHANA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hayatnagar,,,Hayatnagar,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+HPTL-066,TITAN HOSPITAL,TH,,,,,,,,,,,,,,,,,,,,,Hayatnagar,,,Hayatnagar,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+HPTL-067,SUNRISE HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hayatnagar,,,Hayatnagar,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+HPTL-068,SIDDIPET ENT HOSPITAL,SEH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-069,SPARSHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-070,SAI MALLIKA HOSPITAL,SMH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-071,SIDDI VINAYAKA HOSPITAL,SVH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-072,SRINIVASA ORTHO HOSPITAL,SOH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-073,SRESHTA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-074,SUSHRUTHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+HPTL-075,SIDHARTHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Siddipet,,,SIDDIPET,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532

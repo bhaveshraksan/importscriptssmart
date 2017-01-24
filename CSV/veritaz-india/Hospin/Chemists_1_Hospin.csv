@@ -1,0 +1,52 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+CHL-001,NEW PREMIER MEDICALS,,NPM,,,,,,,,,,,,,,,,Hyderabad - 2,LANGAR HOUSE,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+CHL-002,ST.TERISSA PHARMA,,SP,,,,,,,,,,,,,,,,Hyderabad - 2,ERRAGADDA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4644805,78.4288652
+CHL-003,NEELIMA MEDICALS,,NM,,,,,,,,,,,,,,,,Hyderabad - 2,ERRAGADDA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650265,78.4294332
+CHL-004,CHALLA MEDICALS,,CM,,,,,,,,,,,,,,,,Hyderabad - 2,BALKAMPET,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4655725,78.4300012
+CHL-005,RAGHAVA MEDICALS,,RM,,,,,,,,,,,,,,,,Hyderabad - 2,AMEERPET,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4661185,78.4305692
+CHL-006,KARUDA PHARMA,,KP,,,,,,,,,,,,,,,,Hyderabad - 2,AMEERPET,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4666645,78.4311372
+CHL-007,SRI SAI MEDICALS,,SSM,,,,,,,,,,,,,,,,Hyderabad - 2,REHAMATH NAGAR,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4672105,78.4317052
+CHL-008,PAVITRA PHARMA,,PP,,,,,,,,,,,,,,,,Hyderabad - 2,REHAMATH NAGAR,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4677565,78.4322732
+CHL-009,RANGA SAI MEDICAL AGENCIES,,RSMA,,,,,,,,,,,,,,,,Hyderabad - 2,PANJAGUTTA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4683025,78.4328412
+CHL-010,MUKESH MEDIICALS,,MM,,,,,,,,,,,,,,,,Hyderabad - 2,PANJAGUTTA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4688485,78.4334092
+CHL-011,ANUKAR PHARMASY,,AP,,,,,,,,,,,,,,,,Hyderabad - 2,PANJAGUTTA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4693945,78.4339772
+CHL-012,SSNIMS MEDICALS,,SM,,,,,,,,,,,,,,,,Hyderabad - 2,PANJAGUTTA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4699405,78.4345452
+CHL-013,AIG PHARMA,,AP,,,,,,,,,,,,,,,,Hyderabad - 2,PANJAGUTTA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4704865,78.4351132
+CHL-014,AINU PHARMA,,AP,,,,,,,,,,,,,,,,Hyderabad - 2,PANJAGUTTA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4710325,78.4356812
+CHL-015,CENTURY PHARMA,,CP,,,,,,,,,,,,,,,,Hyderabad - 2,BANJARAHILLS,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4715785,78.4362492
+CHL-016,CARE PHARMACY,,CP,,,,,,,,,,,,,,,,Hyderabad - 2,BANJARAHILLS,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4721245,78.4368172
+CHL-017,STAR PHARMACY,,SP,,,,,,,,,,,,,,,,Hyderabad - 2,BANJARAHILLS,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4726705,78.4373852
+CHL-018,MAHAVEER IP PHARMA,,MIP,,,,,,,,,,,,,,,,Hyderabad - 2,MASABTANK,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4732165,78.4379532
+CHL-019,NICE MEDICALS,,NM,,,,,,,,,,,,,,,,Hyderabad - 2,MASABTANK,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4737625,78.4385212
+CHL-020,SWATHI MEDICALS,,SM,,,,,,,,,,,,,,,,Hyderabad - 2,MASABTANK,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4743085,78.4390892
+CHL-021,ANUSHA MEDICAL&GENERAL STORES,,AMS,,,,,,,,,,,,,,,,Hyderabad - 2,MEHADIPATNAM,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4748545,78.4396572
+CHL-022,VIJAYA MERI PHARMA,,VMP,,,,,,,,,,,,,,,,Hyderabad - 2,MASABTANK,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4754005,78.4402252
+CHL-023,SRI SURYA PHARMA,,SSP,,,,,,,,,,,,,,,,Hyderabad - 2,ATHAPUR,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4759465,78.4407932
+CHL-024,OLIVE PHARMA,,OP,,,,,,,,,,,,,,,,Hyderabad - 2,LANGAR HOUSE,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764925,78.4413612
+CHL-025,WELLNESSMEDICAL HALL,,WH,,,,,,,,,,,,,,,,Hyderabad - 2,BEGUMPET,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4770385,78.4419292
+CHL-026,TANVEER MEDICALS,,TM,,,,,,,,,,,,,,,,Hyderabad - 2,SRINARCOLONY,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4775845,78.4424972
+CHL-027,SRI  MEDICALS,,SM,,,,,,,,,,,,,,,,Hyderabad - 2,SRINARCOLONY,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4781305,78.4430652
+CHL-028,KAKATIYA PHARMACY,,KP,,,,,,,,,,,,,,,,Hyderabad - 2,GACHIBOWLI,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4786765,78.4436332
+CHL-029,MAA ENT PHARMA,,MEP,,,,,,,,,,,,,,,,Hyderabad - 2,SOMAJIGUDA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4792225,78.4442012
+CHL-030,PEOPLES MINI MEDICAL HALL,,PMMH,,,,,,,,,,,,,,,,Hyderabad - 2,FATHENAGAR,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4797685,78.4447692
+CHL-031,RAJA PHARMACY,,RP,,,,,,,,,,,,,,,,Hyderabad - 2,YALLAREDDYGUDA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4803145,78.4453372
+CHL-032,SUSHEELA MEDICALS,,SM,,,,,,,,,,,,,,,,Hyderabad - 2,YALLAREDDYGUDA,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4808605,78.4459052
+CHL-033,PRIME PHARMA,,PP,,,,,,,,,,,,,,,,Hyderabad - 2,AMEERPET,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4814065,78.4464732
+CHL-034,SRIDEVI MEDICAL &GENARAL,,SM&,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-035,AADITYA  MEDICALS,,AM,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-036,AYODYA MEDICAL HALL,,AMH,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-037,KRISHNA SAI  PHARMACY,,KSP,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-038,ANNAPURNA MEDICALS,,AM,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-039,SAI AADITYA MEDICALS,,SAM,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-040,JYOTHI MEDICAL HALL,,JMH,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-041,SWAROOPA MEDICALS,,SM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-042,NEWLIFE PHARMACY,,NP,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-043, SRI KAMALA MEDICALS,,SKM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-044,JYOTHI MEDICALS,,JM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-045,SRIMAN MEDICALS,,SM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-046,LAXMI SRINIVASA MEDICALS,,LSM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-047,MADHUBABU MEDICALS,,MM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-048,VIJAY KRISHNA MEDICALS,,VKM,,,,,,,,,,,,,,,,Suryapet,MAIN ROAD ,,,SURYAPET,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+CHL-049,SANKAR MEDICALS,,SM,,,,,,,,,,,,,,,,Miryalaguda,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+CHL-050,RAJITHA  MEDICALS,,RM,,,,,,,,,,,,,,,,Hyderabad - 2,LANGAR HOUSE,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.46393655,78.428296
+CHL-051,MEJISTIC PHARMA,,MP,,,,,,,,,,,,,,,,Hyderabad - 2,LANGAR HOUSE,,,HYDERABAD,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639354,78.42829544

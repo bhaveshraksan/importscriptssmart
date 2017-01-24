@@ -1,0 +1,141 @@
+SLID,FIRST NAME,MIDDLE NAME,LAST NAME,DATE OF BIRTH,BLOOD GROUP,LANGUAGE,GENDER,MARTIAL STATUS,ANNIVERSARY DATE,MOBILE NO,LANDLINE NO,FAX,RATING,DOCTOR TYPE,DOCTOR REG NO,PROFESSIONAL TAGS,QUALIFICATION,SPECIALIZATION,LINE OF PRACTISE,PRACTISE START DATE,ADDRESS LINE 1,ADDRESS LINE 2,ADDRESS LINE 3,CITY,STATE,COUNTRY,BRANCH NAME,STATION,CLINIC REG NO,CLINIC NAME,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHARE PERCENTAGE,BRANCH PRODUCTS,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,SIDHRHA ,,,,,,Male,,,,,,,,,,MD,Intensivists,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-002,MAHESH ,,MARDHA,,,,Male,,,,,,,,,,MD,General Physicians,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-003,BALDWA,,NR.,,,,Male,,,,,,,,,,MS,General Surgeons,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-004,RANJAN ,,SAMATRAY,,,,Male,,,,,,,,,,MD,Intensivists,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-005,DILSHAL,,,,,,Male,,,,,,,,,,MD,Intensivists,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-006,RAO,,GV.,,,,Male,,,,,,,,,,MS,Gastro. Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-007,MANU ,,TANDON,,,,Female,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-008,RUPA ,BENARJI,,,,,Female,,,,,,,,,,MS,Gastro. Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-009,RUPA ,JYOTHI,,,,,Female,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-010,PRADEEP,,,,,,Male,,,,,,,,,,MS/MCH,Gastro. Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-011,UPENDRA,,,,,,Male,,,,,,,,,,MS,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-012,JAHANGEER,,,,,,Male,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-013,KUMAR,,BVN .,,,,Male,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-014,DEEPESH ,SHARMA,SUREDDI,,,,Male,,,,,,,,,,MD,General Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-015,PANKAJ  ,KUMAR,SHARMA,,,,Male,,,,,,,,,,MD,General Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-016,SANDEEP ,LAKHATAKIA,,,,,Male,,,,,,,,,,MD,General Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-017,SUNIL ,PANDYA,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-018,SUDHEER ,REDDY,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-019,SASHIDHER ,REDDY,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-020,SRINIVAS ,,SAMAVEDAM,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-021,RAM MOHAN ,ROY,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-022,KRISHNA ,MOHAN,,,,,Male,,,,,,,,,,MD,General Physicians,,,GACHIBOWLI,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-023,MEGHA ,NADH,,,,,Male,,,,,,,,,,MS,General Surgeons,,,SOMAJIGUDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-024,RAMAKRISHNA,,PINJALA,,,,Male,,,,,,,,,,MS,General Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-025,SANDEEP,,,,,,Male,,,,,,,,,,MS,General Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-026,BHOOMIKHA,,,,,,Female,,,,,,,,,,MS,General Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-027,PUNEETH,,,,,,Male,,,,,,,,,,MS,General Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-028,GOPAL,,,,,,Male,,,,,,,,,,MS,Cardio Thoracic Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-029,RAMA ,KRISHNA,,,,,Male,,,,,,,,,,MS,Cardio Thoracic Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-030,VIJAY,,,,,,Male,,,,,,,,,,MS,Cardio Thoracic Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-031,KUMAR,,RV.,,,,Male,,,,,,,,,,MS,Cardio Thoracic Surgeons,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639345,78.4282972
+MSL-032,HARI ,KRISHNA,,,,,Male,,,,,,,,,,MD,General Physicians,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-033,SUNIL ,KUMAR,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-034,SHEKER ,REDDY,,,,,Male,,,,,,,,,,MS,Gastro. Surgeons,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-035,VIJAY ,LAKSHMI,,,,,Female,,,,,,,,,,MD,General Physicians,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-036,ATHUL ,RAI,,,,,Male,,,,,,,,,,MD,General Physicians,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-037,SRI RAM ,KUMAR,K.,,,,Male,,,,,,,,,,MD,General Physicians,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-038,SAMPATH ,KUMAR,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-039,MADHU ,BABU,,,,,Male,,,,,,,,,,MD,General Physicians,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-040,KRANTHI,,T.,,,,Female,,,,,,,,,,MD,General Physicians,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-041,VIKRAM ,REDDY,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAINROAD,,,SURYAPET,Telangana,India,,Suryapet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1353148,79.6333674
+MSL-042,NARASIMHA ,REDDY,,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-043,SASHIDHER ,REDDY,,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-044,ASHOK ,KUMAR,J.,,,,Male,,,,,,,,,,MD,General Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-045,MADHAV ,KUMAR,,,,,Male,,,,,,,,,,MD,General Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-046,MAHANAND ,CHOWDARY,,,,,Male,,,,,,,,,,MD,General Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-047,SRINIVASULU,,K.,,,,Male,,,,,,,,,,MD,General Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-048,ASHOK ,KUMAR,,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-049,NAGENDRA ,BOKRE,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-050,KIRAN ,KUMAR ,BOKREE,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-051,RAMARAO,,M.,,,,Male,,,,,,,,,,MS,General Surgeons,,,DOCTORS COLONY,,,MIRYALAGUDA,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-052,REDDY,,KN.,,,,Male,,,,,,,,,,MS,General Surgeons,,,SRINAGAR COLNY,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-053,RAJESH,,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-054,CHANDANA ,REDDY,,,,,Female,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-055,ANURADHA,,,,,,Female,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-056,JYOSHNA,,,,,,Female,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-057,NEETH,,,,,,Female,,,,,,,,,,MD,General Physicians,,,SRINAGAR COLNY,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-058,SINGH,,KN.,,,,Male,,,,,,,,,,MD,General Physicians,,,SRINAGAR COLNY,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-059,LINGA ,RAO,,,,,Male,,,,,,,,,,MD,General Physicians,,,MEHADIPATNAM,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-060,RAO,,AV.,,,,Male,,,,,,,,,,MD,Intensivists,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-061,ANJANEYULU,,,,,,Male,,,,,,,,,,MD,Intensivists,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-062,PADMA,,,,,,Female,,,,,,,,,,MD,Intensivists,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-063,BALARAJU,,,,,,Male,,,,,,,,,,MS,General Surgeons,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-064,RAMA ,RAO,,,,,Male,,,,,,,,,,MS,General Surgeons,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-065,SRINIVASA ,RAO,,,,,Male,,,,,,,,,,MS,General Surgeons,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-066,LALTHA,,,,,,Female,,,,,,,,,,MS,General Surgeons,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-067,DIVAKAR,,,,,,Male,,,,,,,,,,MD,General Physicians,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-068,GIRI ,RAJ ,KULAKARNI,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-069,ANSARI,,,,,,Male,,,,,,,,,,MD,Chest Physicians,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-070,AYUB,M,SHAIKS,,,,Male,,,,,,,,,,MD,General Physicians,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-071,SRINIVAS ,,DESHMUKH,,,,Male,,,,,,,,,,MD,Neuro Physicians,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-072,MEHATHA,,YR.,,,,Female,,,,,,,,,,MS,General Surgeons,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-073,SINDHU ,JOSHI,,,,,Female,,,,,,,,,,MD,Intensivists,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-074,SONY,,RK.,,,,Female,,,,,,,,,,MS,Orthopedic Surgeons,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-075,UMA ,,CHALLA,,,,Female,,,,,,,,,,MD,General Physicians,,,BALKAMPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-076,CHAITHANYA ,,CHALLA,,,,Male,,,,,,,,,,MD,Intensivists,,,BALKAMPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-077,RAGHU,RAMAYYA,,,,,Male,,,,,,,,,,MD,General Physicians,,,FATHENAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-078,DURGA,,,,,,Female,,,,,,,,,,MD,General Physicians,,,FATHENAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-079,ASHOK ,RAO,,,,,Male,,,,,,,,,,MD,General Physicians,,,REHAMATH NAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639345,78.4282972
+MSL-080,SADANANDAM,,,,,,Male,,,,,,,,,,MD,General Physicians,,,REHAMATH NAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-081,NISHAT ,HYDERAI,,,,,Male,,,,,,,,,,MD,General Physicians,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-082,ANUDEEP,,,,,,Male,,,,,,,,,,MD,General Physicians,,,ATHAPUR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-083,VENUI,,,,,,Male,,,,,,,,,,MD,General Physicians,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-084,SRADHA ,,AGARVAL,,,,Female,,,,,,,,,,MD,Consulting Physicians,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-085,NAGENDER,,,,,,Male,,,,,,,,,,MD,General Surgeons,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-086,AADITHYA,,,,,,Male,,,,,,,,,,MD,Intensivists,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-087,AJITH,,,,,,Male,,,,,,,,,,MD,General Physicians,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-088,KHALEELULLA,,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-089,RAMARAO,,MJ.,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-090,CHINNAM,,GS.,,,,Male,,,,,,,,,,MD,Chest Physicians,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-091,SHAIK ,MIRZA,MD.,,,,Male,,,,,,,,,,MD,Intensivists,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-092,SHAJAHAN,,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-093,IRFAN,,GM.,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-094,NARESH,,,,,,Male,,,,,,,,,,MD,Nephro Physicians,,,LANGARHOUSE,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-095,SRIKANTH,,,,,,Male,,,,,,,,,,MD,Nephro Physicians,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-096,RAO,,MV.,,,,Male,,,,,,,,,,MS/MD,Nephro Physicians,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-097,REDDY,,PC.,,,,Male,,,,,,,,,,MS,Uro. Surgeons,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-098,PAVAN ,KUMAR,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-099,VENKATA,RAMANA,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-100,MISHRA,,KC.,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-101,GOPAL,,TVS.,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-102,RAVINDRA ,REDDY,,,,,Male,,,,,,,,,,MS,General Surgeons,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-103,SALEEM,,MA.,,,,Male,,,,,,,,,,MS,General Surgeons,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-104,VINOD ,BABU,VICTOR,,,,Male,,,,,,,,,,MS,General Surgeons,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-105,BHAVANI ,PRASAD,,,,,Male,,,,,,,,,,MD,Intensivists,,,BANJARAHILLS,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-106,MAHEDHER,,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,YALLAREDDYGUDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-107,AAMANI,,,,,,Female,,,,,,,,,,MD,General Physicians,,,YALLAREDDYGUDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-108,ARUNA ,SRI,DSR.,,,,Female,,,,,,,,,,MD,General Physicians,,,YALLAREDDYGUDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-109,ARUN ,KUMAR,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-110,DASARAH,,,,,,Male,,,,,,,,,,MD,Intensivists,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-111,KIRAN ,KUMAR ,,,,,Male,,,,,,,,,,MD,Intensivists,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-112,ZABINA ,BEGUM,,,,,Female,,,,,,,,,,MD,Neuro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-113,SUBASH ,KOWL,,,,,Male,,,,,,,,,,MD,Neuro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-114,SURYA ,PRABHA,,,,,Female,,,,,,,,,,MD,Neuro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-115,AK.MEENA,,,,,,Female,,,,,,,,,,MD,Neuro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-116,SREE ,BUSHAN ,RAJU,,,,Male,,,,,,,,,,MD,Nephro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-117,GANGADHER,,,,,,Male,,,,,,,,,,MD,Nephro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-118,UTTARADAS,,,,,,Male,,,,,,,,,,MD,Nephro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-119,SWRNA ,LATHA,,,,,Female,,,,,,,,,,MD,Nephro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-120,SANDEEP,,,,,,Male,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-121,AJITH,,,,,,Male,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-122,VAMSI,,,,,,Male,,,,,,,,,,MD,Gastro Physicians,,,PANJAGUTTA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-123,NAGAMANI,,,,,,Female,,,,,,,,,,MD,General Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-124,NAGAMANI,,,,,,Female,,,,,,,,,,MD,General Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-125,RAMANA ,RAO,,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-126,SANDEEP,,,,,,Male,,,,,,,,,,MD,General Physicians,,,BALANAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-127,VIPIN,,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,BALANAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-128,JANAKI,,,,,,Female,,,,,,,,,,MD,General Physicians,,,BALANAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-129,SRINIVASA ,RAO,,,,,Male,,,,,,,,,,MD,Neuro Physicians,,,BALANAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-130,BABU ,RAO,,,,,Male,,,,,,,,,,MD,Consulting Physicians,,,BALANAGAR,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-131,VENKATESWARLU,,,,,,Male,,,,,,,,,,MD,General Physicians,,,MASABTANK,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-132,RAJU,,BSV.,,,,Male,,,,,,,,,,MD,Neuro Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-133,MAHABOOK ,KHAN,,,,,Male,,,,,,,,,,MD,Chest Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-134,TARUN,,,,,,Male,,,,,,,,,,MS,General Surgeons,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-135,PRASANTH ,CHANDRA,,,,,Male,,,,,,,,,,MD,General Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-136,NEELIMA,,,,,,Female,,,,,,,,,,MS/MD,General Physicians,,,ERRAGADDA,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-137,SATISH ,REDDY,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-138,SRINIVASULU,,P.,,,,Male,,,,,,,,,,MD,General Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-139,SRINIVAS,,,,,,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972
+MSL-140,RAGHURAMAN,,,,,,Male,,,,,,,,,,MD,General Physicians,,,AMEERPET,,,HYDERABAD,Telangana,India,,Hyderabad - 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4639345,78.4282972

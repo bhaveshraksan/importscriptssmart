@@ -1,0 +1,91 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,OM SREE MEDICAL,,OSM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4476284,78.5136962
+MSL-002,SAI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4488484,78.5142822
+MSL-003,ELEGANCE PHARMACY,,EP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4500684,78.5148682
+MSL-004,MADHAVA MEDICAL,,MM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4512884,78.5154542
+MSL-005,HEALING TOUCH PHARMACY,,HTP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4525084,78.5160402
+MSL-006,GANGA MEDICAL,,GM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4537284,78.5166262
+MSL-007,SURYA MEDICAL,,SM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4549484,78.5172122
+MSL-008,SECUNDRABAD PHARMACY,,SP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4561684,78.5177982
+MSL-009,SHARADA MEDICAL,,SM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4573884,78.5183842
+MSL-010,SANJEEVANI MEDICAL,,SM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4586084,78.5189702
+MSL-011,CHETANA PHARMACY,,CP,,,,,,,,,,,,,,,,Malkajgiri + Begumpet,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4491041,78.5337625
+MSL-012,KIMS PHARMACY,,KP,,,,,,,,,,,,,,,,Malkajgiri + Begumpet,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4491041,78.5337625
+MSL-013,DHEERAJ MEDICAL,,DM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4503241,78.5343485
+MSL-014,NEO SKIN PHARMACY,,NSP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4515441,78.5349345
+MSL-015,VIJAYA HEALTH CARE ,,VHC,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527641,78.5355205
+MSL-016,ASHA PHARMACY,,AP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4539841,78.5361065
+MSL-017,ARUN MEDICAL,,AM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4552041,78.5366925
+MSL-018,OLIVA PHARMACY,,OP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4564241,78.5372785
+MSL-019,UMA MEDICAL,,UM,,,,,,,,,,,,,,,,ECIL + Bowenpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4639628,78.5788601
+MSL-020,GP MEDICAL,,GM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4651828,78.5794461
+MSL-021,GP MEDICAL,,GM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4664028,78.5800321
+MSL-022,SRI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4676228,78.5806181
+MSL-023,SRI THIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4688428,78.5812041
+MSL-024,SRI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4700628,78.5817901
+MSL-025,SRI THIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4712828,78.5823761
+MSL-026,GP MEDICAL,,GM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4725028,78.5829621
+MSL-027,SRI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4737228,78.5835481
+MSL-028,SRI THIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4749428,78.5841341
+MSL-029,GP MEDICAL,,GM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4761628,78.5847201
+MSL-030,SRI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4773828,78.5853061
+MSL-031,SRI THIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4786028,78.5858921
+MSL-032,SATYA MEDICAL,,SM,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+MSL-033,ABHINAV MEDICAL,,AM,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+MSL-034,SUMAN MEDICALS,,SM,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+MSL-035,ARJUN MEDICALS,,AM,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+MSL-036,VASAVI MEDICALS,,VM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.3983774,78.5582652
+MSL-037,BAJRANG MEDICALS,,BM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.3983774,78.5582652
+MSL-038,NANDINI MEDICALS,,NM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.3983774,78.5582652
+MSL-039,SRI RAVINDRA MEDICAL,,SRM,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4980973,78.5027043
+MSL-040,SRI THIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.3983774,78.5582652
+MSL-041,NATIONAL SKIN PHARMACY,,NSP,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.3983774,78.5582652
+MSL-042,LUCID PHARMACY,,LP,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4980973,78.5027043
+MSL-043,ADI MEDICAL,,AM,,,,,,,,,,,,,,,,Uppal + Alwal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4980973,78.5027043
+MSL-044,MANASA MEDICAL,,MM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.3983774,78.5582652
+MSL-045,NOBLE PHARMACY,,NP,,,,,,,,,,,,,,,,ECIL + Bowenpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639628,78.5788601
+MSL-046,SRI DATTA MEDICAL,,SDM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.3983774,78.5582652
+MSL-047,SOWMYA MEDICAL,,SM,,,,,,,,,,,,,,,,ECIL + Bowenpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639628,78.5788601
+MSL-048,SAI SRINIVASA MEDICAL,,SSM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.3983774,78.5582652
+MSL-049,ADITHYA MEDICAL,,AM,,,,,,,,,,,,,,,,ECIL + Bowenpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639628,78.5788601
+MSL-050,DRUVA MEDICAL,,DM,,,,,,,,,,,,,,,,ECIL + Bowenpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4639628,78.5788601
+MSL-051,DERMA CARE PHARMACY,,DCP,,,,,,,,,,,,,,,,Malkajgiri + Begumpet,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4491041,78.5337625
+MSL-052,MAHENDER MEDICAL,,MM,,,,,,,,,,,,,,,,Malkajgiri + Begumpet,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4491041,78.5337625
+MSL-053,MAYURI MEDICAL,,MM,,,,,,,,,,,,,,,,Malkajgiri + Begumpet,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4491041,78.5337625
+MSL-054,OLIVA PHARMACY,,OP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,3,17.4503241,78.5343485
+MSL-055,OLIVA PHARMACY,,OP,,,,,,,,,,,,,,,,Secundrabad +  East West Maredpally,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.4515441,78.5349345
+MSL-056,DERMA CARE MEDICAL,,DCM,,,,,,,,,,,,,,,,Suchithra + Uppal,,,,SECUNDERABAD,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.3983774,78.5582652
+MSL-057,RAMESH PHARMACY,,RP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-058,OM DEEPAK PHARMACY,,ODP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-059,VAISHNAVI MEDICAL,,VM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-060,VEENKATESHWARA PHARMACY,,VP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-061,SAI JYOTHI PHARMACY,,SJP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-062,DEEPAK PHARMACY,,DP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-063,CUTIS PHARMACY,,CP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-064,GANESH MEDICAL,,GM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-065,SAI AMULYYA MEDICAL,,SAM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-066,SNEHITH MEDICAL,,SM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-067,NEHA MEDICAL,,NM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-068,SRI LAXMI MEDICAL,,SLM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-069,RUTHVIK MEDICAL,,RM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-070,PATANJALI MEDICAL,,PM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-071,VIJAYA PHARMACY,,VP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-072,ABHIRAM MEDICAL,,AM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-073,AMRUTHA MEDICAL,,AM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-074,KATAKAM PHARMACY,,KP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-075,USHODAYA PHARMACY,,UP,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-076,SANJEEVANI MEDICAL,,SM,,,,,,,,,,,,,,,,Warangal,,,,warangal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,17.9689008,79.5940544
+MSL-077,VINAY MEDICAL,,VM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-078,SRI CHANDANA PHARMACY,,SCP,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-079,SANVI MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-080,SWAPNA MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-081,KRISHNA MEDICAL,,KM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-082,SRI CHANDRA MEDICAL,,SCM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-083,VEDA SRI MEDICAL,,VSM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-084,SRUJANA MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-085,SRI VENKATESHWARA PHARMACY,,SVP,,,,,,,,,,,,,,,,Karimnagar,,,,karimnagar,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+MSL-086,SRINIVASA DRUGS,,SD,,,,,,,,,,,,,,,,Manchiryal,,,,manchiryal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.8755953,79.4591378
+MSL-087,SRI KRISHNA SAI MEDICAL,,SKS,,,,,,,,,,,,,,,,Manchiryal,,,,manchiryal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.8755953,79.4591378
+MSL-088,ADITHYA MEDICAL,,AM,,,,,,,,,,,,,,,,Manchiryal,,,,manchiryal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.8755953,79.4591378
+MSL-089,SPANDANA MEDICAL,,SM,,,,,,,,,,,,,,,,Manchiryal,,,,manchiryal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.8755953,79.4591378
+MSL-090,SURYA PHARMACY,,SP,,,,,,,,,,,,,,,,Manchiryal,,,,manchiryal,Telangana,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.8755953,79.4591378

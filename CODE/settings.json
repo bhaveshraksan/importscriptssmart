@@ -1,0 +1,18 @@
+{
+  "public":{
+    "aws": {
+      "baseURL": "https://s3.ap-south-1.amazonaws.com/",
+      "bucket": "apl-smart-dev",
+      "region":"ap-south-1"
+    },
+    "GoogleApiKey":"AIzaSyDckmKerT6nNbnakLT1ttWRXyxaUnVHbcI"
+  },
+  "private":{
+    "aws": {
+      "accessKey": "AKIAJAK73EI7KJFTXXVA",
+      "secretAccessKey": "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",
+      "awsEnabled": true,
+      "imageMaxSizeInKb": 1024
+    }
+  }
+}

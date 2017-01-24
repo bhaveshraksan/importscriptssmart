@@ -1,0 +1,98 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+CHL-001,GAYATHRI MEDICAL & GENERAL STORES,,GMGS,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-002,SRI SAI MEDICAL & GENERAL STORIES,,SSMGS,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-003,SRI LAXMI MEDICAL GENERAL & STORES,,SLMGS,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-004,OM SHIVA SAI MEDICAL HALL,,OSSMH,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-005,RAVINDERA NEICAL & GENERAL STORES,,RNGS,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-006,VASAVI MEDICAL GENERAL & STORES,,VMGS,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-007,SRINIVAS MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-008,SAI RAM MEDICAL & GENERAL STORES,,SRMGS,,,,,,,,,,,,,,,,Picket,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4527536,78.498635
+CHL-009,VISHWASWARA MEDICAL & GENERAL STORIES,,VMGS,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-010,MEDPLUS,,MP,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-011,SWASTICK MEDICAL & GENRAL SRORES,,SMGS,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-012,UMA MEDICL GENARAL SRORES,,UMGS,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-013,GAYATHRI MEDICAL & GENRAL STORES,,GMGS,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-014,SRI SAI THIRUMALA MEDICAL,,SSTM,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-015,VASAVI MEDICAL GENERAL & STORES,,VMGS,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-016,SAITHIRUMALA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Begumpet + Rasulpura,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4447068,78.4663812
+CHL-017,BHAVANI MEDICAL & GENERAL STORES,,BMGS,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-018,SRI SAI MEDICAL & GENERAL STORES,,SSMGS,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-019,SAI BABA MEDICAL & GENERAL STORES,,SBMGS,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-020,NOBLE NEDICAL STORES,,NNS,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-021,VASAVI MEDICAL & GENERAL STORES,,VMGS,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-022,SRI RAJA RAJESWARA MEDICAL ,,SRRM,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-023,V.V.S MEDIVAL,,VVSM,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-024,VERABDRA MEDICAL GENERAL STORES,,VMGS,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-025,SANTOSH MEDICAL,,SM,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-026,PRANAY MEDICAL,,PM,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-027,JANAPA REDDY MEDICAL,,JRM,,,,,,,,,,,,,,,,Bowenpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4764641,78.4883618
+CHL-028,SRI PURNA MEDICAL,,SPM,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-029,K.V.K,,KVK,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-030,APPLO MEDICAL,,AM,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-031,SANJAVENI MEDICAL & GENERAL STORES,,SMGS,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-032,SRI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-033,SRI DATTAHA MEDICAL,,SDM,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-034,BHAVANI MEDICAL & GENERAL STORES,,BMGS,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-035,SRI VENKATSWARA MEDICAL & GENERAL STORIES,,SVMGS,,,,,,,,,,,,,,,,Thirumalagerry  + RTC Colony,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,16.7230536,79.3374024
+CHL-036,SRINIVASA MEDICAL,,SM,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-037,NARSING MEDICAL,,NM,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-038,SRI THIRUMALA MEDICAL & GENERAL STORES,,STMGS,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-039,VASAVI MEDICAL & GENERAL STORES,,VMGS,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-040,DRUG PLUS SRI THIRUMALA,,DPST,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-041,HIRI PRAYA MEDICAL & GENERAL STORES,,HPMGS,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-042,LAXMI MEDICAL GENERAL STORES,,LMGS,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-043,UNION MEDICAL,,UM,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-044,SURESH MEDICAL GENERAL STORES,,SMGS,,,,,,,,,,,,,,,,Lal Bazar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.2807429,78.6086621
+CHL-045,PREETHI MEDICAL,,PM,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-046,SAI CHENDRA MEDICAL & GENERAL STORES,,SCMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-047,VAMSHI MEDICAL & GENERAL STORES,,VMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-048,LIFE SPRING MEDICAL,,LSM,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-049,SRI SAI MEDICAL & GENERAL STORES,,SSMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-050,SRI RAJ RAJESWARA MEDICAL ,,SRRM,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-051,SHIVA PRAYA MEDICAL GENRAL & STOIES,,SPMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-052,MAYATHRYA MEDICAL,,MM,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-053,LALITHA MEDICAL & GENERAL STORES,,LMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-054,SRI SAI MEDICAL & GENERAL STORES,,SSMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-055,UDHAY MEDICAL HALL,,UMH,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-056,SRI PAL MEDICAL & GENERAL STORES,,SPMGS,,,,,,,,,,,,,,,,Alwal + Bollaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4980973,78.5027043
+CHL-057,RUPA MEDICAL & GENERAL STORES,,RMGS,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-058,SWAGATH MEDICAL & GENERAL STROES,,SMGS,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-059,SRINIVAS  MEDICAL & GENERAL STOIES,,SMGS,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-060,SRI SAI MEDIACAL HALL,,SSMH,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-061,BALAJI MEDICAL & GENERAL STORES,,BMGS,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-062,SRI DSAI GURUDATTH MEDICAL,,SDGM,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-063,DSATYA MEDICAL HALL,,DMH,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-064,SIRI MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-065,PRAKESH RAO,,PR,,,,,,,,,,,,,,,,Balajinagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4823815,78.4076841
+CHL-066,SRI BHAVANI MEDICAL,,SBM,,,,,,,,,,,,,,,,Thumukunta,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5574241,78.5575676
+CHL-067,RAM BABU MEDICAL HALL,,RBMH,,,,,,,,,,,,,,,,Thumukunta,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5574241,78.5575676
+CHL-068,SRI SAI MEDICAL HALL,,SSMH,,,,,,,,,,,,,,,,Thumukunta,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5574241,78.5575676
+CHL-069,S.V.S MEDICAL HALL,,SVSMH,,,,,,,,,,,,,,,,Thumukunta,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5574241,78.5575676
+CHL-070,SRI UMA MEHESWARA MEDICAL,,SUMM,,,,,,,,,,,,,,,,Thumukunta,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5574241,78.5575676
+CHL-071,BATHUKAMMA MEDICAL HALL,,BMH,,,,,,,,,,,,,,,,Thumukunta,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5574241,78.5575676
+CHL-072,VERABDRA MEDICAL GENERAL STORES,,VMGS,,,,,,,,,,,,,,,,Shameerpet + Lalgadimalakpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5896881,78.5703697
+CHL-073,LAXMI MEDICAL GENERAL SRORES,,LMGS,,,,,,,,,,,,,,,,Shameerpet + Lalgadimalakpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5896881,78.5703697
+CHL-074,SHAHE MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Shameerpet + Lalgadimalakpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5896881,78.5703697
+CHL-075,HARI PRYA MEDICAL & GENERAL STORES,,HPMGS,,,,,,,,,,,,,,,,Shameerpet + Lalgadimalakpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5896881,78.5703697
+CHL-076,JANA PRAYA MEDICAL HALL,,JPMH,,,,,,,,,,,,,,,,Shameerpet + Lalgadimalakpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5896881,78.5703697
+CHL-077,NITHEEN,,N,,,,,,,,,,,,,,,,Shameerpet + Lalgadimalakpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5896881,78.5703697
+CHL-078,MANASA MEDICAL & GENERAL STORES,,MMGS,,,,,,,,,,,,,,,,Suchitra,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4991405,78.4745604
+CHL-079,RUSSH MEDICAL,,RM,,,,,,,,,,,,,,,,Suchitra,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4991405,78.4745604
+CHL-080,SRI HANUMAN,,SH,,,,,,,,,,,,,,,,Suchitra,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4991405,78.4745604
+CHL-081,GAYATHRI MEDICAL & GENRAL STORES,,GMGS,,,,,,,,,,,,,,,,Suchitra,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4991405,78.4745604
+CHL-082,R.R MEDICAL,,RRM,,,,,,,,,,,,,,,,Suchitra,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4991405,78.4745604
+CHL-083,SUREKHA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-084,KARHIK MEDICAL & GENERAL STORES,,KMGS,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-085,VENKATSWARA MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-086,CHATEEN MEDICAL ,,CM,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-087,ASHRITHA MEDICAL HALL,,AMH,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-088,SRI SAI MEDICAL & GENERAL STORES,,SSMGS,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-089,VASAVI MEDICAL & GENERAL STORES,,VMGS,,,,,,,,,,,,,,,,Dulapally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5517781,78.4609854
+CHL-090,VENKASWARA MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-091,KRANTHI MEDICAL HALL,,KMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-092,HOPES MEDICAL HALL,,HMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-093,TEJA MEDICAL & GENERAL STORES,,TMGS,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-094,MATHA G MEDICAL HALL,,MGMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-095,MEDHAR MEDICAL HALL,,MMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-096,RAMAKRISHNA MEDICAL HALL,,RMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132
+CHL-097,SRI LAXMI MEDICAL HALL,,SLMH,,,,,,,,,,,,,,,,Medchal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6302223,78.4842132

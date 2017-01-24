@@ -1,0 +1,84 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+CHL-001,SRI SRINIVASA MEDICAL,,SSM,,,,,,,,,,,,,,,,Malakpet,SRI KRISHNA HOSP,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-002,VENUS PHARMACY,,VP,,,,,,,,,,,,,,,,Malakpet,VENUS HOSPITAL,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-003,AMITH MEDICAL HALL,,AMH,,,,,,,,,,,,,,,,Malakpet,PUSHPA HOSPITAL,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-004,ANOOS MEDICAL HALL,,AMH,,,,,,,,,,,,,,,,Malakpet,SUSHRUTHA HOSP,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-005,SRI LAKSHMI MEDICAL,,SLM,,,,,,,,,,,,,,,,Malakpet,SRI LAXMI HOSP,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-006,VEJAYA MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Malakpet,ANITHA N HOME,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-007,HEGDE PHARMACY,,HP,,,,,,,,,,,,,,,,Malakpet,HEGDE HOSP,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-008,HYDERABAD HOSPITAL PHARMACY,,HHP,,,,,,,,,,,,,,,,Malakpet,HYD KIDNEY C,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243
+CHL-009,NIKIL PHARMACY,,NP,,,,,,,,,,,,,,,,Dilsuknagar,NIKHIL HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+CHL-010,SIGMA PHARMACY,,SP,,,,,,,,,,,,,,,,Dilsuknagar,SIGMA HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+CHL-011,KAMALA PHARMACY,,KP,,,,,,,,,,,,,,,,Dilsuknagar,KAMALA HOSPITAL,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+CHL-012,PONGALURI PHARMACY,,PP,,,,,,,,,,,,,,,,Dilsuknagar,SAVITHA HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+CHL-013,SPACE PHARMACY,,SP,,,,,,,,,,,,,,,,Dilsuknagar,SPACE HOSPITAL,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+CHL-014,JRD PHRMACY,,JP,,,,,,,,,,,,,,,,Dilsuknagar,JRD HOSPITAL,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3691257,78.5177096
+CHL-015,SAI TEJA PHARACY,,STP,,,,,,,,,,,,,,,,Saroor Nagar,SAI TEJA HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3556797,78.5084848
+CHL-016,SAROOR NAGAR PHARMACY,,SNP,,,,,,,,,,,,,,,,Saroor Nagar,SAROOR N HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3556797,78.5084848
+CHL-017,PULSE PHARMACY,,PP,,,,,,,,,,,,,,,,Kothapet,PULSE HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-018,INDUS PHARMACY,,IP,,,,,,,,,,,,,,,,Kothapet,INDUS HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-019,SAI NIKITH PHARMACY,,SNP,,,,,,,,,,,,,,,,Kothapet,SAI NIKHITH HOSP,DSNR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-020,SLMS PHARMACY,,SP,,,,,,,,,,,,,,,,Kothapet,SLMS HOSP,NAGOLE,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-021,BHAVYA PHARMACY,,BP,,,,,,,,,,,,,,,,Kothapet,BHAVYA HOSP,NAGOLE,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-022,SUPRAJA PHARACY,,SP,,,,,,,,,,,,,,,,Kothapet,SUPRAJA HOSP,NAGOLE,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-023,PAVAN SAI PHARMACY,,PSP,,,,,,,,,,,,,,,,Kothapet,PAVANSAI HOSP,NAGOLE,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-024,SRI SHIV SAI  PHARMACY,,SSSP,,,,,,,,,,,,,,,,Kothapet,SAHIV SAI HOSP,NAGOLE,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-025,NAKSHATRA PHARMACY,,NP,,,,,,,,,,,,,,,,Kothapet,NAKSHETRA HOSP,NAGOLE,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-026,RAKSHITHA PHARMACY,,RP,,,,,,,,,,,,,,,,Kothapet,RAKSHITHA HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-027,GEETHA PHARMACY,,GP,,,,,,,,,,,,,,,,Kothapet,GEETHA HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-028,OMNI PHARMACY,,OP,,,,,,,,,,,,,,,,Kothapet,OMNI HOSPITAL,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-029,SAPTHAGIRI PHARACY,,SP,,,,,,,,,,,,,,,,Kothapet,SAPTAGIRI HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-030,MANJUSUDHA PHARMACY,,MP,,,,,,,,,,,,,,,,Kothapet,MANJUSUDHA HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-031,REDIFINE PHARMACY,,RP,,,,,,,,,,,,,,,,Kothapet,REDIFINE HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-032,SHAHSI PHARMACY,,SP,,,,,,,,,,,,,,,,Kothapet,SHASHI HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-033,OZONE PHARMACY,,OP,,,,,,,,,,,,,,,,Kothapet,OZONE HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-034,SAI SANJEEVANI PHARMACY,,SSP,,,,,,,,,,,,,,,,Kothapet,SAI SANJEEVANI HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-035,FREEDOM PHARMACY,,FP,,,,,,,,,,,,,,,,Kothapet,FREEDOM HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-036,NIGHTANGLE PHARMACY,,NP,,,,,,,,,,,,,,,,Santhosh Nagar,NITIGHTINGLE HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+CHL-037,SRI SAI PHARMACY,,SSP,,,,,,,,,,,,,,,,Santhosh Nagar,ANKITHA HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+CHL-038,ROHINI MEDICAL,,RM,,,,,,,,,,,,,,,,Santhosh Nagar,ROHINI HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3464834,78.5036627
+CHL-039,MARUTHI MEDICAL HALL,,MMH,,,,,,,,,,,,,,,,Champapet,MARUTHI HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3460612,78.5085392
+CHL-040,FOCUS PHARMACY,,FP,,,,,,,,,,,,,,,,Karmangat,FOCUS HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+CHL-041,PADMAJA PHARMACY,,PP,,,,,,,,,,,,,,,,Karmangat,PADMAJA JOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+CHL-042,KRISHNA SAI PHARMACY,,KSP,,,,,,,,,,,,,,,,Karmangat,KRISHNA SAI HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+CHL-043,SAI VENKATESHWARA PHARMACY,,SVP,,,,,,,,,,,,,,,,Karmangat,SAI VENKATESHWARA HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+CHL-044,JEEVAN PHARMACY,,JP,,,,,,,,,,,,,,,,Karmangat,JEEWN HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+CHL-045,MERCURY PHARMACY,,MP,,,,,,,,,,,,,,,,Karmangat,SAI MURCURY HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3406538,78.5273986
+CHL-046,VIJAY MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Saidabad,SAI N HOME,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3557423,78.5032178
+CHL-047,SURYA PHARMACY,,SP,,,,,,,,,,,,,,,,Saidabad,VIVEK HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3557423,78.5032178
+CHL-048,RATNA MEDICAL HALL,,RMH,,,,,,,,,,,,,,,,Saidabad,RATNA HOSP,SANTOSH NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3557423,78.5032178
+CHL-049,OM SAI PHARMACY,,OSP,,,,,,,,,,,,,,,,Balapur,OM SAI HOSP,BALAPUR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+CHL-050,SRI RADHIKA MEDICAL,,SRM,,,,,,,,,,,,,,,,Balapur,SRI RADHIKA HOSP,BALAPUR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+CHL-051,S.V MEDICAL,,SM,,,,,,,,,,,,,,,,Balapur,S V HOSPITAL,BALAPUR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+CHL-052,VISHWAS MEDICAL,,VM,,,,,,,,,,,,,,,,Balapur,VISWAS HOSPITAL,BALAPUR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+CHL-053,GALAXY PHARMACY,,GP,,,,,,,,,,,,,,,,Lb Nagar,GALAXY HOSP,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.358925,78.5325037
+CHL-054,MEDICARE PHARMACY,,MP,,,,,,,,,,,,,,,,Lb Nagar,MEDICARE HOSPITAL,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.358925,78.5325037
+CHL-055,ORANGE PHARMACY,,OP,,,,,,,,,,,,,,,,Lb Nagar,ORANGE HOSP,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.358925,78.5325037
+CHL-056,SAI SHARAN MEDICAL,,SSM,,,,,,,,,,,,,,,,Lb Nagar,SAI SHARAN HOSP,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.358925,78.5325037
+CHL-057,"S,S MEDICAL",,SM,,,,,,,,,,,,,,,,Omkar Nagar,S S HOSPITAL,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3372802,78.5477038
+CHL-058,TIRUMALA MEDICAL,,TM,,,,,,,,,,,,,,,,Omkar Nagar,TIRUMALLA HOSP,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3372802,78.5477038
+CHL-059,DELTA MEDICALS,,DM,,,,,,,,,,,,,,,,Hasthinapur,DELTA HOSPITAL,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3268743,78.5447972
+CHL-060,AMMA MEDICALS,,AM,,,,,,,,,,,,,,,,Hasthinapur,AMMA HOSPITAL,L B NAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3268743,78.5447972
+CHL-061,RAMADEVI MEDICALS,,RM,,,,,,,,,,,,,,,,Vanastalipuram (Hyd)-S,RAMADEVI HOSP,VANSTHALIPURAM,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3260927,78.55631
+CHL-062,JEEVAN PHARMACY,,JP,,,,,,,,,,,,,,,,Vanastalipuram (Hyd)-S,JEEWEAN HOSPITAL,VANSTHALIPURAM,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3260927,78.55631
+CHL-063,LAKSHMI PHARMACY,,LP,,,,,,,,,,,,,,,,Vanastalipuram (Hyd)-S,LAXMI HOSPITAL,VANSTHALIPURAM,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3260927,78.55631
+CHL-064,LEGEND PHARMACY,,LP,,,,,,,,,,,,,,,,Hayatnagar,LEGEND HOSP,VANSTHALIPURAM,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+CHL-065,SUNRISE PHARMACY,,SP,,,,,,,,,,,,,,,,Hayatnagar,SUNRISE HOSPITAL,HAYATHANAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+CHL-066,ARVIND PHARMACY,,AP,,,,,,,,,,,,,,,,Hayatnagar,ARVIND HOSP,HAYATHANAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+CHL-067,SRINIVASA MEDICAL,,SM,,,,,,,,,,,,,,,,Hayatnagar,SRINIVASA HOSP,HAYATHANAGAR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3327697,78.5651586
+CHL-068,SIDHARTHA PHARMACY,,SP,,,,,,,,,,,,,,,,Siddipet,SIDARTHA HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-069,LIFE LINE PHARMACY,,LLP,,,,,,,,,,,,,,,,Siddipet,LIFELINE HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-070,RAGAVENDRA MEDICALS,,RM,,,,,,,,,,,,,,,,Siddipet,SUSHRUTHA HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-071,VIPANCHI MEDICAL,,VM,,,,,,,,,,,,,,,,Siddipet,SRINIVASA HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-072,LAKSHMI PHARMACY,,LP,,,,,,,,,,,,,,,,Siddipet,SIDDIVINAYAK HP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-073,SRI SAI PHARMACY,,SSP,,,,,,,,,,,,,,,,Siddipet,SRI SAI HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-074,SPARSHA PHARMACY,,SP,,,,,,,,,,,,,,,,Siddipet,SPARSH HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-075,TIRUMALA MEDICAL,,TM,,,,,,,,,,,,,,,,Siddipet,TIRUMALLA HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-076,ROHITH SAI PHARMACY,,RSP,,,,,,,,,,,,,,,,Siddipet,ROHITH SAI HP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-077,VENKATESHWARA MEDICALS,,VM,,,,,,,,,,,,,,,,Siddipet,VENKATESHWARA HP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-078,MADHAVI MEDICALS,,MM,,,,,,,,,,,,,,,,Siddipet,SAI HOSPITAL,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-079,SAI MADHAV MEDICALS,,SMM,,,,,,,,,,,,,,,,Siddipet,SAI MAHADEV HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-080,SIDDIPET MEDICALS,,SM,,,,,,,,,,,,,,,,Siddipet,SIDDIPET HOSP,SIDDIPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.8781234,77.7440532
+CHL-081,SAPTAGIRI PHARMACY,,SP,,,,,,,,,,,,,,,,Kothapet,SAPTAGIRI HOSP,KOTTAPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3726373,78.5391623
+CHL-082,VISWAS PHARMACY,,VP,,,,,,,,,,,,,,,,Balapur,VISWAS HOSPITAL,BALAPUR,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3011147,78.4862334
+CHL-083,K G H PHARMACY,,KGHP,,,,,,,,,,,,,,,,Malakpet,K G H HOSP,MALAKPET,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3722658,78.48243

@@ -1,0 +1,151 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+CHL-001,M J MEDICAL,,MJM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-002,REALEF FARMACY,,RF,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-003,AL SIFA MEDICAL,,ASM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-004,ZAMZAM MEDICAL,,ZM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-005,SAAD MEDICAL,,SM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-006,K H MEDICAL,,KHM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-007,REAL MEDICAL,,RM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-008,MEDPLUSE MEDICAL,,MM,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-009,PASHA MEDICAL,,PM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-010,SAFA MEDICAL,,SM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-011,ARIF MEDICAL,,AM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-012,KHWABA MEDICAL,,KM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-013,HAYATT FARMACY,,HF,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-014,AZAR MEDICAL,,AM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-015,S R MEDICAL,,SRM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-016,KHURANA MEDICAL,,KM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-017,MAVA MEDICAL,,MM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-018,GRACE MEDICAL,,GM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-019,AYUSH MEDICAL,,AM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-020,CARE MEDICAL,,CM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-021,SAYADS MEDICAL,,SM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-022,SAI TIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-023,BABA MEDICAL,,BM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-024,SAI SRI BALAJI,,SSB,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-025,SAI RAM MEDICAL,,SRM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-026,VEENA MEDICAL,,VM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-027,SAI VENKAT,,SV,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-028,SRI BALAJI,,SB,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-029,KHAN FARMACY,,KF,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-030,SAI SRI RAM ,,SSR,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-031,VALUE MEDICAL,,VM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-032,HARITHA MEDICAL,,HM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-033,SRI KRISHNA MEDICAL,,SKM,,,,,,,,,,,,,,,,Kondapure,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4622103,78.3568492
+CHL-034,VENKATESHWARA MEDICAL,,VM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-035,MANJUNATH ,,M,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-036,LIFE CARE MEDICAL,,LCM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-037,RAGHVENDRA MEDICAL,,RM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-038,RANBOW MEDICAL,,RM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-039,CANDY FARMACY,,CF,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-040,SHINE MEDICAL,,SM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-041,HUSSEN MEDICAL,,HM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-042,SOMESHWAI,,S,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-043,BHAGWATI MEDICAL,,BM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-044,SRI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-045,PAWAN MEDICAL,,PM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-046,SAI SRI RAM MEDICAL,,SSRM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-047,PRERNA FARMACY,,PF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-048,VENKATESHWERA MEDICAL,,VM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-049,MALLIKARJJUN MEDICAL,,MM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-050,SRI RAM MEDICAL,,SRM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-051,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-052,ADITYA MEDICAL,,AM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-053,SRI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-054,SRI KRISHNA MEDICAL,,SKM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-055,GANESH MEDICAL,,GM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-056,SRI VENKATESH,,SV,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-057,SAROSWATHI FARMACY,,SF,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-058,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-059,LAXMI MEDICAL,,LM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-060,HERITO MEDICAL,,HM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-061,DATTA MEDICAL,,DM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-062,AYAPPA MEDICAL,,AM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-063,SUBHRAMANYAM MEDICAL,,SM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-064,HEALTH CARE MEDICAL,,HCM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-065,DWARAKA MEDICAL,,DM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-066,HITECH MEDICAL,,HM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-067,VIKRAM MEDICAL,,VM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-068,CYBER FARMACY,,CF,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-069,VALUE MEDICAL,,VM,,,,,,,,,,,,,,,,Madhapure ,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4482929,78.3914851
+CHL-070,KAKTIYA FARMACY,,KF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-071,RAJITA FARMACY,,RF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-072,SRI SAI LAXMI MEDICAL,,SSLM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-073,RAKSHA MEDICAL,,RM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-074,HIMGIRI FARMACY,,HF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-075,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-076,GEETA MEDICAL,,GM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-077,SRI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-078,SHIVA SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-079,KAREEM MEDICAL,,KM,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-080,M M MEDICAL,,MMM,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-081,SRIRDI SAI BABA MEDICAL,,SSBM,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-082,SAI TIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-083,KIMS FARMCY,,KF,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-084,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-085,MEDPLUSE MEDICAL,,MM,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-086,LAXMI MEDICAL,,LM,,,,,,,,,,,,,,,,KIMS Hospital Hafispet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4841683,78.3602942
+CHL-087,MAHAVEER FARMACY,,MF,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-088,VIJAY MERY FARMACY,,VMF,,,,,,,,,,,,,,,,First Lincer,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.403749,78.4491815
+CHL-089,APPLE FARMAY,,AF,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-090,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-091,MEDPLUSE MEDICAL,,MM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-092,S S MEDICAL,,SSM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-093,M S MEDICAL,,MSM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-094,SAMSHADFARMACY,,S,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-095,AL KAREEM MEDICALT,,AKM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-096,HEALTH POINT MEDICAL,,HPM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-097,GRACE MEDICAL,,GM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-098,MEDIZONE MEDICAL,,MM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-099,ESANI MEDICAL,,EM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-100,B S MEDICAL,,BSM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-101,NEW GRACE MEDICAL,,NGM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-102,ADAM MEDICAL,,AM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-103,HUSSEN MEDICAL,,HM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-104,NEW M M MEDICAL,,NMMM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-105,PLUSE POINT MEDICAL,,PPM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-106,HEALTH POINT MEDICAL,,HPM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-107,FAZAL MEDICAL,,FM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-108,S R MEDICAL,,SRM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-109,PLUSE  MEDICAL,,PM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-110,QUADARI MEDICAL,,QM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-111,AL SIFA MEDICAL,,ASM,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-112,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-113,MEDPLUSE FARMCY,,MF,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-114,PEAPLE FARMACY ,,PF,,,,,,,,,,,,,,,,Towlichowki,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.3990312,78.4153224
+CHL-115,FRIENDS MEDICAL,,FM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-116,SAI MEDICAL,,SM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-117,BHAGWATI MEDICAL,,BM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-118,SREE BHAVANNI MEDICAL,,SBM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-119,SHAINI MEDICAL,,SM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-120,VALUE FARMACY,,VF,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-121,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-122,MEDPLUSE MEDICAL,,MM,,,,,,,,,,,,,,,,Shekpet,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4059875,78.3908428
+CHL-123,SREE MALLIKARJJUN MEDICAL,,SMM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-124,VENKATESHWARA MEDICAL,,VM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-125,SRI SAI ARUNA MEDICAL,,SSAM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-126,VIJAYA FARMACY,,VF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-127,RAGHVENDRA MEDICAL,,RM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-128,VALEU FARMACY,,VF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-129,MANIKONDA MEDICAL,,MM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-130,SAI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-131,CARE PLUSE MEDICAL,,CPM,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-132,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-133,MEDPLUSE FARMCY,,MF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-134,PEAPLE FARMACY ,,PF,,,,,,,,,,,,,,,,Manikonda,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4023796,78.3728538
+CHL-135,LAXMI MEDICAL,,LM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-136,VALUE FARMACY,,VF,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-137,UDAY MEDICAL,,UM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-138,REDDY MEDICAL,,RM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-139,RAMU MEDICAL ,,RM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-140,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-141,MEDPLUSE FARMCY,,MF,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-142,PEAPLE FARMACY ,,PF,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-143,SRI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Darga,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.38754,78.467087
+CHL-144,NANDINI MEDICAL,,NM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-145,ASWINI MEDICAL ,,AM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-146,LAXMI SAI MEDICAL,,LSM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-147,PHARMA CARE MEDICAL,,PCM,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-148,HETRO FARMACY,,HF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-149,APPOLLO FARMACY,,AF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168
+CHL-150,MEDPLUSE FARMCY,,MF,,,,,,,,,,,,,,,,Gachibowli,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4400802,78.3489168

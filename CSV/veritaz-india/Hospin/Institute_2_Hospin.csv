@@ -1,0 +1,53 @@
+SLID,INSTITUTE NAME,SHORT NAME,ESTABLISHED YEAR,SPECIALITY,REG NO,REGISTRATRION DATE,CERTIFICATION ID,ISO CERTIFIED,INSTITUTE TYPE,RATING,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,WEBSITE,BRANCH NAME,BRANCH TYPE,BRANCH REG NO,BRANCH EMAIL,BRANCH CONTACT NO,BRANCH FAX NO,NO OF BEDS,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH PERSON NAME,BRANCH PERSON PHONE NO,BRANCH PERSON EMAIL ID,DepartMents,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat ,Long
+INT-001,C.C.SHROFF HOSPITAL,CCSH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-002,BRISTLECONE HOSPITAL,BH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-003,SAI VANI HOSPITAL,SVH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-004,SAI KRISHNA NEURO HOSPITAL,SKNH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-005,RAVI HILEOUS HOSPITAL,RHH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-006,GURUNANAK CARE HOSPITAL,GCH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-007,DURGABHAI DESHMUKH HOSPITAL,DDH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-008,NEO BBC HOSPITAL,NBH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-009,SHALINI HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-010,VIRINCHI HOSPITAL,VH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-011,WOODLANDS HOSPITAL,WH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-012,SAI RAM HOSPITAL ,SRH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-013,HYDERABAD NURSING HOME,HNH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-014,KIRLOSKAR HOSPITAL,KH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-015,HOPE HOSPITAL,HH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-016,SAGARLAL HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-017,PRAJASAI HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-018,JAGADAMBA HOSPITAL,JH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-019,NIVEDITHA HOSPITAL,NH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-020,MEHMOOD HOSPITAL,MH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-021,AADITHYA HOSPITAL,AH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-022,MAX CURE HOSPITAL,MCH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-023,SVS HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-024,SRI SAI SRINIVASA HOSPITAL,SSSH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-025,THILAKNAGAR HOSPITA,L,TH,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-026,KISHAN RAO HOSPITAL,KRH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-027,SATHYA KIDNEY CENTRE,SKC,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-028,PRATHIMA HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+INT-029,VIJAY LAKSHMI HOSPITAL,VLH,,,,,,,,,,,,,,,,,,,,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+INT-030,TRIDENT HOSPITAL,TH,,,,,,,,,,,,,,,,,,,,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+INT-031,SRI SRINIVASA HOSPITAL,SSH,,,,,,,,,,,,,,,,,,,,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+INT-032,AMRUTHA HOSPITAL,AH,,,,,,,,,,,,,,,,,,,,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+INT-033,NAVA JEEVAN HOSPITAL,NJH,,,,,,,,,,,,,,,,,,,,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+INT-034,ST.THERISSA HOSPITAL,STH,,,,,,,,,,,,,,,,,,,,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+INT-035,VIJAYA HOSPITAL,VH,,,,,,,,,,,,,,,,,,,,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+INT-036,DIVYA HOSPITAL,DH,,,,,,,,,,,,,,,,,,,,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+INT-037,ABHISHEK HOSPITAL,AH,,,,,,,,,,,,,,,,,,,,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+INT-038,SIDDHARDHGA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+INT-039,SIVA RAM NAIK HOSPITAL,SRNH,,,,,,,,,,,,,,,,,,,,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+INT-040,SANJEEVANI HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+INT-041,SUSRUTHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-042,NEHA SHINE HOSPITAL,NSH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-043,LAKSHMI HOSPITAL,LH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-044,SRI DATHA HOSPITAL,SDH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-045,DANVANTHARI HOSPITAL,DH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-046,SRIKRISHNA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-047,KAVITHA NURSING HOME,KNH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-048,S.S.HOSPITAL,SSH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-049,SWETHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-050,M.M.HOSPITAL,MMH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-051,SIRI CHILDRAN HOSPITAL,SCH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+INT-052,SAI SHILPA HOSPITAL,SSH,,,,,,,,,,,,,,,,,,,,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279

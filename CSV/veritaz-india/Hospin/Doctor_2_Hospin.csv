@@ -1,0 +1,141 @@
+SLID,FIRST NAME,MIDDLE NAME,LAST NAME,DATE OF BIRTH,BLOOD GROUP,LANGUAGE,GENDER,MARTIAL STATUS,ANNIVERSARY DATE,MOBILE NO,LANDLINE NO,FAX,RATING,DOCTOR TYPE,DOCTOR REG NO,PROFESSIONAL TAGS,QUALIFICATION,SPECIALIZATION,LINE OF PRACTISE,PRACTISE START DATE,ADDRESS LINE 1,ADDRESS LINE 2,ADDRESS LINE 3,CITY,STATE,COUNTRY,BRANCH NAME,STATION,CLINIC REG NO,CLINIC NAME,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHARE PERCENTAGE,BRANCH PRODUCTS,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,SHYAMALA,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-002,RAGHAVENDRA,RAO,R V,,,TELUGU,Male,,,,,,,,,,MCH,Gastro. Surgeons,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-003,RAVI SHANKER,,,,,TELUGU,Male,,,,,,,,,,MCH,Plastic Surgeons,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-004,WASIF ,,ALI,,,TELUGU,Male,,,,,,,,,,MCH,Gastro. Surgeons,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-005,SRINIVAS,,D V,,,TELUGU,Male,,,,,,,,,,MD,Gastro Physicians,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-006,SUBRAMANYAM,,,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-007,SUDHAKAR,,G V,,,TELUGU,Male,,,,,,,,,,MCH,Plastic Surgeons,,,ASHOK NGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-008,A,REDDY,R,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-009,RAM ,REDDY,,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-010,PRANAY ,REDDY,,,,TELUGU,Male,,,9949375536,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-011,SRINIVAS,,T V,,,TELUGU,Male,,,,,,,,,,MCH,Neuro Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-012,JOGENDRA ,KUMAR,BASTIA,,,TELUGU,Male,,,,,,,,,,MD,Neuro Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-013,KANTHA ,REDDY,,,,TELUGU,Male,,,,,,,,,,MCH,Neuro Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-014,G.,REDDY,P,,,TELUGU,Male,,,,,,,,,,MD,Neuro Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-015,SRIDHER ,REDDY,R,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-016,H. ,K.,PATEL,,,TELUGU,Male,,,9391007000,,,,,,,MS,General Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-017,SYAM SUNDHAR,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-018,BALA KUMARI,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-019,VIJAY ,,SINHA,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-020,SHASHIDHARAN ,RAO,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-021,DEVADAS,,,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-022,AJAY ,REDDY,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-023,KESAVA ,,GURUNADH,,,TELUGU,Male,,,,,,,,,,MD,Chest Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-024,RAMULU,,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-025,SRINIVAS,,,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-026,PRASANTH,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-027,RADHA KRISHNA ,RAO,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-028,JYOTHI,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-029,MOHAN ,REDDY,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-030,SRINIVAS ,,KULAKARNI,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-031,AVS,,REDDY,,,TELUGU,Male,,,,,,,,,,MCH,Uro. Surgeons,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-032,HARSHA,,M,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-033,RAMA KRISHNA,,T,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,NARAYANA GUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-034,BALDWA,,N R,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-035,MEENA ,,UGALAY,,,TELUGU,Female,,,7207247111,,,,,,,MD,General Physicians,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-036,ANJALI,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-037,M.,RAO,M,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-038,USHA,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-039,MADHU,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-040,KARUNA,,,,,TELUGU,Female,,,,,,,,,,MD,Intensivists,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-041,VARUN RAJ,,T,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-042,RAMU,,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-043,L.,K.,JOSHI,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-044,SRI RAM ,REDDY,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-045,MURALIDHAR ,,GUPTHA,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-046,SURYA,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-047,SRINIVAS,,N,,,TELUGU,Male,,,,,,,,,,MD,Consulting Physicians,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-048,RAMA KRISHNA ,REDDY,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-049,RANGA ,,CHARI,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-050,SANDHYA ,REDDY,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-051,SRI RAMULU,,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-052,GOVINDA ,RAO,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-053,SRIDHER ,GOUD,,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-054,RAMA CHANDRAYYA,,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-055,SHIVARAM ,,,,,TELUGU,Male,,,,,,,,,,MD,Nephro Physicians,,,HIMAYATHNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-056,KRISHNA,,,,,TELUGU,Male,,,,,,,,,,MD,Nephro Physicians,,,HIMAYATHNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-057,MEHMOODUL,,HAQ,,,TELUGU,Male,,,9848025202,,,,,,,MD,General Physicians,,,MALLEPALLI,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-058,VIJAY BHASKAR,,,,,TELUGU,Male,,,9849084566,,,,,,,MD,General Physicians,,,ASHOK NAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-059,JOHN,,CHISTOPHER,,,TELUGU,Male,,,,,,,,,,MD,Chest Physicians,,,ASHOK NAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-060,RAMAKRISHNA,,,,,TELUGU,Male,,,,,,,,,,MS,Intensivists,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4947934,78.3996441
+MSL-061,SRILATHA,,,,,TELUGU,Female,,,,,,,,,,MD,Intensivists,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-062,SURESH,KUMAR,,,,TELUGU,Male,,,,,,,,,,MD,Nephro Physicians,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-063,KRISHNAMOHAN,,K,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MUSHEERABAD,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-064,VIJAY,KUMAR,G,,,TELUGU,Male,,,,,,,,,,MD,General Surgeons,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-065,AJAY ,KUMAR,,,,TELUGU,Male,,,,,,,,,,MS/MCH,Orthopedic Surgeons,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-066,ADHI LAKSHMI,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-067,JAYPAL ,REDDY,,,,TELUGU,Male,,,,,,,,,,MCH,Neuro Physicians,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-068,AZEEMUDHIN,,MOHD,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-069,PAVAN KUMAR ,GOUD,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-070,PARTH ,N.,PATIL,,,TELUGU,Male,,,,,,,,,,MD,Consulting Physicians,,,ABIDS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-071,A,V.,RAO,,,TELUGU,Male,,,,,,,,,,MD,Consulting Physicians,,,SECRETARIAT,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-072,MADHUSUDHAN,,,,,TELUGU,Male,,,,,,,,,,MS,Gastro. Surgeons,,,SECRETARIAT,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-073,CHAITHANYA,,,,,TELUGU,Male,,,,,,,,,,MD,Chest Physicians,,,SECRETARIAT,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-074,KRISHNA PRASAD,R.,A,,,TELUGU,Male,,,,,,,,,,MCH,Cardio Thoracic Surgeons,,,SECRETARIAT,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-075,SACHIN ,,JOSHI,,,TELUGU,Male,,,,,,,,,,MCH,Neuro Physicians,,,BANJARAHILLS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-076,ADITHYA ,,KAPOOR,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,BANJARAHILLS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-077,DEEPASAHA,,,,,TELUGU,Female,,,,,,,,,,MD,Consulting Physicians,,,BANJARAHILLS,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-078,SRIDHER ,,,,,TELUGU,Male,,,,,,,,,,MD,Neuro Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-079,SRINIVAS ,,MANTHA,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-080,ANAND PRASAD,,,,,TELUGU,Male,,,,,,,,,,MD,Neuro Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-081,RAM KALYAN,,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-082,VENKATESH,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-083,NAGA BHUSHANAM,,M,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-084,SAROJINI,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-085,SURESH ,GOUD,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-086,VENKATESWARA ,REDDY,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,NARAYANAG GUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-087,AHALYA,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,NARAYANA GUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-088,RAMANNA ,,MACHARLA,,,TELUGU,Male,,,,,,,,,,MD,Gastro Physicians,,,NARAYANA GUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-089,AJAY ,KUMAR,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,NARAYANA GUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-090,DINESH ,,BHUTA,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,TILAKNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-091,PRABHA,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,TILAKNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-092,RAGHUPATHI ,REDDY,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,TILAKNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-093,KISHAN ,RAO,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,TILAKNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-094,RAJ ,KUMAR,,,,TELUGU,Male,,,,,,,,,,MD,Nephro Physicians,,,TILAKNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-095,HUSSAIN,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,MALLEPALLI,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-096,RAMAYYA,,,,,TELUGU,Male,,,9848027656,,,,,,,MD,General Physicians,,,BASHEERBAGH,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-097,SRIDHER,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-098,SRI RAM,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,VIDYANAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-099,SAMEE,M.,A,,,TELUGU,Male,,,9247298021,,,,,,,MD,General Physicians,,,KACHIGUDA,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-100,P.,CHARY,L,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,TILAKNAGAR,,,,TELENGANA,INDIA,,Hyderabad - 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.4947934,78.3996441
+MSL-101,INDHIRA ,,GOURI,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-102,RAMA KRISHNA ,REDDY,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-103,SANTOSH ,RAO,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-104,PASHA,,,,,TELUGU,Male,,,9849389777,,,,,,,MD,Intensivists,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-105,SHANKAR,,,,,TELUGU,Male,,,9989433674,,,,,,,MD,Intensivists,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-106,SRIDHER,,D,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-107,VENU GOPAL,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-108,LALITHA,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-109,SUDHEER ,C.,CHARLESS,,,TELUGU,Male,,,7382135045,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-110,MADHULATHA RANI,,S,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,SHAMSHABAD,,,,TELENGANA,INDIA,,Shamshabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.25116,78.4377349
+MSL-111,DILIP CHANDRA,,K,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-112,TIRUPATHI,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-113,CHANDHULAL ,RATHOD,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-114,VIJAYA ,RATHOD,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-115,RAMESH ,,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-116,MALLESH,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-117,K,KUMAR,L,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-118,CHAITHANYA,,,,,TELUGU,Male,,,,,,,,,,MD,Intensivists,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-119,SHERIF,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-120,SHIVARAM ,NAIK,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,SHADHNAGAR,,,,TELENGANA,INDIA,,Shadh Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.0712297,78.2048878
+MSL-121,MADHUSUDHAN ,REDDY,A,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-122,VASU ,CHAITHANYA,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-123,MADHU ,,,,,TELUGU,Female,,,,,,,,,,MD,Intensivists,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-124,SATHYANARAYANA ,,REDDY,,,TELUGU,Male,,,9848420440,,,,,,,MS/MCH,Uro. Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-125,VIJAY KANTH,,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-126,RAJESH CHANDRA ,GOUD,,,,TELUGU,Male,,,,,,,,,,MS/MCH,Uro. Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-127,KARTHIK ,GOUD,,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-128,RAGAVENDRA ,KUMAR,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-129,CHANDRA SHEKAR ,GOUD,S,,,TELUGU,Male,,,,,,,,,,MD,General Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-130,CHAKRADHER ,GOUD,S,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-131,HARI PRASAD,,,,,TELUGU,Male,,,,,,,,,,MS,Intensivists,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-132,PADMA,,K,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-133,LAXMI KANTH ,REDDY,K,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-134,SRINIVAS ,REDDY,,,,TELUGU,Male,,,,,,,,,,MS,Neuro Physicians,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-135,SRINIVAS ,RAO,M,,,TELUGU,Male,,,,,,,,,,MD,General Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-136,SHILPA,,,,,TELUGU,Female,,,,,,,,,,MD,General Physicians,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-137,PRABHAKER ,REDDY,,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-138,SAMUEL,,,,,TELUGU,Male,,,,,,,,,,MD,General Physicians,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-139,DEVAYYA,,A,,,TELUGU,Male,,,,,,,,,,MS,Orthopedic Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279
+MSL-140,DILIP VASANTH,K.,A,,,TELUGU,Male,,,,,,,,,,MS,General Surgeons,,,MAHABOOBNAGAR,,,,TELENGANA,INDIA,,Mahaboob Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.3841436,78.1108279

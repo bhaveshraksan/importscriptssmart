@@ -1,0 +1,88 @@
+SLID,FIRST NAME,MIDDLE NAME,LAST NAME,DATE OF BIRTH,BLOOD GROUP,LANGUAGE,GENDER,MARTIAL STATUS,ANNIVERSARY DATE,MOBILE NO,LANDLINE NO,FAX,RATING,DOCTOR TYPE,DOCTOR REG NO,PROFESSIONAL TAGS,QUALIFICATION,SPECIALIZATION,LINE OF PRACTISE,PRACTISE START DATE,ADDRESS LINE 1,ADDRESS LINE 2,ADDRESS LINE 3,CITY,STATE,COUNTRY,BRANCH NAME,STATION,CLINIC REG NO,CLINIC NAME,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHARE PERCENTAGE,BRANCH PRODUCTS,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,NAYEEMSADATH,,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-002,MADHAV,,S.R.,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-003,JITHENDRA,,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-004,RAGURAMI,REDDY,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-005,VIMALA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-006,SURESH,KUMAR,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-007,SNEHA,POPWER,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3286444,78.5753006
+MSL-008,RAKHI,PORNIMA,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-009,RAMAKRISHNA,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3286444,78.5753006
+MSL-010,MADHUSUDHAN,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3286444,78.5753006
+MSL-011,DEEPTHI,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Vanastalipuram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3286444,78.5753006
+MSL-012,MADHUBABU,,C.H.,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Santoshnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3479997,78.5085841
+MSL-013,VIJAYASHEKAR,,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Santoshnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3479997,78.5085841
+MSL-014,HARIBABU,,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Santoshnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3479997,78.5085841
+MSL-015,MOHANRAO,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Santoshnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3479997,78.5085841
+MSL-016,SRILATHA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Santoshnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3479997,78.5085841
+MSL-017,PRAVEENKUMAR,,B.Y.,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Santoshnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3479997,78.5085841
+MSL-018,GOPINATH,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-019,SATHYAVANI,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-020,SWAPNA,,,,,,Female,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-021,MAHIPAL ,REDDY,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-022,WAHED ,SIDDIQUE,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-023,GULAMABBAS,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-024,NAZIA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3730927,78.4900381
+MSL-025,GEETHA ,VIDHYAM,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3730927,78.4900381
+MSL-026,PARTHA ,SARATHI,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Malakpet,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3730927,78.4900381
+MSL-027,SHIVARAMPRASAD,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-028,MAYURI,,C.I.,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-029,GNANESWAR,,C.,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-030,SHOBA,REDDY,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-031,RAVIKANTH,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-032,SHIRISHA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-033,VENKAT RAO ,,KOTI,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-034,DEEPA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-035,REDDY,,G.S.,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3759576,78.537056
+MSL-036,SANDEEP,,GSS ,,,,Male,,,,,,,,,,MD DDVL,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3759576,78.537056
+MSL-037,VIJAYABHASKER,,M.,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3759576,78.537056
+MSL-038,SUCHARITHA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3759576,78.537056
+MSL-039,SHARMA,,V.K.,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.3759576,78.537056
+MSL-040,SWETHA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3759576,78.537056
+MSL-041,SUKRUTHA ,REDDY,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3759576,78.537056
+MSL-042,JAYASRI ,KARUNAKAR,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Chaityanyapuri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3759576,78.537056
+MSL-043,MUKESHRAJ,,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.3606072,78.4731848
+MSL-044,SUMANI,,V.K.,,,,Female,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.3606072,78.4731848
+MSL-045,RADHAVINAYAK,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,17.3606072,78.4731848
+MSL-046,RAKHIGUPTHA,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-047,FATHIMA ,RJWI,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-048,FATHIMA ,HASNA,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-049,RAMESH ,C.BANG,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-050,SAIKRISHNA,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Dilusukhnagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3687826,78.5246706
+MSL-051,MANMOHANSINGH,,,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-052,PADMAJA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-053,MALINI,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-054,ARUNA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-055,PRASAD ,NAIK,,,,,Male,,,,,,,,,,MD DDVL,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-056,RAJJEV ,SINGH,T.,,,,Male,,,,,,,,,,MD DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-057,RAGHUKIRAN,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-058,REDDY,,B.S.,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-059,VENKATRAMANA,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-060,VENKATKRISHNA,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-061,NIPPADEVI,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-062,A.N.PRASAD,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-063,BAREENA,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-064,NIKATH,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Oldcity,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3606072,78.4731848
+MSL-065,FARHA ,NAZH HASMI,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-066,UDYA ,KIRAN,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-067,CHITRA ,PRIYA,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-068,LAXMI ,PRASAD,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-069,SATISH ,CHANDRA,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-070,USHA ,RANI,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-071,YOUSUF ,ALI,SYED ,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-072,MURTHY,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-073,MIR MUBASHIR ,ALI,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-074,BASHIRUDDIN,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-075,VIMALA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-076,MANMOHAN.,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Hyderabad,Telangana,India,,Mahadipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MSL-077,SARITHA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Miryalaguda,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-078,SOUJANYA,,,,,,Female,,,,,,,,,,MD DDVL,DERMATOLOGIST & COSMETOLOGIST,,,,,,Miryalaguda,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-079,BINDU ,SRI,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Miryalaguda,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-080,MUSTAQ ,AHMED,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Miryalaguda,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-081,VEERANJANEYULU,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Miryalaguda,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-082,SRINIVASULU,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Miryalaguda,Telangana,India,,Miryalaguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,16.8753106,79.5659633
+MSL-083,ANITHA ,RANI,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Nalgonda,Telangana,India,,Nalgonda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1882998,79.1999949
+MSL-084,RAJU,,M.A.,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Nalgonda,Telangana,India,,Nalgonda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1882998,79.1999949
+MSL-085,ARUNKUMAR,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Nalgonda,Telangana,India,,Nalgonda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1882998,79.1999949
+MSL-086,JAYAKUMAR,,,,,,Male,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Nalgonda,Telangana,India,,Nalgonda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1882998,79.1999949
+MSL-087,SUSHEELA,,,,,,Female,,,,,,,,,,MBBS DVD,DERMATOLOGIST & COSMETOLOGIST,,,,,,Nalgonda,Telangana,India,,Nalgonda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.1882998,79.1999949

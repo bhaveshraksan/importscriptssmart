@@ -1,0 +1,27 @@
+SLID,HOSPITAL NAME,SHORT NAME,ESTABLISHED YEAR,SPECIALITY,REG NO,REGISTRATRION DATE,CERTIFICATION ID,ISO CERTIFIED,HOSPITAL TYPE,RATING,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,WEBSITE,BRANCH NAME,BRANCH TYPE,BRANCH REG NO,BRANCH EMAIL,BRANCH CONTACT NO,BRANCH FAX NO,NO OF BEDS,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH PERSON NAME,BRANCH PERSON PHONE NO,BRANCH PERSON EMAIL ID,DepartMents,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+HPTL-001,PREMIER HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-002,CHALLA HOSPITAL,CH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-003,NEELIMA HOSPITAL,NH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-004,RAGHAVA HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-005,RAJITHA HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-006,MEJISTIC HOSPITAL,MH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-007,MAHAVEER HOSPITAL ,MH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-008,NICE HOSPITAL,NH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-009,OLIVE HOSPITAL,OH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-010,BBR HOSPITAL,BH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-011,AINU HOSPITAL,AH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-012,CENTURY HOSPITAL,CH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-013,ST.TERISSA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-014,V.CARE HOSPITAL,VH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-015,PAVITRA HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-016,PRIME HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-017,STAR HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-018,SWETHA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-019,VIJAYA MER HOSPITAL,VMH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-020,WELLNESS HOSPITAL,WH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-021,TANVEER HOSPITALS,TH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-022,KAKATIYA HOSPITAL,KH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-023,MAA ENT HOSPITAL,MEH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-024,PEOPLES HOSPITAL,PH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-025,RAJA HOSPITAL,RH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972
+HPTL-026,SUSHEELA HOSPITAL,SH,,,,,,,,,,,,,,,,,,,,,Hyderabad - 2,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4639345,78.4282972

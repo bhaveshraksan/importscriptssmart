@@ -1,0 +1,73 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+UAEPHAR00001,AJMAL PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00002,AL MANKHOOL PHARMACY,,,,,,,,,,,,,,,,,,Dubai-Karama 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00003,AL RAYAN PHARMACY,,,,,,,,,,,,,,,,,,Dubai-Karama 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00004,ASTER LAMCY PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00005,ASTER PHARMACY 110-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00006,BADER PHARMACY - DXB,,,,,,,,,,,,,,,,,,Dubai-Karama 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00007,BASHAER PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Satwa 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00008,BINSINA MODERN PHARMACY-DIYAFAH STREET,,,,,,,,,,,,,,,,,,Dubai-Satwa 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00009,BURJEEL HOSPITAL FOR ADVANCED SURGERY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Al Quoz,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1347894,55.2369693
+UAEPHAR00010,FAITH WAY PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Jumeirah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2016428,55.2452567
+UAEPHAR00011,FOUR SEASONS PHARMACY DUBAI,,,,,,,,,,,,,,,,,,Dubai-Satwa 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00012,GHAZAL JUMEIRAH PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Satwa 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00013,IBN RUSHD PHARMACY-DXB,,,,,,,,,,,,,,,,,,Dubai-Satwa 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00014,JAMEIYAH TAAWANIAYAH PHARMACY (DXB),,,,,,,,,,,,,,,,,,Dubai-Karama 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00015,KAP PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00016,KHALIFA OBAID PHARMACY(DXB),,,,,,,,,,,,,,,,,,Dubai-Satwa 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00017,LUQMAN PHARMACY SATWA DUBAI,,,,,,,,,,,,,,,,,,Dubai-Satwa 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00018,MODERN FAMILY PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00019,NOOR AL SATWA PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Satwa 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00020,PLAZA PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Jumeirah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2016428,55.2452567
+UAEPHAR00021,QAMAR AL SATWA PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Satwa 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00022,SEHA PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00023,SONDOS PHARMACY (DXB),,,,,,,,,,,,,,,,,,Dubai-Satwa 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00024,UNICARE PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Burdubai,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00025,WELLFAST PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Karama 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00026,WEST HILL PHARMACY (DXB),,,,,,,,,,,,,,,,,,Dubai-Karama 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00027,WOKAYA PHARMACY (DXB),,,,,,,,,,,,,,,,,,Dubai-Karama 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00028,ABEER PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00029,BELHOUL SPECIALITY HOSPITAL L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00030,CITY PHARMACY - DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira Salah Al Din,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00031,CREEK LINE PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00032,FAITH PHARMACY - DXB,,,,,,,,,,,,,,,,,,Dubai-Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00033,GUARDIAN PHARMACY (DXB),,,,,,,,,,,,,,,,,,Dubai-Deira Salah Al Din,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00034,JAZEERAH PHARMACY-DXB,,,,,,,,,,,,,,,,,,Dubai-Deira 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00035,MEDI PRIME PHARMACY - DXB,,,,,,,,,,,,,,,,,,Dubai-Deira Salah Al Din,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00036,MEDICOM PHARMACY 12-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Rashidiya,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2244647,55.3890309
+UAEPHAR00037,MEDSEVEN DRUG STORE-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00038,MODERN PHARMACY DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00039,MOTHER PHARMACY DEIRA,,,,,,,,,,,,,,,,,,Dubai-Deira Salah Al Din,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00040,NAWRAS PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00041,OMAN PHARMACY-DXB,,,,,,,,,,,,,,,,,,Dubai-Deira 3,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00042,QALB AL IMAN PHARMACY L.L.C.-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00043,RASHID PHARMACY (DXB),,,,,,,,,,,,,,,,,,Dubai-Deira Salah Al Din,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00044,RAWDA PHARMACY-DUBAI,,,,,,,,,,,,,,,,,,Dubai-Deira 2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00045,REGGA PHARMACY (DEIRA),,,,,,,,,,,,,,,,,,Dubai-Deira Salah Al Din,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00046,RELIEF PHARMACY L.L.C-DXB,,,,,,,,,,,,,,,,,,Dubai-Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00047,SALAMTAK PHARMACY-DXB,,,,,,,,,,,,,,,,,,Dubai-Rashidiya,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2244647,55.3890309
+UAEPHAR00048,AL NAKHEEL PHARMACY RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00049,AL RAZI PHARMACY RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00050,AL ZAHRAWI PHARMACY RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00051,ARAFA PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00052,ASTER INAYA PHARMACY-RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00053,BALSAM PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00054,CORNICHE PHARMACY-RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00055,EMIRATES PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00056,IBN SINA PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00057,IBNSINA AL MARKAZEIA PHARMACY L.L.C.-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00058,INDIAN PHARMACY-RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00059,JISSR PHARMACY-RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00060,JOORI PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00061,MARHABA PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00062,MEDICAL CENTRE PHARMACY - RAK,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00063,MEIREID PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00064,NOOR AL SHEFFAA PHARMACY L.L.C.-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00065,SALAMA PHARMACY L.L.C.-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00066,SHIFA AL JAZEERA PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00067,SUWAIDI PHARMACY-RAS AL KHAIMAH,,,,,,,,,,,,,,,,,,Dubai-Ras Al Khaimah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.8006926,55.9761994
+UAEPHAR00068,ZULEKHA HOSPITAL - SHARJAH,,,,,,,,,,,,,,,,,,Sharjah-Sharjah 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00069,MEDIPRIME PHARMACY BRNCH 1,,,,,,,,,,,,,,,,,,Dubai-Al Quoz,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1347894,55.2369693
+UAEPHAR00070,MEDIPRIME PHARMACY BRNCH 2,,,,,,,,,,,,,,,,,,Sharjah-King faizal Street,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00071,MEDIPRIME PHARMACY BRNCH 3,,,,,,,,,,,,,,,,,,Sharjah-Al Qasimiya,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3459198,55.3931818
+UAEPHAR00072,MEDIPRIME PHARMACY BRNCH 4,,,,,,,,,,,,,,,,,,Dubai-Burdubai,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906

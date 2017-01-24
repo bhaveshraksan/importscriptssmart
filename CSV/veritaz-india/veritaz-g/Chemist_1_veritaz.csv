@@ -1,0 +1,143 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+CHL-001,VIVEK MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Karimnagar,C/O. SRIDEVI NURSING HOME,SHARMA NAGAR,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-002,NEW SUJATHA MEDICAL HALL,,NSMH,,,,,,,,,,,,,,,,Karimnagar,C/O. LATHA NURSING HOME,BEHIND CIVIL HOSPITAL,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-003,NEW SAMATHA MEDICAL HALL,,NSMH,,,,,,,,,,,,,,,,Karimnagar,C/O. SAMATHA NURSING HOME,ASHOK NAGAR,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-004,K.K. MEDICAL HALL,,KMH,,,,,,,,,,,,,,,,Karimnagar,C/O. K.K. MATERNITY NURSING HOME,CIVIL HOSPITAL ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-005,SRI CHANDRA MEDICAL HALL,,SCMH,,,,,,,,,,,,,,,,Karimnagar,C/o.SRICHANDHRA HOSPITAL,DR STREET,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-006,SAMATHA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Karimnagar,C/O. KALYAN HOSPITAL,KAMAN ROAD ,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-007,VASARA MEDICAL &GENERAL STORES,,VMS,,,,,,,,,,,,,,,,Karimnagar,C/O. VASARA MULTI SPECIALITY HOSPITAL,MANKAMMATHOTA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-008,SRIAMITHA MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,AMITHA CHILDRENS HOSPITAL,NEAR RAJA THEATRE,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-009,SAI VARSHA MEDICAL,,SVM,,,,,,,,,,,,,,,,Karimnagar,HEMA CHILDRENS HOSPITAL,AMBEDKAR ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-010,SRIHITHA MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,SRI HITHA CHILDRENS HOSPITAL,NEAR RAJA THEATRE,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-011,N N MEDICAL,,NNM,,,,,,,,,,,,,,,,Karimnagar,NIKHIL CHILDRENS HOSPITAL,OSMANPURA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-012,PADMINI MEDICAL,,PM,,,,,,,,,,,,,,,,Karimnagar,SATYA CHILDRENS CENTRE,KAMAN CHOURASTHA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-013,PALLAVI MEDICAL HALL,,PMH,,,,,,,,,,,,,,,,Karimnagar,C/O. PALLAVI CHILDRENS HOSPITAL,MUKARAMPURA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-014,SAI SHIVANI MEDICAL HALL,,SSMH,,,,,,,,,,,,,,,,Karimnagar,C/O. NAVYA SRI CHILDRENS HOSPITAL,OPP: GOVT. JR. COLLEGE,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-015,SRI VYSHNAVI MEDICAL,,SVM,,,,,,,,,,,,,,,,Karimnagar,C/O. OLGA CHILDRENS HOSPITAL,NEAR MANCHERIAL ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-016,DEVISHETTI PHARMACY,,DP,,,,,,,,,,,,,,,,Karimnagar,DEVISHETTI MULTISPECIALITY HOSPITAL,DR STREET,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-017,KRISHNA SAI MEDICAL&GENERAL STORES,,KSMS,,,,,,,,,,,,,,,,Karimnagar,C/O. MADAS CHILDRENS CLINIC,NEAR KAMAN,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-018,SIDDIVINAYAKA MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,C/O.SAI GIOBEL CHILDREN HOSPITAL,CHOPPADANDI ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-019,LAXMISRI MEDICAL HALL,,LMH,,,,,,,,,,,,,,,,Karimnagar,C/O. P V R HOSPITAL,OSMANPURA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-020,NANDINI MEDICAL HALL,,NMH,,,,,,,,,,,,,,,,Karimnagar,"C/O. AMRUTHA VARSHINI ASTHMA CLINIC, H.NO.3-7-200/1",VAVILALAPALLY,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-021,SRIVANI MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Karimnagar,C/O CHAITHANYA HOSPITAL,NEAR CIRCUS GROUND,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-022,SURYA PRABHA MEDICAL GENERAL STORES,,SPMGS,,,,,,,,,,,,,,,,Karimnagar,C/O ABHINAV GASTRO HOSPITAL,NEAR 7 HILLS,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-023,SAI SUDHA  MEDICAL STORES,,SSMS,,,,,,,,,,,,,,,,Karimnagar,C/O.SAI SUDHA HOSPITAL,RAILWAY STATION ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-024,SURABHI PHARMACY,,SP,,,,,,,,,,,,,,,,Karimnagar,C/O. SURABHI MULTI SPECIALITY HOSPITAL,AMBEDKAR ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-025,MAXCURE  PHARMACY,,MP,,,,,,,,,,,,,,,,Karimnagar,C/O. MAXCURE HOSPITAL,BEHIND CIVIL HOSPITAL,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-026,APEX PHARMACY,,AP,,,,,,,,,,,,,,,,Karimnagar,C/O. APEX HOSPITAL,NEAR RAJA THEATRE,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-027,LAXMI GAYATHRI MEDICALS,,LGM,,,,,,,,,,,,,,,,Karimnagar,C/O.USHA KHANDAL HOSPITAL,MUKARAMPURA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-028,SAI MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,C/O. KRISHNA ENT HOSPITAL,CIVIL HOSPITAL ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-029,V. J. MEDICAL& GENERAL STORES,,VJMGS,,,,,,,,,,,,,,,,Karimnagar,C/O.VINAYAKA E.N.T.HOSPITAL,CIVIL HOSPITAL ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-030,TEJASWINI MEDICAL,,TM,,,,,,,,,,,,,,,,Karimnagar,SAANVI ENT HOSPITAL,SAWARAN STREET,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-031,ADHITHYA MEDICAL,,AM,,,,,,,,,,,,,,,,Karimnagar,C/O. ADITHYA CLINIC,MUKARAMPURA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-032,SRILATHA MEDICAL STORES,,SMS,,,,,,,,,,,,,,,,Karimnagar,C/0.SRILATHA KIDNEY CENTRE,CHOPPADHANDI ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-033,SURYA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Karimnagar,"C/O. SURYA NURSING HOME, NEAR 7 HILLS",COURT ROAD,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-034,VISHNU MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Karimnagar,NEAR GUNJ,OPP GUNJ HIGH SCHOOL,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-035,SRI DIVYA MEDICAL ,,SDM,,,,,,,,,,,,,,,,Karimnagar,MAIN ROAD,M.M.THOTA,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-036,SUMITRA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Karimnagar,C/O. SUMITRA HOSPITAL,JYOTHI NAGAR,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-037,SRI LAXMI NARSIMHA MEDICAL HALL,,SLNMH,,,,,,,,,,,,,,,,Karimnagar,C/O. SRI VENKATA SAI CLINIC,KATTARAMPUR,KARIMNAGAR,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-038,KESARI SUDHA MEDICAL,,KSM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-039,VENKATESHWARA MEDICAL,,VM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-040,SADATH MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-041,ASHOK MEDICAL,,AM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-042,S.M.P MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-043,SRI KAPISHWA MEDICAL,,SKM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-044,MADEENA MEDICAL,,MM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-045,STAR MEDICAL,,SM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-046,DHARANI MEDICAL,,DM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-047,SRI BHAVANI MEDICAL GENERAL STORES,,SBMGS,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-048,KANAKA DURGA MEDICAL HALL,,KDMH,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-049,LAXMIGANESH MEDICAL,,LM,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-050,APPLE MEDICAL & GENERAL STORES,,AM&GS,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-051,LAXMIVILAS MEDICAL & GENERAL STORES,,LM&GS,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-052,AMBHIKA MEDICAL & GENERAL STORES,,AM&GS,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-053,SAI SRINIVASA PHARMACY,,SSP,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-054,SAI VASANTHA MEDICAL STORES,,SVMS,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-055,SAHARA PHARMACY,,SP,,,,,,,,,,,,,,,,Karimnagar,,,,KARIMNAGAR,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4385553,79.1288412
+CHL-056,PAVANI MEDICAL HALL,,PMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-057,SANDEEP MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-058,SRI SHIVA DURGA MEDICAL HALL,,SSDMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-059,RAJA RAJESWARA MEDICAL GENERAL STORES,,RRMGS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-060,ROHAN PHARMACY,,RP,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-061,RUTHWIK MEDICAL HALL,,RMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-062,SRUJAN PHARMACY,,SP,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-063,SIRI PHARMACY,,SP,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-064,SRI SANIYA MEDICAL HALL,,SSMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-065,SAI SRINIVASA MEDICAL HALL,,SSMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-066,NIKIL MEDICAL HALL,,NMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-067,CHARAKA MEDICALL,,CM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-068,KANIPAKESHWARA MEDICAL HALL,,KMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-069,SAHASRA MEDICAL,,SM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-070,TEJA MEDICAL,,TM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-071,VINAYAKA MEDICAL,,VM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-072,SRI SAI VENKATA RAMANA MEDICAL GENERAL STORES,,SSVRMGS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-073,SHIVA SAI MEDICAL STORES,,SSMS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-074,RAGAVENDRA MEDICAL HALL,,RMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-075,GURUKRUPA MEDICAL GENRAL STORS,,GMGS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-076,NATRAJ MEDICAL HALL,,NMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-077,BABA MEDICAL,,BM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-078,VAHINI MEDICAL,,VM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-079,KRISHNAVENI MEDICAL HALL,,KMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-080,SRI KRISHNA SAI MEDICAL HALL,,SKSMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-081,BHAGAVAN MEDICAL HALL,,BMH,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-082,GOPI KRISHNA MEDICAL GENERAL STORES,,GKMGS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-083,SIDDIVINAYAKA MEDICALGENERAL STORES,,SMS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-084,BHAVISHYA MEDICAL,,BM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-085,SRI VIJAYADURGA MEDICAL,,SVM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-086,SRISAI MEDICAL&GENERALSTORES,,SM,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-087,KALYANIPRABHA MEDICAL&GENERAL STORES,,KMS,,,,,,,,,,,,,,,,Sircilla,,,,SIRCILLA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3892197,78.8014505
+CHL-088,SAIMANI MEDICAL,,SM,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-089,SRI  HARA MEDICAL,,SHM,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-090,PARTHASARDI MEDICAL HALL,,PMH,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-091,DHANA LAXMI MEDICAL GENRAL STORES,,DLMGS,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-092,PRASANNANJANEYA MEDICL STORES,,PMS,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-093,BALAJI MEDICAL HALL,,BMH,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-094,SRI LAXMI MEDICAL HALL,,SLMH,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-095,UMA MEDICAL GENRAL STORES,,UMGS,,,,,,,,,,,,,,,,Vemulavada,,,,VEMULAWADA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.4681062,78.8671321
+CHL-096,SAI BRAHMAIAH MEDICAL GENRAL STORES,,SBMGS,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,MUSTABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-097,MADEENA MEDICAL,,MM,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,MUSTABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-098,KANAKA DURGA MEDICAL HALL,,KDMH,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,MUSTABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-099,SRILAXMI,,S,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,MUSTABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-100,KAMALA PHARMACY,,KP,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,MUSTABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-101,VANI MEDICAL,,VM,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,GAMBHIRAOPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-102,VENKATESHWARA PHARMACY,,VP,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,GAMBHIRAOPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-103,PADMA MEDICAL & GENERAL STORES,,PM&GS,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,GAMBHIRAOPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-104,AJANTHA MEDICAL,,AM,,,,,,,,,,,,,,,,Gambhiraope / Mustabad,,,,GAMBHIRAOPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3110048,78.5689242
+CHL-105,KAVERI MEDICAL HALL,,KMH,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-106,SRI VASAVI MEDICAL GENERAL STORES,,SVMGS,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-107,VARALAXMI MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-108,SIDDIVINAYAKA MEDICAL,,SM,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-109,SHIVA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-110,DURGA MEDICAL HALL,,DMH,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-111,SRI RAJA RAJESWARA MEDICAL GENERAL STORES,,SRRMGS,,,,,,,,,,,,,,,,Yellareddypet / Gollapally,,,,YELLAREDDYPET,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3965056,78.8185859
+CHL-112,SRI JAGADAMBA MEDICAL HALL,,SJMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,ELLANTHAKUNTA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-113,SRI VENKATESHWARA MEDICAL HALL,,SVMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,ELLANTHAKUNTA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-114,THIRUMALA MEDICAL HALL,,TMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,ELLANTHAKUNTA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-115,SRINIVASA MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,BEJJANKI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-116,SRI SHANKAR MEDICAL HALL,,SSMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,BEJJANKI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-117,RATNA MEDICAL HALL,,RMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,BEJJANKI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-118,BALAJI MEDICAL HALL,,BMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,BEJJANKI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-119,AMRUTA MEDICAL HALL,,AMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,KOHEDA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-120,VINAYAKA MEDICAL HALL,,VMH,,,,,,,,,,,,,,,,Ellanthakunta / Bejjanki / Koheda,,,,KOHEDA,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.3118352,78.952865
+CHL-121,DHARMARAJ PHARMACY,,DP,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,CHOPPADANDI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-122,SAMALA MEDICALGENERALSTORES,,SM,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,CHOPPADANDI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-123,BALAJIMEDICAL GENERAL STORES,,BGS,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,CHOPPADANDI,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-124,MANJULA MEDICAL,,MM,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,DHARMARAM,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-125,FAIZA MEDICAL HALL,,FMH,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,DHARMARAM,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-126,SAPTHAGIRI MEDICAL,,SM,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,DHARMARAM,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-127,MAHALAXMI MEDICAL& GENERAL STORES,,MMGS,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,DHARMARAM,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-128,NEW FAZAL MEDICAL GENERAL STORES ,,NFMGS,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,DHARMARAM,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-129,PRITHAM MEDICAL& GENERAL STORES,,PMGS,,,,,,,,,,,,,,,,Choppadandi / Dharmaram,,,,DHARMARAM,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.5804814,79.1689623
+CHL-130,PARLAPELLY MEDICAL STORES,,PMS,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-131,SAI SHIVANI MEDICAL GENERAL STORES,,SSMGS,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-132,SHOBHA MEDICAL GENRAL STORES,,SMGS,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-133,SRI VASU MEDICAL HALL,,SVMH,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-134,SANDEEP MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-135,MATHRUSRI MEDICAL HALL,,MMH,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-136,SRI CHAKRITHA MEDICAL STORES,,SCMS,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-137,DIVYA SAI MEDICAL&GENARAL STORES,,DSMS,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-138,OM SAI MEDICAL HALL,,OSMH,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-139,SRI SAI VANI MEDICAL HALL,,SSVMH,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-140,KUBERA MEDICAL STORES,,KMS,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-141,MANI MEDICAL HALL,,MMH,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275
+CHL-142,KAMAL MEDICAL,,KM,,,,,,,,,,,,,,,,Parlapelly / Rekonda / Husnabad,,,,HUSNABAD,,,,,,,,,,,,,,,,,,,,,Monthly,2,18.2861332,79.2183275

@@ -1,0 +1,38 @@
+<head>
+  <title>importFiles</title>
+</head>
+
+<body>
+
+  {{> hello}}
+  {{> info}}
+</body>
+
+<template name="hello">
+    <form id="uploadFiles">
+        <input type="file" name="uploadDoctorCsv">
+        <button id="parseData" value="Parse Data">Parse Data</button>
+        <select name="companyId">
+            <option value="">Select Company</option>
+            {{#each companies}}
+                <option value="{{_id}}">{{basicInfo.companyName}}</option>
+                {{/each}}
+        </select>
+
+        <select name="divisionId">
+            <option value="">Select Division</option>
+            {{#each divisionIds}}
+                <option value="{{_id}}">{{name}}</option>
+            {{/each}}
+        </select>
+        <select name="customerTypeId">
+            {{#each customerTypes}}
+                <option value="{{_id}}">{{name}}</option>
+            {{/each}}
+        </select>
+    </form>
+</template>
+
+<template name="info">
+
+</template>

@@ -1,0 +1,74 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+UAEPHAR00001,Aster Pharmacy New Al Quoz,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Quoz 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1347894,55.2369693
+UAEPHAR00002,Access  Pharmacy Al Quoz,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Quoz 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1347894,55.2369693
+UAEPHAR00003,Aster Alfa Pharmacy Al Qusais,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00004,Aster Medicom 14,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00005,Aster Central Market Pharmacy,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00006,Aster Pharmacy 101 Al Nadha 1,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00007,Aster pharmacy Medicom 12 Rashidia,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Rashidiya,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2244647,55.3890309
+UAEPHAR00008,Aster Pharmacy 146,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00009,Aster pharmacy Union,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00010,Aster Pharmacy al Musalla Bur Dubai,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00011,Aster Pharmacy Golden sands Al ain Centre,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00012,Aster Pharmacy Yacub,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00013,Aster Pharmacy Shindaga,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00014,Aster Pharmacy 1,,,,,,,,,,,,,,,,,,  DUBAI-Aster Bur Dubai 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2145565,55.3032906
+UAEPHAR00015,Aster Pharmacy Asma,,,,,,,,,,,,,,,,,,  DUBAI-Aster Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00016,Aster Pharmacy Iqra,,,,,,,,,,,,,,,,,,  DUBAI-Aster Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00017,Aster Pharmacy Rashid,,,,,,,,,,,,,,,,,,  DUBAI-Aster Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00018,Aster Pharmacy Al Ehsan,,,,,,,,,,,,,,,,,,  DUBAI-Aster Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00019,Aster Pharmacy 123,,,,,,,,,,,,,,,,,,  DUBAI-Aster Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00020,Aster Pharmacy 144,,,,,,,,,,,,,,,,,,  DUBAI-Aster Deira 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2788468,55.3309395
+UAEPHAR00021,Aster Pharmacy 100,,,,,,,,,,,,,,,,,,DUBAI-Aster DHCC,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2048493,55.2707828
+UAEPHAR00022,Aster Pharmacy DIP Ramla Hypermarket,,,,,,,,,,,,,,,,,,  DUBAI-Aster Dubai Investment Park,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,24.9789814,55.1762197
+UAEPHAR00023,Aceess Pharmacy 3,,,,,,,,,,,,,,,,,,  DUBAI-Aster Dubai Investment Park2,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,24.9745179,55.1983055
+UAEPHAR00024,Aster Pharmacy New al shifa,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00025,Aster Pharmacy Al Fardoos,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00026,Aster Pharmacy Dragon Mart,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00027,Aster Pharmacy Dragon Pharmacy,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00028,Aster Pharmacy 105,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00029,Aster Pharmacy 135,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00030,Aster Pharmacy 137,,,,,,,,,,,,,,,,,,  DUBAI-Aster International City,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1648925,55.4084034
+UAEPHAR00031,Aster Pharmacy Al Juma,,,,,,,,,,,,,,,,,,  DUBAI-Aster Karama,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00032,Aster Pharmacy Al Shifa,,,,,,,,,,,,,,,,,,  DUBAI-Aster Karama,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00033,Aster pharmacy sara,,,,,,,,,,,,,,,,,,  DUBAI-Aster Karama,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00034,Aster Healthcare Hypermarket,,,,,,,,,,,,,,,,,,  DUBAI-Aster Mankhool,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2459667,55.2949976
+UAEPHAR00035,Aster Pharmacy 138,,,,,,,,,,,,,,,,,,  DUBAI-Aster Mankhool,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2459667,55.2949976
+UAEPHAR00036,Aster Hospital Pharmacy,,,,,,,,,,,,,,,,,,  DUBAI-Aster Mankhool,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2459667,55.2949976
+UAEPHAR00037,Aster Pharmacy 114 Aswaaq Mall,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Barsha,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.083827,55.220397
+UAEPHAR00038,Aster Pharmacy 134,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Barsha,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.083827,55.220397
+UAEPHAR00039,Aster Pharmacy Beta,,,,,,,,,,,,,,,,,,DUBAI-Aster Mirdiff,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2196159,55.4194753
+UAEPHAR00040,Aster Pharmacy Uptown,,,,,,,,,,,,,,,,,,DUBAI-Aster Mirdiff,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2196159,55.4194753
+UAEPHAR00041,Aster Pharmacy 109,,,,,,,,,,,,,,,,,,DUBAI-Aster Mirdiff,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2196159,55.4194753
+UAEPHAR00042,Aster Pharmacy 116,,,,,,,,,,,,,,,,,,DUBAI-Aster Mirdiff,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2196159,55.4194753
+UAEPHAR00043,Aster Pharmacy 113,,,,,,,,,,,,,,,,,,DUBAI-Aster Mirdiff,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2196159,55.4194753
+UAEPHAR00044,Aster Pharmacy 111,,,,,,,,,,,,,,,,,,  DUBAI-Aster Muhaisana,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.26104,55.4194753
+UAEPHAR00045,Aster Pharmacy 110,,,,,,,,,,,,,,,,,,DUBAI-Aster Oud Mehta,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.239126,55.3129667
+UAEPHAR00046,Aster Pharmacy lamcy,,,,,,,,,,,,,,,,,,DUBAI-Aster Oud Mehta,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.239126,55.3129667
+UAEPHAR00047,Aster Ibn Al Azwar,,,,,,,,,,,,,,,,,,DUBAI-Aster Al Aweer ,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1756573,55.5469032
+UAEPHAR00048,Aster Al Aweer Pharmacy,,,,,,,,,,,,,,,,,,DUBAI-Aster Al Aweer ,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1756573,55.5469032
+UAEPHAR00049,Aster Pharmacy 129 Satwa,,,,,,,,,,,,,,,,,,  DUBAI-Aster Satwa,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.21937,55.272887
+UAEPHAR00050,Aster Pharmacy 6,,,,,,,,,,,,,,,,,,  DUBAI-Aster Silicone Oasis,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1279484,55.3862638
+UAEPHAR00051,Aster Pharmacy Access 2,,,,,,,,,,,,,,,,,,  DUBAI-Aster Sonapur,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2048493,55.2707828
+UAEPHAR00052,Aster Pharmacy 98,,,,,,,,,,,,,,,,,,  DUBAI-Aster Sonapur,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2048493,55.2707828
+UAEPHAR00053,Aster Pharmacy Teecom,,,,,,,,,,,,,,,,,,DUBAI-Aster Teecom,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2048493,55.2707828
+UAEPHAR00054,Aster Pharmacy 102,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00055,Aster Pharmacy 132 Hor Al Anz,,,,,,,,,,,,,,,,,,Dubai-Aster Hor Al Anz,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769983,55.3337049
+UAEPHAR00056,Aster Pharmacy 142,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Qusais,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2769816,55.3724294
+UAEPHAR00057,Aster Grand Pharmacy,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Nadha,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2925081,55.3724294
+UAEPHAR00058,Aster Pharmacy al Warqa,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Warqa,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1914848,55.4305486
+UAEPHAR00059,Aster Pharmacy 120,,,,,,,,,,,,,,,,,,  DUBAI-Aster Al Warqa,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1914848,55.4305486
+UAEPHAR00060,Aster Medsave Pharmacy,,,,,,,,,,,,,,,,,,DUBAI-Aster Mirdiff,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2196159,55.4194753
+UAEPHAR00061,Aster Pharmacy 126,,,,,,,,,,,,,,,,,,  DUBAI-Aster Karama,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2489204,55.3060551
+UAEPHAR00062,Aster  Pharmacy New Jlt,,,,,,,,,,,,,,,,,,  DUBAI-Aster Jumeriah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2016428,55.2452567
+UAEPHAR00063,Aster Jabal Ali Pharmacy,,,,,,,,,,,,,,,,,,  DUBAI-Aster Jabal Ali,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,24.9857145,55.0272904
+UAEPHAR00064,Aster Pharmacy 115,,,,,,,,,,,,,,,,,,  DUBAI-Aster Discovery Garden,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2048493,55.2707828
+UAEPHAR00065,Aster Pharmacy Avenue,,,,,,,,,,,,,,,,,,  DUBAI-Aster Business Bay,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1831647,55.272887
+UAEPHAR00066,Aster Medshop Garden Pharmacy,,,,,,,,,,,,,,,,,,  DUBAI-Aster Discovery Garden,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.2048493,55.2707828
+UAEPHAR00067,Aster pharmacy 107 king Faisal,,,,,,,,,,,,,,,,,,DUBAI-Aster Sharjah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00068,Aster Pharmacy122 Abu shagara,,,,,,,,,,,,,,,,,,DUBAI-Aster Sharjah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00069,Aster expert Pharmacy buteena 1,,,,,,,,,,,,,,,,,,DUBAI-Aster Sharjah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00070,Aster 133 Pharmacy buteena 2,,,,,,,,,,,,,,,,,,DUBAI-Aster Sharjah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00071,Aster Pharmacy 123 Ajman,,,,,,,,,,,,,,,,,,  DUBAI-Aster Ajman,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.4052165,55.5136433
+UAEPHAR00072,Aster Pharmacy 106Al Nadha Sharjah,,,,,,,,,,,,,,,,,,DUBAI-Aster Sharjah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.3462553,55.4209317
+UAEPHAR00073,Aster Pharmacy fujairah,,,,,,,,,,,,,,,,,, DUBAI-Aster Fujairah,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,25.1288099,56.3264849

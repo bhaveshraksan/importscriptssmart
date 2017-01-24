@@ -1,0 +1,137 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Log
+CHL-001,RAJA RAJESHWARA,,RR,,,,,,,,,,,,,,,Raju,Nizamabad,OPP BUSTAND,,nizamabad,NIZAMABAD,TELENGANA,INDIA,9603063939,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-002,New Health Care ,,NHC,,,,,,,,,,,,,,,naveen,Nizamabad,hyd road,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-003,Pragathi ,,P,,,,,,,,,,,,,,,raju,Nizamabad,hyd road,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-004,Pujitha Medical ,,PM,,,,,,,,,,,,,,,,Nizamabad,pragathi nagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-005,Sri Sai Durga,,SSD,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-006,Vaishnavi,,V,,,,,,,,,,,,,,,reddy,Nizamabad,pragathi nagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-007,Anupama,,A,,,,,,,,,,,,,,,giri,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-008,Laxmi Narsimha Swamy,,LNS,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-009,Meenakshi,,M,,,,,,,,,,,,,,,Lalitha,Nizamabad,pragathi nagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-010,Jayalaxmipriya,,J,,,,,,,,,,,,,,,Raja reddy,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-011,Srinivasa,,S,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-012,Dhanalaxmi,,D,,,,,,,,,,,,,,,mahesh,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-013,Swathi,,S,,,,,,,,,,,,,,,Prabhakar,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-014,Sulaxmi,,S,,,,,,,,,,,,,,,,Nizamabad,hyd road,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-015,Shivani,,S,,,,,,,,,,,,,,,Krishna,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-016,Pranav,,P,,,,,,,,,,,,,,,mahesh,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-017,Srihitha,,S,,,,,,,,,,,,,,,reddy,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-018,Amma Pharmacy,,AP,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-019,Anupama,,A,,,,,,,,,,,,,,,giri,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-020,Amrutha Laxmi,,AL,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-021,Kiran,,K,,,,,,,,,,,,,,,Srinivas,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-022,Jeevanthi,,J,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-023,Ghiri Pharmacy,,GP,,,,,,,,,,,,,,,,Nizamabad,armoor road,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-024,Sri Saibaba,,SS,,,,,,,,,,,,,,,Srinivas,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-025,Vaishnavi,,V,,,,,,,,,,,,,,,reddy,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-026,Uma,,U,,,,,,,,,,,,,,,naresh,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-027,Mamatha,,M,,,,,,,,,,,,,,,Rajendhar,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-028,Sri Sai Santhosh,,SSS,,,,,,,,,,,,,,,Santhosh,Nizamabad,Vinayak nagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-029,Madeena,,M,,,,,,,,,,,,,,,,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-030,New Deluxe ,,ND,,,,,,,,,,,,,,,Raju,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-031,Mohammadiya ,,M,,,,,,,,,,,,,,,,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-032,Mythri,,M,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-033,Bharath,,B,,,,,,,,,,,,,,,,Nizamabad,Shivaji Nagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-034,New Deluxe ,,ND,,,,,,,,,,,,,,,raju,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-035,Samreen,,S,,,,,,,,,,,,,,,,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-036,Marrium,,M,,,,,,,,,,,,,,,,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-037,R R,,RR,,,,,,,,,,,,,,,,Nizamabad,Vinayak nagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-038,Om ,,O,,,,,,,,,,,,,,,,Nizamabad,kotagally,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-039,Ambica,,A,,,,,,,,,,,,,,,Malik,Nizamabad,kasab gally,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-040,Sanjana,,S,,,,,,,,,,,,,,,,Nizamabad,armoor road,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-041,Sumangali,,S,,,,,,,,,,,,,,,,Nizamabad,opp court,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-042,Anasuya,,A,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-043,sri laxmi narsimha swamy,,SLN,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-044,swetha,,S,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-045,Sidddi vinayaka,,SV,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-046,Sri venkateshwara,,SV,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-047,Sri Nitya sree,,SNS,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-048,Akshara ,,A,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,near pochamma temple,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-049,Vishnu priya,,VP,,,,,,,,,,,,,,,,Nizamabad,kasab gally,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-050,varalaxmi,,V,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-051,Syed Ali,,SA,,,,,,,,,,,,,,,,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-052,Laxmi ,,L,,,,,,,,,,,,,,,,Nizamabad,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-053,Adnan,,A,,,,,,,,,,,,,,,,Banswada,Ahmed pura Colony,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-054,RAJA RAJESHWARA,,RR,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-055,Maherbaba,,M,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-056,M M,,MM,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-057,Zee Shaan,,ZS,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-058,Maheshwara,,M,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-059,Gopi,,G,,,,,,,,,,,,,,,,Nizamabad,near bustand,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-060,sharadha pharmacy,,SP,,,,,,,,,,,,,,,vasu,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-061,Medwin,,M,,,,,,,,,,,,,,,,Nizamabad,autonaagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-062,alshifa,,A,,,,,,,,,,,,,,,,Nizamabad,autonaagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-063,makkah,,M,,,,,,,,,,,,,,,,Nizamabad,autonaagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-064,dicent,,D,,,,,,,,,,,,,,,,Banswada,autonaagar,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-065,Manik,,M,,,,,,,,,,,,,,,,Banswada,behind bustand,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-066,Laxmi,,L,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-067,Sharada,,S,,,,,,,,,,,,,,,,Banswada,OPP BUSTAND,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-068,Venkata sai,,VS,,,,,,,,,,,,,,,,Banswada,OPP BUSTAND,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-069,SVR,,S,,,,,,,,,,,,,,,,Banswada,main road,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-070,Balkamal,,B,,,,,,,,,,,,,,,,Bhainsa,near bustand,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-071,Sri Saibaba,,SS,,,,,,,,,,,,,,,,Bhainsa,old market,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-072,Bajrang,,B,,,,,,,,,,,,,,,,Bhainsa,old market,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-073,Vasundara,,V,,,,,,,,,,,,,,,,Bhainsa,OPP BUSTAND,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-074,Gauthami,,G,,,,,,,,,,,,,,,,Bhainsa,near market,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-075,Sri Raja Rajeshwara,,SRR,,,,,,,,,,,,,,,,Bhainsa,main road,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-076,Hind,,H,,,,,,,,,,,,,,,,Bhainsa,ner market,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-077,Laxmi,,L,,,,,,,,,,,,,,,,Bhainsa,opp bustand,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-078,Aditya,,A,,,,,,,,,,,,,,,,Bhainsa,main road,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,19.1030659,77.965299
+CHL-079,Shifa,,S,,,,,,,,,,,,,,,,Bodan,near bustand,,Bhainsa,Bhainsa,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-080,Royal,,R,,,,,,,,,,,,,,,Ifthekar,Bodan,near civil hospital,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-081,Deluxe,,D,,,,,,,,,,,,,,,mohammad,Bodan,near civil hospital,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-082,Srinivasa ,,S,,,,,,,,,,,,,,,,Bodan,behind civil hospital,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-083,Latha,,L,,,,,,,,,,,,,,,latha,Bodan,main road,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-084,Sai Shuba,,SS,,,,,,,,,,,,,,,,Bodan,behind bustand,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-085,Aruna ,,A,,,,,,,,,,,,,,,,Bodan,opp civil hospital,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-086,Lavanya,,L,,,,,,,,,,,,,,,,Dichpally  Dharpally,behind bustand,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-087,Annapurna,,A,,,,,,,,,,,,,,,,Dichpally  Dharpally,near bustand,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-088,Sr irama,,SI,,,,,,,,,,,,,,,,Dichpally  Dharpally,main road,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-089,Shubakr,,S,,,,,,,,,,,,,,,,Dichpally  Dharpally,main road,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-090,Shri Hari,,SH,,,,,,,,,,,,,,,sandeep,Dichpally  Dharpally,main road,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-091,Shanthoshi,,S,,,,,,,,,,,,,,,,Dichpally  Dharpally,near bustand,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-092,Dhanalaxmi,,D,,,,,,,,,,,,,,,,Dichpally  Dharpally,OPP BUSTAND,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-093,Sathish,,S,,,,,,,,,,,,,,,,Dichpally  Dharpally,OPP BUSTAND,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-094,Srinivasa,,S,,,,,,,,,,,,,,,,Dichpally  Dharpally,near bustand,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-095,Vishnu priya,,VP,,,,,,,,,,,,,,,,Dichpally  Dharpally,behind bustand,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-096,Bhavana,,B,,,,,,,,,,,,,,,,Dichpally  Dharpally,main road,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.604466,78.2105857
+CHL-097,Srinivasa,,S,,,,,,,,,,,,,,,,Banswada,main road,,Dichpally  Dharpally,Dichpally  Dharpally,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.3818488,77.8758114
+CHL-098,Janani,,J,,,,,,,,,,,,,,,,Bodan,behind bustand,,banswada,banswada,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-099,Satya sai,,SS,,,,,,,,,,,,,,,,Bodan,behind bustand,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-100,Sai Srinivasa,,SS,,,,,,,,,,,,,,,,Bodan,main road,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.656827,77.8881747
+CHL-101,Rahmath,,R,,,,,,,,,,,,,,,,Kotgiri Pothangal,behind bustand,,Bodhan,Bodhan,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-102,Vasavi,,V,,,,,,,,,,,,,,,,Kotgiri Pothangal,near policestation,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-103,Shivakala,,S,,,,,,,,,,,,,,,,Kotgiri Pothangal,main road,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-104,Ganesh,,G,,,,,,,,,,,,,,,,Kotgiri Pothangal,near bustand,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-105,Health care,,HC,,,,,,,,,,,,,,,,Kotgiri Pothangal,main road,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-106,Shiva sai,,SS,,,,,,,,,,,,,,,,Kotgiri Pothangal,OPP BUSTAND,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-107,Bhagavathi,,B,,,,,,,,,,,,,,,,Kotgiri Pothangal,OPP BUSTAND,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-108,Vani,,V,,,,,,,,,,,,,,,,Kotgiri Pothangal,varni road,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-109,Thirumala,,T,,,,,,,,,,,,,,,,Kotgiri Pothangal,varni road,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-110,Laxmi Narimha,,LN,,,,,,,,,,,,,,,,Kotgiri Pothangal,main road,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-111,Datha,,D,,,,,,,,,,,,,,,,Kotgiri Pothangal,near bustand,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.5737324,77.8224332
+CHL-112,Sri Santhoshi,,SS,,,,,,,,,,,,,,,,Mosra Chandur,near bustand,,Kotgiri Pothangal,Kotgiri Pothangal,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-113,Srinivasa,,S,,,,,,,,,,,,,,,,Mosra Chandur,banswada road,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-114,Phanindra,,P,,,,,,,,,,,,,,,,Mosra Chandur,banswada road,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-115,Sairam,,S,,,,,,,,,,,,,,,,Mosra Chandur,banswada road,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-116,Sweety,,S,,,,,,,,,,,,,,,,Mosra Chandur,bdside bustand,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-117,Shiva,,S,,,,,,,,,,,,,,,,Mosra Chandur,main road,,chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-118,Supriya,,S,,,,,,,,,,,,,,,prabhakar,Mosra Chandur,near bustand,,chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-119,Kakathiya,,K,,,,,,,,,,,,,,,,Mosra Chandur,main road,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-120,Dwarakamai,,D,,,,,,,,,,,,,,,,Mosra Chandur,main road,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6148811,77.9731512
+CHL-121,Venkata sai,,VS,,,,,,,,,,,,,,,,Mudhol,near bustand,,Mosra Chandur,Mosra Chandur,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.976908,77.9138889
+CHL-122,Hashmi,,H,,,,,,,,,,,,,,,,Mudhol,near bustand,,Mudhol,Mudhol,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.976908,77.9138889
+CHL-123,Saibaba,,S,,,,,,,,,,,,,,,,Mudhol,near Market,,Mudhol,Mudhol,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.976908,77.9138889
+CHL-124,Sri Sai,,SS,,,,,,,,,,,,,,,,Mudhol,near market,,Mudhol,Mudhol,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.976908,77.9138889
+CHL-125,Bharath,,B,,,,,,,,,,,,,,,,Navipet Nandipet,near Market,,Mudhol,Mudhol,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-126,Sri Laxmi,,SL,,,,,,,,,,,,,,,,Navipet Nandipet,opp bustand,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-127,Laxmi,,L,,,,,,,,,,,,,,,,Navipet Nandipet,near bustand,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-128,Navyasree,,N,,,,,,,,,,,,,,,,Navipet Nandipet,OPP BUSTAND,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-129,Datha,,D,,,,,,,,,,,,,,,,Navipet Nandipet,OPP BUSTAND,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-130,Sri Rama,,SR,,,,,,,,,,,,,,,,Navipet Nandipet,main road,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-131,Ganesh,,G,,,,,,,,,,,,,,,,Navipet Nandipet,main road,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-132,Nandini,,N,,,,,,,,,,,,,,,,Navipet Nandipet,main road,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-133,Nagarjuna,,N,,,,,,,,,,,,,,,,Navipet Nandipet,market road,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-134,Laxmi,,L,,,,,,,,,,,,,,,,Navipet Nandipet,market road,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.7717629,78.0145296
+CHL-135,Sri sai,,SS,,,,,,,,,,,,,,,,Nizamabad,market road,,Navipet Nandipet,Navipet Nandipet,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867
+CHL-136,Sri matha,,SM,,,,,,,,,,,,,,,,Nizamabad,khaleelwadi,,nizamabad,NIZAMABAD,TELENGANA,INDIA,,,,,,,,,,,,,,,,,,,Monthly,2,18.6725047,78.0940867

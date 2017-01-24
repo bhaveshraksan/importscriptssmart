@@ -1,0 +1,106 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+CHL-001,VENKATESWARA MEWDICAL,,VM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-002,KID CARE MEDICAL,,KCM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-003,SARI SAI GANESH MEDICAL,,SSGM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-004,H.R PHARMACY,,HP,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-005,KUMAR MEDICAL,,KM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-006,DWARAKA MEDICAL,,DM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-007,PULSE MEDICAL,,PM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-008,JAI KUMAR SAI MEDICAL,,JKSM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-009,SRI SAI SANTOSH MEDICAL,,SSSM,,,,,,,,,,,,,,,,IDPL,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4815339,78.4553013
+CHL-010,DEEP MEDICAL,,DM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-011,HAPPY CHEILDREN MEDICAL,,HCM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-012,APOLLO PHAR,,AP,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-013,SRI SAI RAM MEDICAL,,SSRM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-014,SRI GANESH MEDICAL,,SGM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-015,SAI SWATHY MEDICAL,,SSM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-016,SHIVA MEDICAL,,SM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-017,SAI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-018,MALLIKARJUNA MEDIAL,,MM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-019,LAKSHMI MEDICAL,,LM,,,,,,,,,,,,,,,,Chintal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4073581,78.4567223
+CHL-020,PADMAJA MEDICAL,,PM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-021,R.K MEDICAL,,RM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-022,SRI SAI PRASANNA MEDICAL,,SSPM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-023,VIJAY MEDICAL,,VM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-024,S.S MEDICAL,,SM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-025,BHAVANI MADICAL,,BM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-026,OMAN PHAR,,OP,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-027,SARI SAI GANESH MEDICAL,,SSGM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-028,CHILD CARE MEDICAL,,CCM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-029,SRI SAI RAM MEDICAL,,SSRM,,,,,,,,,,,,,,,,Gajularamaram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5337007,78.401286
+CHL-030,SVK MEDICAL,,SM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-031,SAI LAKSHMI MEDICAL,,SLM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-032,SAI PREM MEDICAL,,SPM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-033,SRI SAI KRISHNA MEDICAL,,SSKM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-034,RAM MEDICAL,,RM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-035,R.M MEDICAL,,RM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-036,DEVI MEDICAL,,DM,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-037,KARUNA PHARMACY,,KP,,,,,,,,,,,,,,,,Shapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+CHL-038,JAI SANTOSHI MATHA MEDICAL,,JSMM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-039,VASU MEDICAL,,VM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-040,SAI MEDICAL,,SM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-041,DEVI MEDICAL,,DM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-042,SAI SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-043,SRI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-044,SAI BALAJI MEDICAL,,SBM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-045,B.B.R. PHARMACY,,BP,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-046,GOPAL MEDICAL,,GM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-047,VIJAY SAI MEDICAL,,VSM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-048,SAI KRISHNA MEDICAL,,SKM,,,,,,,,,,,,,,,,Balanagar,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4650059,78.4509937
+CHL-049,PEOLPLES HEALTH CARE ,,PHC,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-050,SRI RUTHIVAKA MEDICAL,,SRM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-051,MALLIKARJUNA MEDIAL,,MM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-052,ANILS MEDICAL,,AM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-053,MANIRAJ MEDICLA,,MM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-054,SARI RAJARAJESWARI MEDICAL,,SRM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-055,SRI SAI KRISHNA MEDICAL,,SSKM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-056,SAI KRUPA MEDICAL,,SKM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-057,SAINADH MEDICAL,,SM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-058,SAI SAI LKASHMI MEDICAL,,SSLM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-059,SRI SAI GANESH MEDIAL,,SSGM,,,,,,,,,,,,,,,,Suraram,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.5431961,78.436819
+CHL-060,SRI VENKATESWARA MEDICAL,,SVM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-061,AKASHAYA MEDICAL,,AM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-062,SARI SAI KANAA DURGA,,SSKD,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-063,ORANGE,,O,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-064,SAI SRI MEDICAL,,SSM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-065,SRI SAI RAJESWARI MEDICAL,,SSRM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-066,JAYASRI MEDICAL,,JM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-067,PRASAHNTHI MEDICAL,,PM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-068,MANASA MEDICAL,,MM,,,,,,,,,,,,,,,,Dundigal,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.6269242,78.401286
+CHL-069,SURYA PAWAN MEDICAL,,SPM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-070,SRI AMRUTHA MEDICAL,,SAM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-071,OM SRI MEDICAL,,OSM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-072,SIVA THIRUMALA MEDICAL,,STM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-073,BONTHA MEDICAL,,BM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-074,MALLIKARJUNA MEDIAL,,MM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-075,SANGA SAI MEDICAL,,SSM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-076,SAI KISHORE MEDICAL,,SKM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-077,PEOPLES MEDICAL,,PM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-078,PRASAHNTHI MEDICAL,,PM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-079,KUMAR MEDICAL,,KM,,,,,,,,,,,,,,,,Narsapur,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.7394297,78.2846303
+CHL-080,PAVAN DRUG STORE,,PDS,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-081,SUMANA MEDICAL,,SM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-082,SANJEEVANI PLUS PHAR,,SPP,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-083,SRI SAI RAM MEDICAL,,SSRM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-084,SAI AMRUTHA MEDICAL,,SAM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-085,PRANAHITHA MEDICAL,,PM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-086,MAMATHA PHARMACY,,MP,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-087,KAVYA PHARMACY,,KP,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-088,HEALTH CARE MEDICAL,,HCM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-089,PEOPLES MEDICAL,,PM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-090,SWATHY MEDICAL,,SM,,,,,,,,,,,,,,,,Kukatpally,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4947934,78.3996441
+CHL-091,MADHAVI MEDICAL,,MM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-092,RAJA MEDICAL,,RM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-093,OM SAI MEDICAL,,OSM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-094,SRI RAJA MEDICAL,,SRM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-095,SANTOSH MEDICAL,,SM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-096,SAMPATH NANDI MEDICAL,,SNM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-097,A LAKSHMI MEDICAL,,ALM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-098,SARALA MEDICAL,,SM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-099,PEOPLES MEDICAL HALL,,PMH,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-100,GEETHA MEDICAL HALL,,GMH,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-101,SRI MAMATHA MEDICAL ,,SMM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-102,PRAGASUS MEDICAL,,PM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-103,SHIVA GANGA MEDICAL,,SGM,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-104,SANKAR MEDICAL HALL,,SMH,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+CHL-105,VINAYAKA PHAR,,VP,,,,,,,,,,,,,,,,KPHB,,,,Hyderabad,Telangana,India,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
