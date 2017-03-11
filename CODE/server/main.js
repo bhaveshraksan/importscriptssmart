@@ -104,7 +104,10 @@ function saveDoctorData(list, companyId,divisionId, customerType) {
         personalDetails.name = items[0]["FIRST NAME"];
         personalDetails.middleName = items[0]["MIDDLE NAME"];
         personalDetails.lastName = items[0]["LAST NAME"];
-        personalDetails.dateOfBirth = items[0]["DATE OF BIRTH"];
+        if(items[0]["DATE OF BIRTH"] != ""){
+            var dob = moment(items[0]["DATE OF BIRTH"].replace(new RegExp("/","g"),"-"),"DD-MM-YYYY").format("YYYY-MM-DD")
+            personalDetails.dateOfBirth = new Date(dob);
+        }
         personalDetails.bloodGroup = items[0]["BLOOD GROUP"];
         personalDetails.language = items[0]["LANGUAGE"];
         personalDetails.gender = items[0]["GENDER"];
