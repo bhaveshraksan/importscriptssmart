@@ -1,0 +1,76 @@
+SLID,NAME,CONTACT NO,SHORT NAME,ESTABLISHED YEAR,REGISTRATION NO,PHARMACY TYPE,PHARMACY CATEGORY,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,CHEMIST TYPE,CHEMISTRATING,BRANCH DRUG LICENSE NO,BRANCH VAT,BRANCH CST,BRANCH TIN REGIS NO,CHEMIST NAME,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,Nila Accra,,,,,,,,,,,SC,A,,,,,,ACCRA ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8249522,-1.2834304
+MSL-002,Salama,,,,,,,,,,,SC,A,,,,,,ACCRA ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8249522,-1.2834304
+MSL-003,Vidonge,,,,,,,,,,,SC,A,,,,,,ACCRA ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8249522,-1.2834304
+MSL-004,Synerge,,,,,,,,,,,SC,A,,,,,,ACCRA ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8249522,-1.2834304
+MSL-005,Medic Surge,,,,,,,,,,,SC,A,,,,,,GATUNDU 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.7825813,-1.2782064
+MSL-006,Mugira,,,,,,,,,,,SC,A,,,,,,GATUNDU 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.7825813,-1.2782064
+MSL-007,Gatundu Pharmacy,,,,,,,,,,,SC,A,,,,,,GATUNDU 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.7825813,-1.2782064
+MSL-008,Kirangi,,,,,,,,,,,SC,A,,,,,,GATUNDU 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.7825813,-1.2782064
+MSL-009,Gatundu Lab,,,,,,,,,,,SC,A,,,,,,GATUNDU 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.7825813,-1.2782064
+MSL-010,Juja Pharmacy,,,,,,,,,,,SC,A,,,,,,JUJA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8412042,-1.2675661
+MSL-011,Era,,,,,,,,,,,SC,A,,,,,,JUJA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8412042,-1.2675661
+MSL-012,Kings,,,,,,,,,,,SC,A,,,,,,JUJA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8412042,-1.2675661
+MSL-013,Sunnet,,,,,,,,,,,SC,A,,,,,,JUJA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8412042,-1.2675661
+MSL-014,Rawafura,,,,,,,,,,,SC,A,,,,,,JUJA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8412042,-1.2675661
+MSL-015,Njimia Kahawa,,,,,,,,,,,SC,A,,,,,,KAHAWA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219797,-1.181559
+MSL-016,Brook Haven,,,,,,,,,,,SC,A,,,,,,KAHAWA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219797,-1.181559
+MSL-017,Kahawa Wendani,,,,,,,,,,,SC,A,,,,,,KAHAWA 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219797,-1.181559
+MSL-018,Besto,,,,,,,,,,,SC,A,,,,,,KIMATHI STREET 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8205622,-1.2837861
+MSL-019,Jojo,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-020,Topline ,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-021,Joster,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-022,Jokki,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-023,Libe,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-024,Naropil,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-025,Naramatisha,,,,,,,,,,,SC,A,,,,,,KISERIAN 1,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.6936512,-1.4251869
+MSL-026,TF Chemist,,,,,,,,,,,C,B,,,,,,KMA PLAZA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7861065,-1.2978743
+MSL-027,Drughill,,,,,,,,,,,C,B,,,,,,KNH 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8115686,-1.3011815
+MSL-028,Nila Mfangano,,,,,,,,,,,C,B,,,,,,MATHARE NORTH 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.863757,-1.2555482
+MSL-029,Steta,,,,,,,,,,,C,B,,,,,,MFANGANO STREET 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8261305,-1.2873462
+MSL-030,Bimos,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-031,Deca,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-032,Diadems Njimia,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-033,Flame,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-034,Luthuli,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-035,Almond,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-036,Milinia,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-037,Hopepharm,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-038,Meds Chemist,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-039,Wamupharm,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-040,Benmed ,,,,,,,,,,,C,B,,,,,,ONGATA RONGAI 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7442377,-1.3938636
+MSL-041,Nila Ronald Ngala,,,,,,,,,,,C,B,,,,,,RIVER ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8245616,-1.2821034
+MSL-042,Shikamed,,,,,,,,,,,C,B,,,,,,RIVER ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8245616,-1.2821034
+MSL-043,Kasarani,,,,,,,,,,,C,B,,,,,,RONALD NGARA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.826457,-1.2853407
+MSL-044,Ruiru Med Store,,,,,,,,,,,C,B,,,,,,RUIRU 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.9648534,-1.1457029
+MSL-045,Dawaline,,,,,,,,,,,C,B,,,,,,RUIRU 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.9648534,-1.1457029
+MSL-046,Sagril,,,,,,,,,,,C,B,,,,,,RUIRU 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.9648534,-1.1457029
+MSL-047,The Haven,,,,,,,,,,,C,B,,,,,,RUIRU 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.9648534,-1.1457029
+MSL-048,Thika Chemist,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-049,Thika Healthcare,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-050,Furaha,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-051,Gathimaini,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-052,Interlab,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-053,Dien,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-054,Prime,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-055,Joywin,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-056,Dr. Wachira,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-057,Kirathimo,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-058,Upesi,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-059,Haripharm Thika,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-060,Githurai Chemist,,,,,,,,,,,C,B,,,,,,GITHURAI,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.913794,-1.2064151
+MSL-061,Nila Tom Mboya,,,,,,,,,,,C,B,,,,,,"TOM M,BOYA 1",,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8240347,-1.2849951
+MSL-062,Superdrug,,,,,,,,,,,C,B,,,,,,ACCRA ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8249522,-1.2834304
+MSL-063,Shimmah,,,,,,,,,,,C,B,,,,,,ACCRA ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8249522,-1.2834304
+MSL-064,Benami,,,,,,,,,,,C,B,,,,,,"TOM M,BOYA 1",,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8240347,-1.2849951
+MSL-065,Le Grande,,,,,,,,,,,C,B,,,,,,"TOM M,BOYA 1",,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8240347,-1.2849951
+MSL-066,Nila Distributors,,,,,,,,,,,C,B,,,,,,"TOM M,BOYA 1",,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8240347,-1.2849951
+MSL-067,Unified,,,,,,,,,,,C,B,,,,,,GITHURAI,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.913794,-1.2064151
+MSL-068,Guardian,,,,,,,,,,,C,B,,,,,,THIKA 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,37.0833753,-1.0387569
+MSL-069,Freb,,,,,,,,,,,C,B,,,,,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.9664994,-1.1461877
+MSL-070,Kiambu Pharmacy,,,,,,,,,,,C,B,,,,,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.9664994,-1.1461877
+MSL-071,Ridgechem,,,,,,,,,,,C,B,,,,,,GITHUNGURI,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7779108,-1.0586336
+MSL-072,Dischem,,,,,,,,,,,C,B,,,,,,"TOM M,BOYA 1",,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8240347,-1.2849951
+MSL-073,Hartlane Main,,,,,,,,,,,C,B,,,,,,RIVER ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8245616,-1.2821034
+MSL-074,Sonachem,,,,,,,,,,,C,B,,,,,,RIVER ROAD 1,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.8245616,-1.2821034
+MSL-075,Jaslim,,,,,,,,,,,C,B,,,,,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,35.8767012,-1.086342

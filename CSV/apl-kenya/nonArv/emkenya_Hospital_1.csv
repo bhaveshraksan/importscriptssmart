@@ -1,0 +1,25 @@
+SLID,HOSPITAL NAME,SHORT NAME,ESTABLISHED YEAR,SPECIALITY,REG NO,REGISTRATRION DATE,CERTIFICATION ID,ISO CERTIFIED,HOSPITAL TYPE,RATING,PROPREITOR NAME,PROPREITOR CONTACT NO,PROPREITOR EMAIL ID,PROPREITOR ADDRESS,WEBSITE,BRANCH NAME,BRANCH TYPE,BRANCH REG NO,BRANCH EMAIL,BRANCH CONTACT NO,BRANCH FAX NO,NO OF BEDS,STATION,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH PERSON NAME,BRANCH PERSON PHONE NO,BRANCH PERSON EMAIL ID,DepartMents,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,Avenue Parklands,,,,,,,,,,,,,,,,,,,,,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,10,36.8219462,-1.2920659
+MSL-002,Avenue Lifestyle,,,,,,,,,,,,,,,,,,,,,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.8219462,-1.2920659
+MSL-003,Avenue Buruburu,,,,,,,,,,,,,,,,,,,,,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.8219462,-1.2920659
+MSL-004,Avenue Rongai,,,,,,,,,,,,,,,,,,,,,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,35.8552598,-0.1705283
+MSL-005,Avenue Langata,,,,,,,,,,,,,,,,,,,,,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.8219462,-1.2920659
+MSL-006,Avenue Thika,,,,,,,,,,,,,,,,,,,,,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,37.0833753,-1.0387569
+MSL-007,Kiambu Medical,,,,,,,,,,,,,,,,,,,,,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.9664994,-1.1461877
+MSL-008,Kiambu District Hos,,,,,,,,,,,,,,,,,,,,,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.9664994,-1.1461877
+MSL-009,Thika Level 5,,,,,,,,,,,,,,,,,,,,,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,37.0833753,-1.0387569
+MSL-010,Naidu,,,,,,,,,,,,,,,,,,,,,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,37.0833753,-1.0387569
+MSL-011,Vineyard,,,,,,,,,,,,,,,,,,,,,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,37.0833753,-1.0387569
+MSL-012,Wama Nursing,,,,,,,,,,,,,,,,,,,,,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,35.8552598,-0.1705283
+MSL-013,Nairobi Women's Rongai,,,,,,,,,,,,,,,,,,,,,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,35.8552598,-0.1705283
+MSL-014,Gertrude's Muthaiga,,,,,,,,,,,,,,,,,,,,,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.8219462,-1.2920659
+MSL-015,Gertrude's Thika,,,,,,,,,,,,,,,,,,,,,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,37.0833753,-1.0387569
+MSL-016,Gertrude's TRM,,,,,,,,,,,,,,,,,,,,,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,36.8219462,-1.2920659
+MSL-017,Gertrude's Rongai,,,,,,,,,,,,,,,,,,,,,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,4,35.8552598,-0.1705283
+MSL-018,Manyatta,,,,,,,,,,,,,,,,,,,,,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,35.8767012,-1.086342
+MSL-019,Narok County Hos,,,,,,,,,,,,,,,,,,,,,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,35.8767012,-1.086342
+MSL-020,Narok Cottage,,,,,,,,,,,,,,,,,,,,,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,35.8767012,-1.086342
+MSL-021,Loita Labs,,,,,,,,,,,,,,,,,,,,,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,35.8767012,-1.086342
+MSL-022,Jiangsu,,,,,,,,,,,,,,,,,,,,,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,35.8767012,-1.086342
+MSL-023,Kajiado County Hosp,,,,,,,,,,,,,,,,,,,,,,KAJIADO,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7819505,-2.0980751
+MSL-024,Galaxy Medicare,,,,,,,,,,,,,,,,,,,,,,KAJIADO,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,1,36.7819505,-2.0980751
