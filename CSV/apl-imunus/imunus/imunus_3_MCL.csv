@@ -1,0 +1,61 @@
+SLID,FIRST NAME,MIDDLE NAME,LAST NAME,DATE OF BIRTH,BLOOD GROUP,LANGUAGE,GENDER,MARTIAL STATUS,ANNIVERSARY DATE,MOBILE NO,LANDLINE NO,FAX,RATING,DOCTOR TYPE,DOCTOR REG NO,PROFESSIONAL TAGS,QUALIFICATION,SPECIALIZATION,LINE OF PRACTISE,PRACTISE START DATE,ADDRESS LINE 1,ADDRESS LINE 2,ADDRESS LINE 3,CITY,STATE,COUNTRY,BRANCH NAME,STATION,CLINIC REG NO,CLINIC NAME,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH  LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHARE PERCENTAGE,BRANCH PRODUCTS,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH  WORK TIMINGS DAYS,BRANCH  WORK TIMINGS FROM,BRANCH  WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MDL001,SUDARSHAN REDDY,,G,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Dermatologist,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4264979,78.4511322
+MDL002,NAVAL,,CHANDRA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4264979,78.4511322
+MDL003,MALLIKARJUNA,,SHETTY,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4264979,78.4511322
+MDL004,SUBBALAXMI,,MVS,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4264979,78.4511322
+MDL005,VENKATA RAMANA,,GODHA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Dermatologist,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4264979,78.4511322
+MDL006, SATHYA NARAYANA RAJU,,Y,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4264979,78.4511322
+MDL007,KRISHNA PRASAD,,CH ,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4264979,78.4511322
+MDL008,SWAROOPA,,D,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Punjagutta,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4264979,78.4511322
+MDL009,SRIKANTH,,J,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4325235,78.4070152
+MDL010,SUNEETHA,,NARREDDY,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4325235,78.4070152
+MDL011,BHARGAVA,,VK,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4325235,78.4070152
+MDL012,RANJITH,,BURRE,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MBBS,General Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4325235,78.4070152
+MDL013,LAXMI,,G,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4325235,78.4070152
+MDL014,INDIRA,,REEDY,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4325235,78.4070152
+MDL015,PRABHU RAMI,,REDDY,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4325235,78.4070152
+MDL016,ANAND,,ANISH,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4325235,78.4070152
+MDL017,VENKATA RAMANA,,ABBINENI,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4325235,78.4070152
+MDL018,REDDY,,IS,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Dermatologist,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4325235,78.4070152
+MDL019,PRAMATHI,,REDDY,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Jubilee Hills,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4325235,78.4070152
+MDL020,VINOD,,KUMAR,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MBBS,General Physician,,,,,,,,,,Erragadda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4562645,78.4308225
+MDL021,RAO,,AV,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Erragadda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4562645,78.4308225
+MDL022,SOMNATH,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Erragadda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4562645,78.4308225
+MDL023,ANJANEYULU,,CS,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Erragadda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4562645,78.4308225
+MDL024,SUBHAKAR,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Chest Physician,,,,,,,,,,Erragadda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4562645,78.4308225
+MDL025,SUJENDAR RAO,,A,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MBBS,General Physician,,,,,,,,,,Erragadda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4562645,78.4308225
+MDL026,RAMAKRISHNA REDDY,,M ,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Chest Physician,,,,,,,,,,KPHB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4833526,78.3870668
+MDL027,KISHORE KUMAR REDDY,,SADU,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Chest Physician,,,,,,,,,,KPHB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4833526,78.3870668
+MDL028,SATYANARAYANA,,MEKA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MBBS,Consultant Physician,,,,,,,,,,KPHB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4833526,78.3870668
+MDL029,RAVIKUMAR,,G,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,KPHB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+MDL030,PRASANNA KUAMAR,,REDDY,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Chest Physician,,,,,,,,,,KPHB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4833526,78.3870668
+MDL031,GURUNATH,,JM,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4399295,78.4982741
+MDL032,VIJAY KUMAR,,B ,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4399295,78.4982741
+MDL033,PRADEEP KUMAR,,MISHRA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4399295,78.4982741
+MDL034,AFTAD AHMED,,MD,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4399295,78.4982741
+MDL035,DINAKAR,,M,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4399295,78.4982741
+MDL036,KUMARA,,BENDADE,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Dermatologist,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4399295,78.4982741
+MDL037,GURUPRASAD,,Y,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4399295,78.4982741
+MDL038,KAMLESH,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4399295,78.4982741
+MDL039,PAPARAO,,N ,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Kondapur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4622103,78.3568492
+MDL040,ASHOK KUMAR,,KS,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Secunderabad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4399295,78.4982741
+MDL041,UDAILAL,,LAL,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Somajiguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4237016,78.4583888
+MDL042,VENKATESWARA RAO,,M,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Somajiguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4237016,78.4583888
+MDL043,HEMANTH,,C,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Somajiguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.4237016,78.4583888
+MDL044,MAHESH,,MARDA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Mehdipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.3916361,78.4400648
+MDL045,UDAYKIRAN,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Dermatologist,,,,,,,,,,Mehdipatnam,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.3916361,78.4400648
+MDL046,AJAYA KUMAR,,P,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Chest Physician,,,,,,,,,,Narayanguda,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.3985568,78.4929521
+MDL047,GEETHA,,K,,,"TELUGU,HINDI & ENGLISH",Female,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Tirumalgiri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4751077,78.5091941
+MDL048,KIRAN GRANDHI,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Chest Physician,,,,,,,,,,Shapur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,2,17.5193869,78.4429863
+MDL049,RAMANA RAO,,KV,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,SR Nagar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4436497,78.4458259
+MDL050,VIJAYA GOPAL,,MUVVA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Gachibowli,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.4400802,78.3489168
+MDL051,TAHEER KHAN,,MD,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Kondapur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,17.4622103,78.3568492
+MDL052,REDDY,,BN,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Dermatologist,,,,,,,,,,Medchal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.6302223,78.4842132
+MDL053,RAVIKIRAN,,BARIGALA,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,Super Core,,,MD,Consultant Physician,,,,,,,,,,Medchal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,4,17.6302223,78.4842132
+MDL054,KONDA REDDY,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Dermatologist,,,,,,,,,,Kurnool,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,15.8281257,78.0372792
+MDL055,RANGANAYAKULU,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Kurnool,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,15.8281257,78.0372792
+MDL056,KRISHNA MURTHY,,M,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Kurnool,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,15.8281257,78.0372792
+MDL057,SRINIVASULU REDDY,,N,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,CORE,,,MD,Consultant Physician,,,,,,,,,,Kurnool,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,15.8281257,78.0372792
+MDL058,GERARDO/RDT HOSPITAL,,FERROR,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Consultant Physician,,,,,,,,,,Anantapur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,14.6818877,77.6005911
+MDL059,SRINIVAS,,POOJARI,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Dermatologist,,,,,,,,,,Anantapur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,14.6818877,77.6005911
+MDL060,SURESH KUMAR,,K,,,"TELUGU,HINDI & ENGLISH",Male,Married,,,,,,IMP,,,MD,Dermatologist,,,,,,,,,,Proddatur,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Monthly,3,14.7491864,78.5531577
