@@ -1,0 +1,151 @@
+SLID,FIRST NAME,MIDDLE NAME,LAST NAME,DATE OF BIRTH,BLOOD GROUP,LANGUAGE,GENDER,MARTIAL STATUS,ANNIVERSARY DATE,MOBILE NO,LANDLINE NO,FAX,RATING,DOCTOR TYPE,DOCTOR REG NO,PROFESSIONAL TAGS,QUALIFICATION,SPECIALIZATION,LINE OF PRACTISE,PRACTISE START DATE,ADDRESS LINE 1,ADDRESS LINE 2,ADDRESS LINE 3,CITY,STATE,COUNTRY,BRANCH NAME,STATION,CLINIC REG NO,CLINIC NAME,BRANCH ADDRESS LINE 1,BRANCH ADDRESS LINE 2,BRANCH ADDRESS LINE 3,BRANCH CITY,BRANCH STATE,COUNTRY,BRANCH MOBILE NO,BRANCH LANDLINE NO,BRANCH FAX NO,BRANCH WEBSITE,BRANCH BUISNESS POTENTIAL,BRANCH SHARE PERCENTAGE,BRANCH PRODUCTS,BRANCH SHIPPING ADDRESS LINE 1,BRANCH SHIPPING ADDRESS LINE 2,BRANCH SHIPPING ADDRESS LINE 3,BRANCH SHIPPING CITY,BRANCH SHIPPING STATE,BRANCH SHIPPING COUNTRY,BRANCH SHIPPING MOBILE NO,BRANCH SHIPPING LANDLINE NO,BRANCH BEST TIME FROM,BRANCH BEST TIME TO,BRANCH WORK TIMINGS DAYS,BRANCH WORK TIMINGS FROM,BRANCH WORK TIMINGS TO,BRANCH FREQUENCY TYPE,BRANCH FREQUENCY CALL,Lat,Long
+MSL-001,Ann,,Dr. Nyawira,,,English,FEMALE,MARRIED,,707178767,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-002,Alex,,Dr. Ngugi,,,English,FEMALE,MARRIED,,722860180,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-003,Sheikh,,Dr. Momina,,,English,FEMALE,MARRIED,,706215133,,,A,SUPER CORE,,,MD,GP,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-004,Daniel,,Dr. Karl,,,English,MALE,SINGLE,,702579141,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-005,David,,Dr. Keekovole,,,English,MALE,MARRIED,,721368526,,,A,SUPER CORE,,,MD,GP,,,,,,Avenue Thika,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-006,Patrick,,Dr. Mbatia,,,English,MALE,SINGLE,,722629771,,,A,SUPER CORE,,,MD,GP,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-007,Joyce,,Dr. Amina,,,English,FEMALE,MARRIED,,724226212,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Lifestyle,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-008,Marsha,,Dr. Awiti,,,English,FEMALE,SINGLE,,,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-009,Ted,,Dr. Ochieng,,,English,MALE,MARRIED,,714243895,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Lifestyle,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-010,Laura,,Dr. Shiundu,,,English,FEMALE,MARRIED,,721332822,,,A,SUPER CORE,,,MD,GP,,,,,,Avenue Rongai,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-011,Shadra,,Dr. Wawa,,,English,FEMALE,,,,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Lifestyle,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-012,Kelvin,,Dr. Mbugua,,,English,FEMALE,,,,,,A,SUPER CORE,,,MD,GP,,,,,,Avenue Buruburu,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-013,Samuel,,Dr. Thuita,,,English,FEMALE,MARRIED,,,,,A,SUPER CORE,,,MD,GP,,,,,,Avenue Lang'ata,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-014,Gamal,,Dr. Mohammed,,,English,MALE,,,,,,A,SUPER CORE,,,MBBS,DIAB,,,,,,Nairobi,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-015,Maxwel,,Dr. Mayabi,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PAED,,,,,,Avenue Parklands,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-016,John,,Dr. Muita,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.9664994,-1.1461877
+MSL-017,Justus,,Dr. Muiru,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,ENT,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.9664994,-1.1461877
+MSL-018,Dorcas,,Dr. Mulaya,,,English,FEMALE,SINGLE,,727504477,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-019,Charles,,Dr. Wachira,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-020,Jane,,Dr. Mohindra,,,English,FEMALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,ENT,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-021,Mustafa,,Dr. Raganathan,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MD,GP,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-022,Titus,,Dr. Sam,,,English,MALE,MARRIED,,721749036,,,A,SUPER CORE,,,MD,GP,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-023,James,,Dr. Kimama,,,English,MALE,MARRIED,,721574678,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-024,Kelvin,,Dr. Mukui,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PAED,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-025,Elias,,Dr. Mbogo,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-026,Josphat,,Dr. Njoroge,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-027,Victor,,Dr. Karanja,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-028,Samuel,,Dr. Wang'ombe,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MD,GP,,,,,,Ongata Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8552598,-0.1705283
+MSL-029,Eric,,Dr. Kimei,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MD,GP,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-030,Kisghlaf,,Dr. Taalam,,,English,MALE,MARRIED,,722320118,,,A,SUPER CORE,,,MD,GP,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-031,Shem,,Dr. Nyamai,,,English,MALE,MARRIED,,706556965,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-032,Grace,,Dr. Odhiambo,,,English,FEMALE,,,,,,A,SUPER CORE,,,MBBS,PAED,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-033,Wilson,,Dr. H.D Maina,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,HEAM,,,,,,Nairobi,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-034,Nathaniel,,Dr. Thuo,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,DERM,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-035,Beatrice,,Dr. Mutahi,,,English,FEMALE,SINGLE,,,,,A,SUPER CORE,,,MD,GP,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.9664994,-1.1461877
+MSL-036,Martin,,Dr. Murage,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-037,Teddy,,"Dr. Ngugi, P.N",,,English,MALE,,,,,,A,SUPER CORE,,,MBBS,DIAB,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-038,Peter,,Dr. Masinde,,,English,MALE,,,,,,A,SUPER CORE,,,MBBS,ENT,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-039,Miriam,,Dr. Karanja,,,English,FEMALE,,,,,,A,SUPER CORE,,,MBBS,PAED,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-040,Jacob,,"Prof. Kayima, J.K",,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-041,James,,"Dr. Njiru, J.O.N",,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,SURG,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.8219462,-1.2920659
+MSL-042,Nicholas,,Dr. Koech,,,English,MALE,MARRIED,,727104813,,,A,SUPER CORE,,,MD,GP,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-043,Wicliffe,,Dr. Kirwa,,,English,MALE,MARRIED,,739400871,,,A,SUPER CORE,,,MD,GP,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-044,John,,Dr. Otulo,,,English,MALE,,,,,,A,SUPER CORE,,,MBBS,Obs Gynae,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-045,Victor,,Dr. Soita,,,English,MALE,SINGLE,,,,,A,SUPER CORE,,,MBBS,PHY,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8767012,-1.086342
+MSL-046,Maxwel,,Dr. Nyasiera,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-047,Wilson,,Dr. Wanyama,,,English,MALE,,,,,,A,SUPER CORE,,,MD,GP,,,,,,Ongata Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,35.8552598,-0.1705283
+MSL-048,Gabriel,,Dr. Kimani,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MD,MO,,,,,,Avenue Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,37.0833753,-1.0387569
+MSL-049,Salome,,Dr. Waweru,,,English,FEMALE,,,,,,A,SUPER CORE,,,MBBS,Obs Gynae,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Weekly,2,36.9664994,-1.1461877
+MSL-050,John,,Dr. Wanyoro,,,English,MALE,MARRIED,,,,,A,SUPER CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-051,Peter,,Dr. Kamande,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-052,Zippora,,Dr. Lucy,,,English,FEMALE,SINGLE,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-053,Millicent,,Dr. Judy,,,English,FEMALE,SINGLE,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-054,Gabriel,,Dr. Muraguri,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-055,Robert,,Dr. Mwangi,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-056,Josephine,,Dr. Wairegi,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-057,Charles,,Dr. Wairoto,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-058,Alex,,Dr.Gathua,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-059,Samuel,,Dr.Kiarie,,,English,MALE,,,,,,B,CORE,,,MBBS,Oncologist,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-060,James,,Dr.Paul,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-061,Stanely,,Dr. Syovata,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-062,Justus,,Dr. Bisase,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PAED,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-063,Maxwel,,Dr. Mbaru,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-064,Simon,,Dr. Mutahi,,,English,FEMALE,SINGLE,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-065,Robert,,Dr. Wambui,,,English,FEMALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-066,Sospeter,,Dr. George,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-067,John,,Dr. Jasper,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-068,Perteson,,Dr. Joshua,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-069,Elias,,Dr. Kariuki,,,English,MALE,SINGLE,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-070,Charles,,Dr. Macharia,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-071,Sospeter,,Dr. Macleod,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-072,JAmes,,Dr. Nderitu,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-073,Shadra,,Dr. Sheikh,,,English,FEMALE,,,,,,B,CORE,,,MD,MO,,,,,,Kiambu,KIAMBU,KENYA,,KIAMBU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9664994,-1.1461877
+MSL-074,Wyclife,,Dr. Adupa,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-075,Perterson,,Dr. Musee,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-076,Kariuki,,Dr. Waruinge,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PAED,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-077,Samuel,,Dr. Mihinga,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-078,Gabriel,,Dr. Kunyanga,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-079,Zachary,,Dr. Ondiek,,,English,MALE,,,,,,B,CORE,,,MBBS,GP,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-080,Samuel,,Dr. Ng'ang'a ,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,MO,,,,,,Ruiru,RUIRU,KENYA,,RUIRU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9648534,-1.1457029
+MSL-081,Joseph,,Dr. Maina,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,MO,,,,,,Ruiru,RUIRU,KENYA,,RUIRU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9648534,-1.1457029
+MSL-082,Charles,,Dr. Njau,,,English,FEMALE,MARRIED,,,,,B,CORE,,,MBBS,PAED,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-083,Ian,,Dr. Wanjau,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,GP,,,,,,Ruiru,RUIRU,KENYA,,RUIRU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9648534,-1.1457029
+MSL-084,Kapito,,Dr. F. Kariuki,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,GP,,,,,,Ruiru,RUIRU,KENYA,,RUIRU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9648534,-1.1457029
+MSL-085,Wangwe,,Dr. Munyia,,,English,MALE,,,,,,B,CORE,,,MD,GP,,,,,,Ruiru,RUIRU,KENYA,,RUIRU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.9648534,-1.1457029
+MSL-086,Rotich,,Dr. Odula,,,English,MALE,,,,,,B,CORE,,,MBBS,SURG,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-087,Farida,,Dr. Margaret,,,English,FEMALE,SINGLE,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-088,Caleb,,Dr. Waititu,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PAED,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-089,Eden,,Dr. Agutu,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-090,John ,,Dr. Indimuli,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-091,Sospeter,,Dr. Mecha,,,English,MALE,,,,,,B,CORE,,,MBBS,PAED,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-092,Jacob,,Dr. Mwangi,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-093,Joshua,,Dr. Wairagu,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-094,Shadrak,,Dr. Mwakirungu,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-095,Simon,,Dr. Wambugu,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-096,Robert,,Dr. Malde,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-097,Ian,,Dr. Waithaka,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-098,Martin,,Dr. Kayima,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-099,Justus,,Dr. Wanyoro,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-100,Maxwel,,Dr. Kariuki,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-101,Charles,,Dr. Njoroge,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-102,Simon,,Dr. Wanjohi,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-103,Tom,,Dr. M Omulo,,,English,MALE,,,,,,B,CORE,,,MBBS,SURG,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-104,Ruguru,,Dr. Nyaga Thuo,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-105,Geofrey,,Dr. Kibuga,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,ORTHO,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-106,Godfrey,,Dr.Sankok,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-107,Simon,,Dr.Kakuti,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-108,Peret,,Dr.Langat,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-109,Simon,,Dr. J.M. Aswani,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,ENT,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-110,Sospeter,,Dr. W.M. Omutsani,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,ENT,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-111,Wyclife,,Dr.Sandera,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-112,Perterson,,Dr.Njoroge,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-113,Kariuki,,Dr. P.A. Owino Oduor,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,ORTHO,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-114,Samuel,,Dr.Munyao,,,English,MALE,,,,,,B,CORE,,,MD,MO,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-115,Wyclife,,Dr. J.N. Kirugo,,,English,MALE,,,,,,B,CORE,,,MBBS,SURG,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-116,Perterson,,Dr. Mukuria,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-117,Kariuki,,Dr.Warui,,,English,MALE,,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-118,Samuel,,Dr.Kioko,,,English,MALE,,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-119,Mirium,,Dr.Mwihaki,,,English,FEMALE,SINGLE,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-120,Samuel,,Dr.Njue,,,English,MALE,,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-121,Gamal,,Dr.Njogu,,,English,MALE,,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-122,Maxwel,,Dr.Kisia,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-123,John,,Dr.Gachanja,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Rongai,RONGAI,KENYA,,RONGAI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8552598,-0.1705283
+MSL-124,Justus,,Dr. D.G. Kinyanjui,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,ORTHO,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-125,Miriam,,Dr. Karanja,,,English,FEMALE,MARRIED,,,,,B,CORE,,,MBBS,PAED,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-126,John,,Dr.Kibet,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-127,Jacob,,Dr.Aziz,,,English,MALE,,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-128,Galogalo,,Dr.Haddasah,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-129,John,,Dr. Boore K.,,,English,MALE,,,,,,B,CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-130,winfred,Gichuru,Dr. Kamau,,,English,MALE,,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-131,Eilson,Wachira,Dr. Murage,,,English,MALE,,,,,,B,CORE,,,MBBS,Obs Gynae,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-132,Willy,,Dr. Otele,,,English,MALE,,,,,,B,CORE,,,MBBS,SURG,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-133,Robert ,,Dr.Kariuki,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Nairobi,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-134,James,,Dr.Njenga,,,English,MALE,,,,,,B,CORE,,,MBBS,DENTIST,,,,,,Nairobi,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-135,Wilfred,,Prof. S.O. McLigeyo,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-136,Josephine,,Dr. A. Omondi,,,English,FEMALE,MARRIED,,,,,B,CORE,,,MBBS,Psychiatrist,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-137,David,,Dr. E. Bukusi,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Psychiatrist,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-138,Ian,,Dr. Kanyanya,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,Psychiatrist,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-139,Martin,,Dr. Murage,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,PHY,,,,,,KNH,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-140,Marsha,,Dr.Mary,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Narok,NAROK,KENYA,,NAROK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,35.8767012,-1.086342
+MSL-141,Zippora,,Dr.Phyllis,,,English,FEMALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-142,Laura,,Dr.Muhoro,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-143,Charles,,Dr.Mumira,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-144,Kelvin,,Dr.Wainaina,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-145,Samuel,,Dr.Maina,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-146,Shem,,Dr.Maingi,,,English,MALE,MARRIED,,,,,B,CORE,,,MBBS,ORTHO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-147,Justus,,Dr. Gakinya,,,English,MALE,SINGLE,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-148,Simon,,Dr. Okemwa,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Avenue,NAIROBI,KENYA,,NAIROBI 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,36.8219462,-1.2920659
+MSL-149,Robert,,Dr.Ndungu,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
+MSL-150,Gabriel,,Dr. Patrick,,,English,MALE,MARRIED,,,,,B,CORE,,,MD,MO,,,,,,Thika,THIKA,KENYA,,THIKA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Daily,1,37.0833753,-1.0387569
