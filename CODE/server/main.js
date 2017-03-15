@@ -414,7 +414,7 @@ function saveStockistData(list, companyId,divisionId,customerType) {
         SmtCompaniesCustomer.audit = {};
         SmtCompaniesCustomer.personalDetails = personalDetails;
         SmtCompaniesCustomer.stockistPrimaryDetails = stockistPrimaryDetails;
-        SmtCompaniesCustomer.jobDetails      = jobDetails;
+        SmtCompaniesCustomer.jobDetails = jobDetails;
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
         //console.log(SmtCompaniesCustomer)
     })
