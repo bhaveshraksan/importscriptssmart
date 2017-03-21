@@ -428,6 +428,7 @@ function saveStockistData(list, companyId,divisionId,customerType) {
             // job.branchImage
             var headquarterId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["HEADQUARTER"],locationType:"LEVEL-1","companyId":companyId,"companyDivisionId":divisionId});
             if(headquarterId){
+                job.isActive = true;
                 job.headquarterId = headquarterId._id;
                 job.drugLicenseNo = item["BRANCH DRUG LICENSE NO"];
                 job.vat = item["BRANCH VAT"];
@@ -479,7 +480,7 @@ function saveStockistData(list, companyId,divisionId,customerType) {
         SmtCompaniesCustomer.audit = {};
         SmtCompaniesCustomer.personalDetails = personalDetails;
         SmtCompaniesCustomer.stockistPrimaryDetails = stockistPrimaryDetails;
-        SmtCompaniesCustomer.jobDetails      = jobDetails;
+        SmtCompaniesCustomer.jobDetails = jobDetails;
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
         //console.log(SmtCompaniesCustomer)
     })
@@ -530,6 +531,7 @@ function saveHospitalData(list, companyId,divisionId, customerType) {
 
             var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
             if(stationId){
+                job.isActive = true;
                 job.stationId = stationId._id;
                 job.branchRegistrationNo = item["BRANCH REG NO"];
                 job.branchName = item["BRANCH NAME"];
@@ -632,6 +634,7 @@ function saveInstituteData(list, companyId,divisionId, customerType) {
 
             var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
             if(stationId){
+                job.isActive = true;
                 job.stationId = stationId._id;
                 job.branchRegistrationNo = item["BRANCH REG NO"];
                 job.branchName = item["BRANCH NAME"];
