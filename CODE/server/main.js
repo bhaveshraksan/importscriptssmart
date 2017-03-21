@@ -61,9 +61,75 @@ Meteor.methods({
                 processData(result, context);
             }
         }));
+    },
+    "processSpecialization": function (fileData,context) {
+        var converter = new Converter({});
+        converter.fromString(fileData, Meteor.bindEnvironment(function(err,result){
+            if(err)
+                return err;
+
+            else {
+                processRes(result,context);
+            }
+        }));
     }
 })
+function  processRes(list,context){
 
+    _.each(list, function (items,index) {
+
+        var mslId = items["oldMslId"];
+        var companyId = context.companyId;
+        var divisionId = context.divisionId;
+        var qualification = items["qualification"];
+        var specialization = items["specialization"];
+        var name = items["FIRST NAME"];
+        //var customerType = SmtCollections.SmtCompanyCustomersAlias.findOne({companyId:companyId,"code":"DOCTOR"});
+        var customerType = {_id:context.customerTypeId};
+        var doctorData = SmtCollections.SmtCompaniesCustomer.find({"companyId":companyId,"divisionId":divisionId,"personalDetails.oldMslid":mslId,"customerTypeId":customerType._id,"personalDetails.name":name}).fetch();
+        if(doctorData && doctorData.length > 0){
+            if(doctorData.length > 1){
+                console.log(index,"Doctor multiple found with name:" + name + " mslId:" + mslId );
+            }
+            var obj = doctorData[0];
+            if(qualification){
+                var qualificationData = SmtCollections.SmtCustomerQualification.find({"type":qualification,companyId:companyId,"divisionId":divisionId}).fetch();
+                if(qualificationData && qualificationData.length > 0){
+                    if(specialization){
+                        var specializationData = SmtCollections.SmtCustomerSpecialization.find({"qualificationId":qualificationData[0]._id,type:specialization,divisionId:divisionId,companyId:companyId}).fetch();
+                        if(specializationData && specializationData.length > 0){
+                            obj.personalDetails.qualification = qualificationData[0]._id;
+                            obj.personalDetails.specialisation = [specializationData[0]._id];
+                            var id = obj._id;
+                            var res = SmtCollections.SmtCompaniesCustomer.update({_id:id},{$set:obj});
+                            if(res){
+                                console.log(index,"customer updated with _id:" + id + " with name: " + obj.personalDetails.name )
+                            }else{
+                                console.log(index,res);
+                            }
+
+                        }else{
+                            console.log(index,"specialization data no avail:"+ " " + specialization);
+                        }
+                    }else{
+                        console.log(index,"specialization cell no avail")
+                    }
+
+                }else{
+                    console.log(index,"qualification data no avail:"+ " " + qualification);
+                }
+            }else{
+                console.log(index,"qualification cell no avail")
+            }
+        }else{
+            console.log(index,"Doctor not found with name:" + name + " mslId:" + mslId );
+        }
+
+
+
+    })
+    console.log("================DONE====================");
+}
 function processData(list, context) {
     var arr = [];
     _.map(_.groupBy(list,function(doc){

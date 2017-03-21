@@ -6,6 +6,7 @@
 
   {{> hello}}
   {{> info}}
+<!--{{> spec}}-->
 </body>
 
 <template name="hello">
@@ -30,9 +31,20 @@
                 <option value="{{_id}}">{{name}}</option>
             {{/each}}
         </select>
+        <select name="importType">
+            <option value="customer">
+                customer
+            </option>
+            <option value="spec">
+                specialization
+            </option>
+        </select>
     </form>
 </template>
 
 <template name="info">
 
+</template>
+<template name="spec">
+    <input type="file" name="uploadSpecCsv">
 </template>
