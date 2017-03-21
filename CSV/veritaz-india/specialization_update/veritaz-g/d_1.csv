@@ -1,0 +1,172 @@
+oldMslId,FIRST NAME,qualification,specialization,companyId,divisionId
+MSL-001,SRIDEVI,MD.DGO,Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-002,SRILATHA ,MD.DGO,Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-003,RAJYA ,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-004, KHUDAIJA ,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-005, CHANDHRAMATHI,MD.DGO,Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-006,THATWIKA,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-007,JYOTHI,MS (GYN),Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-008,ROOPSHANKAR,MD.DCH,Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-009,MAHIPAL REDDY,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-010,MAHENDER,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-011,LAXMAN ,MD.DCH,Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-012,SRINIVASA ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-013,RAJENDER,MD.DCH,Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-014,AJAY ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-015,DURGESH,MD.DCH,Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-016,RAVIKANTH,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-017,SHUBHANGINI,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-018,PRAVIN ,MD.DCH,Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-019,VEERA,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-020,CHAITHANYA,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-021,CHANDRA,MD.DTCD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-022,THIRUPATHI ,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-023,LAXMAN,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-024,RAJU,MD.DM (Gastro),Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-025,PADMA,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-026,THIRUPATHI,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-027,NAGARAJU,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-028,ALMASTHALIB,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-029,AJAY ,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-030,SAI ,"MBBS, DLO",ENT,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-031,VIJAY ,"MBBS, DLO",ENT,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-032,VAMSHI ,"MS,DLO",ENT,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-033,MAHESH ,"MS,DLO",ENT,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-034,RAVINDER ,MS,General Surgeons,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-035,SRIKANTH,MS.MCH (Uro),General Surgeons,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-036,SRIDHAR,"MS,DO",Ophthalmologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-037,VISHNUVARDHAN ,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-038,MURALIDER ,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-039,VIGNANACHARY,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-040,PURUSHOTHAM,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-041,MADHUSUDHAN ,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-042,PRANEETH,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-043,ANJANI,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-044,RATHNAM,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-045,RAJESHAM,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-046,RAGHUPATHI ,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-047,AHMED,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-048,CHARY,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-049,JAVERIYA ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-050, SHANKAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-051,RAJENDER,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-052,PADMA,BHMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-053,SUDHAKAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-054,MANOHAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-055,RAVINDRANATH,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-056,KHATEEBUDDIN,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-057,SUNIL ,MDS,Dentist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-058,RAMA,BDS,Dentist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-059,SRINIVAS ,MDS,Dentist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-060,THRINATH ,BDS,Dentist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-061,SAMEENA ,BDS,Dentist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-062, UMA,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-063, LEELA,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-064, GEETHAVANI,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-065, EASHRATH ,MD.DGO,Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-066,SHOBHA ,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-067,SRIVANI,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-068,PRASAD ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-069,GOPINATH,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-070,SURESH,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-071,RAJ ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-072, MURALIDER ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-073,IRAGANTEPPA,MD.DCH,Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-074,MURALI ,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-075,HARISH,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-076,RAMANA ,"MS, Ortho",Ortho,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-077,PENCHALAIAH,MS,General Surgeons,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-078,RAGHU,MS,General Surgeons,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-079,VITTAL,MS,General Surgeons,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-080,RAM BABU,"MS,DLO",ENT,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-081,SRAVAN ,"MBBS, DLO",ENT,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-082,RAVINDAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-083,PRABHAKAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-084,ASHOK,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-085,LAXMAN,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-086,RAJA ,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-087,SIDDIRAMULU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-088,SATHYANARAYANA,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-089,SATHYANARAYANA,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-090,SRIKANTH,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-091,ANJANEYULU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-092,PRABHAKAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-093,MANYA ,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-094,DEVADAS,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-095,DAMODAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-096,RAMULU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-097,BALRAJU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-098,NAGNATH,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-099,ANIL ,MBS(HOMEO),General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-100,MADHU ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-101,MANOHAR,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-102,LATHA,MD.DGO,Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-103,SRINIVAS,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-104,MAHESH ,"MS, Ortho",Ortho,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-105,SHIRISHA,MD,Consultant Physician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-106, ANANDHA ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-107, PADMAVATHI,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-108, SATHISH ,BDS,Dentist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-109, RAVINDER,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-110,NARAYANA,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-111,SHANKAR,"MBBS, DGO",Gynecologist,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-112,RAJARAM,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-113,SREEJA,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-114,MUKTHAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-115,ANURADHA,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-116,RAJU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-117,MANOHAR ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-118,SATHYANARAYANA,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-119,VIJAYKUMAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-120,CHIRANJEEVI,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-121,SAYYED ,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-122,KUTHUB,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-123, SATHYANARAYANA,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-124,USHA,MBS(HOMEO),General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-125,NAGARAJU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-126, RAMESH,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-127, SUDHAKAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-128, MOHAN,DHMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-129,ANANEYULU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-130,MALLESHAM,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-131,BALARAJU,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-132,SUDHAKAR,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-133,PARAMESHWAR ,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-134,JAGANMOHAN ,BHMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-135,MEENA ,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-136, BHUPATHI,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-137, SHEKAR,BHMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-138,BALRAJU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-139,SUDHAKAR ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-140, JANAKI ,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-141,SRINIVAS ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-142,HARITHA ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-143,RAMULU,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-144,INDHRASENA ,DHMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-145,THIRUPATHI ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-146, VIKRAM ,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-147,GOUTHAM ,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-148,ABDUL ,BUMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-149,ANANDHAM,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-150,SRINIVAS,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-151,SUJATHA,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-152,GOPAL,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-153,VENKATESH,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-154,MAHESHWAR ,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-155,VENKATESH,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-156,PRAMEELA,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-157,NAGESH,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-158,SWAMY,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-159,ANILKUMAR,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-160,YELLAIAH,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-161,TULASIRAM,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-162,RAMANA ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-163,THIRUPATHI,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-164,DHARMA,MBBS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-165,KIRAN ,"MBBS, DCH",Pediatrician,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-166,RAVI,RMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-167,LATHA,BAMS,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-168,RAJESHAM,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-169,STALIN,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-170, SWAMY,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
+MSL-171,CHANDRAM,PMP,General Practitioner,6vnWp4wcZBR5gMDET,8c5YjEoHvboboqjar
