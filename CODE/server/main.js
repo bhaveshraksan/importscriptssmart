@@ -152,13 +152,19 @@ function saveDoctorData(list, companyId,divisionId, customerType,filePath) {
         if(designation)
             personalDetails.designation =  designation._id;
 
-        var qualification = SmtCollections.SmtCustomerQualification.findOne({type:items[0]["QUALIFICATION"]});
-        if(qualification)
+        var qualification = SmtCollections.SmtCustomerQualification.findOne({type:items[0]["QUALIFICATION"],divisionId:SmtCompaniesCustomer.divisionId});
+        if(qualification) {
             personalDetails.qualification = qualification._id;
+            var specialisation = SmtCollections.SmtCustomerSpecialization.findOne({type:items[0]["SPECIALIZATION"],qualificationId:personalDetails.qualification});
+            if(specialisation) {
+                personalDetails.specialisation = [specialisation._id];
+            }else {
+                throw new Error("Specialization: " +items[0]["SPECIALIZATION"]+" is not in our SmtCustomerSpecialization collection");
+            }
+        }else{
+            throw new Error("Qualification: " + items[0]["QUALIFICATION"] +" is not in our SmtCustomerQualification collection")
+        }
 
-        var specialisation = SmtCollections.SmtCustomerSpecialization.findOne({type:items[0]["SPECIALIZATION"]});
-        if(specialisation)
-        personalDetails.specialisation = [specialisation._id];
         //personalDetails.specialisation[0] = items[0]["SPECIALIZATION"];
         var lop = SmtCollections.SmtCustomerLineOfPractice.findOne({type:items[0]["LINE OF PRACTISE"]});
         if(lop)
