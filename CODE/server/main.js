@@ -2,35 +2,47 @@
 var Converter = Npm.require("csvtojson").Converter;
 var fs = Npm.require('fs');
 var Fiber = Npm.require('fibers');
+var path = Npm.require('path');
+var glob = require( 'glob' );
 
-/*
+
+
 Meteor.startup(function () {
-    var customers = SmtCollections.SmtCompaniesCustomer.find().fetch();
-    _.each(customers, function (val, index) {
-        if (val && val._id && val.jobDetails) {
-            _.each(val.jobDetails, function (val2, index2) {
-                val2.isActive = true;
-            });
-            SmtCollections.SmtCompaniesCustomer.update({_id: val._id}, {
-                $set: {
-                    jobDetails: val.jobDetails,
-                    isActive: val.isActive
+  console.log("Starting pumping data from " + process.env.DATA_FOLDER);
+    glob(process.env.DATA_FOLDER+'/**/*.csv', Meteor.bindEnvironment( function( err, files ) {
+        console.log( files );
+       var root = process.env.DATA_FOLDER.length;
+        _.each(files,function (fullPath) {
+            //prepare context from folder name and file name
+            var context = {};
+            var contextString = fullPath.substr(root);
+            console.log(contextString);
+            var contextArray = contextString.split('/');
+            var company = SmtCollections.SmtCompanies.find({"basicInfo.companyName":contextArray[1]},{_id:1}).fetch();
+            if(company.length>0){
+                context.companyId = company[0]._id;
+                var division = SmtCollections.SmtCompaniesDivision.find({name:contextArray[2],companyId:context.companyId},{_id:1}).fetch();
+                if(division.length>0){
+                    context.divisionId = division[0]._id;
+                    var type = SmtCollections.SmtCompanyCustomersAlias.find({name:contextArray[3].split('_')[0],
+                        companyId:context.companyId}).fetch();
+                    if(type.length>0){
+                        context.customerTypeId =type[0]._id;
+                    }else{
+                        console.log("Check the file Name : No customer of type "+contextArray[3].split('_')[0]+ " exists");
+                    }
+                    console.log("Going to process file : " + fullPath);
+                    Meteor.call("processData",fullPath,context);
+                }else{
+                    console.log("Check the folder name.There is no division with name " +contextArray[2] +" in SmtCompaniesDivision collection for company "+contextArray[1]);
                 }
-            })
-        } else if (val && val._id && val.hospitalBusinessDetails) {
-            _.each(val.hospitalBusinessDetails, function (val2, index2) {
-                val2.isActive = true;
-            })
-            SmtCollections.SmtCompaniesCustomer.update({_id: val._id}, {
-                $set: {
-                    hospitalBusinessDetails: val.hospitalBusinessDetails,
-                    isActive: val.isActive
-                }
-            })
-        }
-    })
-})
-*/
+            }else{
+                console.log("Check the folder name.There is no company with name " +contextArray[1] +" in SmtCompanies collection");
+            }
+        });
+    }));
+});
+
 Slingshot.createDirective("uploadCampaignFile", Slingshot.S3Storage, {
     AWSAccessKeyId: Meteor.settings.private.aws.accessKey,
     AWSSecretAccessKey: Meteor.settings.private.aws.secretAccessKey,
@@ -50,21 +62,21 @@ Slingshot.createDirective("uploadCampaignFile", Slingshot.S3Storage, {
 
 });
 Meteor.methods({
-    "processData": function (fileData, context)
+    "processData": function (filePath, context)
     {
         var converter = new Converter({});
-        converter.fromString(fileData, Meteor.bindEnvironment(function(err,result){
+        converter.fromFile(filePath, Meteor.bindEnvironment(function(err,result){
             if(err)
                 return err;
 
             else {
-                processData(result, context);
+                processData(result, context,filePath);
             }
         }));
     }
 })
 
-function processData(list, context) {
+function processData(list, context,filePath) {
     var arr = [];
     _.map(_.groupBy(list,function(doc){
         return doc.SLID;
@@ -74,21 +86,37 @@ function processData(list, context) {
     });
     var alias = SmtCollections.SmtCompanyCustomersAlias.findOne({_id:context.customerTypeId})
     if(alias.code == "DOCTOR")
-        saveDoctorData(arr, context.companyId,context.divisionId, context.customerTypeId);
+        saveDoctorData(arr, context.companyId,context.divisionId, context.customerTypeId,filePath);
 
     else if (alias.code == "CHEMIST")
-        saveChemistData(arr, context.companyId,context.divisionId, context.customerTypeId)
+        saveChemistData(arr, context.companyId,context.divisionId, context.customerTypeId,filePath)
     else if(alias.code=="STOCKIST"){
-        saveStockistData(arr, context.companyId,context.divisionId,context.customerTypeId)
+        saveStockistData(arr, context.companyId,context.divisionId,context.customerTypeId,filePath)
     }else if(alias.code=="HOSPITAL"){
-        saveHospitalData(arr, context.companyId,context.divisionId,context.customerTypeId)
+        saveHospitalData(arr, context.companyId,context.divisionId,context.customerTypeId,filePath)
     }else if(alias.code=="INSTITUTE"){
-        saveInstituteData(arr, context.companyId,context.divisionId,context.customerTypeId)
+        saveInstituteData(arr, context.companyId,context.divisionId,context.customerTypeId,filePath)
     }
 }
 
-function saveDoctorData(list, companyId,divisionId, customerType) {
+function isDuplicate(slid,company,division,customertype,filePath) {
+    return  SmtCollections.smtDataDumpStatus.find({company:company,division:division,customerType:customertype,slid:slid,sourceFile:filePath,status:"SUCCESS"}).fetch().length > 0;
+}
+
+function insertStatus(status,slid,company,division,customertype,filePath,err) {
+    var insertObj = {company:company,division:division,customerType:customertype,slid:slid,status:status,sourceFile:filePath,timestamp:new Date()}
+    if(err){
+        insertObj.errors=err.toString();
+    }
+    SmtCollections.smtDataDumpStatus.insert(insertObj)
+}
+
+function saveDoctorData(list, companyId,divisionId, customerType,filePath) {
     _.each(list, function (items) {
+        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+            return;
+        }
+        try{
         var SmtCompaniesCustomer = {};
         var personalDetails      = {};
         var address              = {};
@@ -210,7 +238,7 @@ function saveDoctorData(list, companyId,divisionId, customerType) {
                  job.frequencyCall = item["BRANCH FREQUENCY CALL"];
                 jobDetails.push(job);
             }else {
-                console.error("Station:"+item["STATION"] +"Does not Exist")
+                throw new Error("Station:"+item["STATION"] +" Does not Exist")
             }
         })
         SmtCompaniesCustomer.audit={};
@@ -218,12 +246,20 @@ function saveDoctorData(list, companyId,divisionId, customerType) {
         SmtCompaniesCustomer.jobDetails      = jobDetails;
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
+        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
+        }catch(err){
+            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+        }
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
     })
 }
 
-function saveChemistData(list, companyId,divisionId,customerType) {
+function saveChemistData(list, companyId,divisionId,customerType,filePath) {
     _.each(list, function (items) {
+        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+            return;
+        }
+        try{
         var SmtCompaniesCustomer = {};
         var personalDetails      = {};
         var chemistPersonalDetails      = {};
@@ -310,7 +346,7 @@ function saveChemistData(list, companyId,divisionId,customerType) {
                 job.frequencyCall = item["BRANCH FREQUENCY CALL"];
                 jobDetails.push(job);
             }else {
-                console.error("Station:"+item["STATION"] +"Does not Exist")
+                throw new Error("Station:"+item["STATION"] +" Does not Exist")
             }
         })
         //SmtCompaniesCustomer.audit={};
@@ -318,11 +354,19 @@ function saveChemistData(list, companyId,divisionId,customerType) {
         SmtCompaniesCustomer.chemistPersonalDetails = chemistPersonalDetails;
         SmtCompaniesCustomer.jobDetails      = jobDetails;
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
+        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
         //console.log(SmtCompaniesCustomer)
+        }catch(err){
+            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+        }
     })
 }
-function saveStockistData(list, companyId,divisionId,customerType) {
+function saveStockistData(list, companyId,divisionId,customerType,filePath) {
     _.each(list, function (items) {
+        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+            return;
+        }
+        try{
         var SmtCompaniesCustomer = {};
         var personalDetails      = {};
         var stockistPrimaryDetails      = {};
@@ -404,7 +448,7 @@ function saveStockistData(list, companyId,divisionId,customerType) {
                 job.frequencyCall = item["BRANCH FREQUENCY CALL"];
                 jobDetails.push(job);
             }else {
-                console.error("HEADQUARTER: "+item["HEADQUARTER"]+" Does not Exist")
+                throw new Error("HEADQUARTER: "+item["HEADQUARTER"]+" Does not Exist")
             }
         })
         SmtCompaniesCustomer.audit = {};
@@ -412,11 +456,19 @@ function saveStockistData(list, companyId,divisionId,customerType) {
         SmtCompaniesCustomer.stockistPrimaryDetails = stockistPrimaryDetails;
         SmtCompaniesCustomer.jobDetails      = jobDetails;
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
+        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
         //console.log(SmtCompaniesCustomer)
+        }catch(err){
+            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+        }
     })
 }
-function saveHospitalData(list, companyId,divisionId, customerType) {
+function saveHospitalData(list, companyId,divisionId, customerType,filePath) {
     _.each(list, function (items) {
+        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+            return;
+        }
+        try{
         var SmtCompaniesCustomer = {};
         var personalDetails      = {};
         var hospitalPrimaryDetails      = {};
@@ -505,7 +557,7 @@ function saveHospitalData(list, companyId,divisionId, customerType) {
                 job.frequencyCall = item["BRANCH FREQUENCY CALL"];
                 hospitalBusinessDetails.push(job);
             }else {
-                console.error("Station:"+item["STATION"] +"Does not Exist")
+                throw new Error("Station:"+item["STATION"] +" Does not Exist")
             }
         })
         SmtCompaniesCustomer.audit={};
@@ -515,10 +567,18 @@ function saveHospitalData(list, companyId,divisionId, customerType) {
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
+        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath);
+        }catch(err){
+            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+        }
     })
 }
-function saveInstituteData(list, companyId,divisionId, customerType) {
+function saveInstituteData(list, companyId,divisionId, customerType,filePath) {
     _.each(list, function (items) {
+        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+            return;
+        }
+        try{
         var SmtCompaniesCustomer = {};
         var personalDetails      = {};
         var hospitalPrimaryDetails      = {};
@@ -607,7 +667,7 @@ function saveInstituteData(list, companyId,divisionId, customerType) {
                 job.frequencyCall = item["BRANCH FREQUENCY CALL"];
                 hospitalBusinessDetails.push(job);
             }else {
-                console.error("Station:"+item["STATION"] +"Does not Exist")
+                throw new Error("Station:"+item["STATION"] +" Does not Exist")
             }
         })
         SmtCompaniesCustomer.audit={};
@@ -616,6 +676,10 @@ function saveInstituteData(list, companyId,divisionId, customerType) {
         SmtCompaniesCustomer.hospitalBusinessDetails = hospitalBusinessDetails;
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
+        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath);
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
+        }catch(err){
+            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+        }
     })
 }

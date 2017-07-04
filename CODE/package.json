@@ -8,6 +8,7 @@
     "babel-runtime": "^6.18.0",
     "csvjson": "^2.2.2",
     "csvtojson": "^1.0.3",
+    "glob": "^7.1.2",
     "meteor-node-stubs": "~0.2.0"
   }
 }
