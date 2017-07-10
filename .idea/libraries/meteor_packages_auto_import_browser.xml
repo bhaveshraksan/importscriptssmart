@@ -36,7 +36,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.8/web.browser/utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.8/web.browser/namespace.js" />
         <item url="file://$USER_HOME$/.meteor/packages/diff-sequence/1.0.7/web.browser/diff.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/momentjs_moment/2.17.1/web.browser/moment.js" />
         <item url="file://$USER_HOME$/.meteor/packages/underscore/1.0.10/web.browser/underscore.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/momentjs_moment/2.17.1/web.browser/export.js" />
         <item url="file://$USER_HOME$/.meteor/packages/underscore/1.0.10/web.browser/pre.js" />
         <item url="file://$USER_HOME$/.meteor/packages/underscore/1.0.10/web.browser/post.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.3.15/web.browser/runtime-tests.js" />
@@ -189,7 +191,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.8/web.browser/utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.8/web.browser/namespace.js" />
       <root url="file://$USER_HOME$/.meteor/packages/diff-sequence/1.0.7/web.browser/diff.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/momentjs_moment/2.17.1/web.browser/moment.js" />
       <root url="file://$USER_HOME$/.meteor/packages/underscore/1.0.10/web.browser/underscore.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/momentjs_moment/2.17.1/web.browser/export.js" />
       <root url="file://$USER_HOME$/.meteor/packages/underscore/1.0.10/web.browser/pre.js" />
       <root url="file://$USER_HOME$/.meteor/packages/underscore/1.0.10/web.browser/post.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.3.15/web.browser/runtime-tests.js" />

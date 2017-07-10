@@ -36,8 +36,13 @@ Template.hello.events({
           context.divisionId = Session.get("division")
 
           context.customerTypeId = $("[name='customerTypeId']").val()
+          context.importType = $("[name='importType']").val();
+          if(context.importType == "customer"){
+              Meteor.call('processData', reader.result, context);
+          }else{
+              Meteor.call('processSpecialization', reader.result,context);
+          }
 
-          Meteor.call('processData', reader.result, context);
       };
       reader.readAsBinaryString(file);
 
@@ -78,3 +83,18 @@ Template.hello.events({
   }
 
 });
+
+Template.spec.events({
+    "change [name='uploadSpecCsv']": function (e) {
+        e.preventDefault();
+        var file = (e.currentTarget).files[0];
+
+        var reader = new FileReader();
+        reader.onload = function(fileLoadEvent)
+        {
+
+
+            Meteor.call('processSpecialization', reader.result);
+        };
+    }
+})
