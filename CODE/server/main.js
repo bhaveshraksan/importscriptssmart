@@ -10,13 +10,12 @@ var glob = require( 'glob' );
 Meteor.startup(function () {
   console.log("Starting pumping data from " + process.env.DATA_FOLDER);
     glob(process.env.DATA_FOLDER+'/**/*.csv', Meteor.bindEnvironment( function( err, files ) {
-        console.log( files );
+       process.env.DATA_FOLDER=process.env.DATA_FOLDER.replace(/\/$/, "");
        var root = process.env.DATA_FOLDER.length;
         _.each(files,function (fullPath) {
             //prepare context from folder name and file name
             var context = {};
             var contextString = fullPath.substr(root);
-            console.log(contextString);
             var contextArray = contextString.split('/');
             var company = SmtCollections.SmtCompanies.find({"basicInfo.companyName":contextArray[1]},{_id:1}).fetch();
             if(company.length>0){
@@ -253,7 +252,8 @@ function saveDoctorData(list, companyId,divisionId, customerType,filePath) {
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
         insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
-        }catch(err){
+    }catch(err){
+            if(!items[0]["SLID"]) debugger;
             insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
         }
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
