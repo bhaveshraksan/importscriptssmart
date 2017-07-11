@@ -1,5 +1,5 @@
 // var csvjson = Npm.require('csvjson');
-var Converter = Npm.require("csvtojson").Converter;
+var csv = Npm.require("csvtojson");
 var fs = Npm.require('fs');
 var Fiber = Npm.require('fibers');
 var path = Npm.require('path');
@@ -12,32 +12,39 @@ Meteor.startup(function () {
     glob(process.env.DATA_FOLDER+'/**/*.csv', Meteor.bindEnvironment( function( err, files ) {
        process.env.DATA_FOLDER=process.env.DATA_FOLDER.replace(/\/$/, "");
        var root = process.env.DATA_FOLDER.length;
-        _.each(files,function (fullPath) {
-            //prepare context from folder name and file name
-            var context = {};
-            var contextString = fullPath.substr(root);
-            var contextArray = contextString.split('/');
-            var company = SmtCollections.SmtCompanies.find({"basicInfo.companyName":contextArray[1]},{_id:1}).fetch();
-            if(company.length>0){
-                context.companyId = company[0]._id;
-                var division = SmtCollections.SmtCompaniesDivision.find({name:contextArray[2],companyId:context.companyId},{_id:1}).fetch();
-                if(division.length>0){
-                    context.divisionId = division[0]._id;
-                    var type = SmtCollections.SmtCompanyCustomersAlias.find({name:contextArray[3].split('_')[0],
-                        companyId:context.companyId}).fetch();
-                    if(type.length>0){
-                        context.customerTypeId =type[0]._id;
-                    }else{
-                        console.log("Check the file Name : No customer of type "+contextArray[3].split('_')[0]+ " exists");
+        _.each(files,function (fullPath,index) {
+            Meteor.setTimeout(function () {
+                //prepare context from folder name and file name
+                var context = {};
+                var contextString = fullPath.substr(root);
+                var contextArray = contextString.split('/');
+                var company = SmtCollections.SmtCompanies.find({"basicInfo.companyName": contextArray[1]}, {_id: 1}).fetch();
+                if (company.length > 0) {
+                    context.companyId = company[0]._id;
+                    var division = SmtCollections.SmtCompaniesDivision.find({
+                        name: contextArray[2],
+                        companyId: context.companyId
+                    }, {_id: 1}).fetch();
+                    if (division.length > 0) {
+                        context.divisionId = division[0]._id;
+                        var type = SmtCollections.SmtCompanyCustomersAlias.find({
+                            name: contextArray[3].split('_')[0],
+                            companyId: context.companyId
+                        }).fetch();
+                        if (type.length > 0) {
+                            context.customerTypeId = type[0]._id;
+                        } else {
+                            console.log("Check the file Name : No customer of type " + contextArray[3].split('_')[0] + " exists");
+                        }
+                        console.log("Going to process file : " + fullPath);
+                        Meteor.call("processData", fullPath, context);
+                    } else {
+                        console.log("Check the folder name.There is no division with name " + contextArray[2] + " in SmtCompaniesDivision collection for company " + contextArray[1]);
                     }
-                    console.log("Going to process file : " + fullPath);
-                    Meteor.call("processData",fullPath,context);
-                }else{
-                    console.log("Check the folder name.There is no division with name " +contextArray[2] +" in SmtCompaniesDivision collection for company "+contextArray[1]);
+                } else {
+                    console.log("Check the folder name.There is no company with name " + contextArray[1] + " in SmtCompanies collection");
                 }
-            }else{
-                console.log("Check the folder name.There is no company with name " +contextArray[1] +" in SmtCompanies collection");
-            }
+            },(index + 1) * 6000);
         });
     }));
 });
@@ -63,14 +70,10 @@ Slingshot.createDirective("uploadCampaignFile", Slingshot.S3Storage, {
 Meteor.methods({
     "processData": function (filePath, context)
     {
-        var converter = new Converter({});
-        converter.fromFile(filePath, Meteor.bindEnvironment(function(err,result){
-            if(err)
-                return err;
-
-            else {
-                processData(result, context,filePath);
-            }
+        csv().fromFile(filePath).on('json', Meteor.bindEnvironment(function(result){
+                if(result["SLID"]) {
+                    processData(result, context, filePath);
+                }
         }));
     },
     "processSpecialization": function (fileData,context) {
@@ -141,26 +144,19 @@ function  processRes(list,context){
     })
     console.log("================DONE====================");
 }
-function processData(list, context,filePath) {
-    var arr = [];
-    _.map(_.groupBy(list,function(doc){
-        return doc.SLID;
-    }),function(grouped){
-        arr.push(grouped);
-        return grouped;
-    });
+function processData(customer, context,filePath) {
     var alias = SmtCollections.SmtCompanyCustomersAlias.findOne({_id:context.customerTypeId})
     if(alias.code == "DOCTOR")
-        saveDoctorData(arr, context.companyId,context.divisionId, context.customerTypeId,filePath);
+        saveDoctorData(customer, context.companyId,context.divisionId, context.customerTypeId,filePath);
 
     else if (alias.code == "CHEMIST")
-        saveChemistData(arr, context.companyId,context.divisionId, context.customerTypeId,filePath)
+        saveChemistData(customer, context.companyId,context.divisionId, context.customerTypeId,filePath)
     else if(alias.code=="STOCKIST"){
-        saveStockistData(arr, context.companyId,context.divisionId,context.customerTypeId,filePath)
+        saveStockistData(customer, context.companyId,context.divisionId,context.customerTypeId,filePath)
     }else if(alias.code=="HOSPITAL"){
-        saveHospitalData(arr, context.companyId,context.divisionId,context.customerTypeId,filePath)
+        saveHospitalData(customer, context.companyId,context.divisionId,context.customerTypeId,filePath)
     }else if(alias.code=="INSTITUTE"){
-        saveInstituteData(arr, context.companyId,context.divisionId,context.customerTypeId,filePath)
+        saveInstituteData(customer, context.companyId,context.divisionId,context.customerTypeId,filePath)
     }
 }
 
@@ -176,9 +172,9 @@ function insertStatus(status,slid,company,division,customertype,filePath,err) {
     SmtCollections.smtDataDumpStatus.insert(insertObj)
 }
 
-function saveDoctorData(list, companyId,divisionId, customerType,filePath) {
-    _.each(list, function (items) {
-        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+
+function saveDoctorData(doctor, companyId,divisionId, customerType,filePath) {
+        if(isDuplicate(doctor["SLID"],companyId,divisionId,customerType,filePath)){
             return;
         }
         try{
@@ -193,68 +189,68 @@ function saveDoctorData(list, companyId,divisionId, customerType,filePath) {
         SmtCompaniesCustomer.divisionId = divisionId
         smartIdGenService.smartId(personalDetails);
         personalDetails.slId = new uniqueIdGenService({"companyId":companyId,"divisionId":divisionId}).getUniqueId("slId","SLID");
-        personalDetails.oldMslid = items[0]["SLID"];
-        personalDetails.name = items[0]["FIRST NAME"];
-        personalDetails.middleName = items[0]["MIDDLE NAME"];
-        personalDetails.lastName = items[0]["LAST NAME"];
-        if(items[0]["DATE OF BIRTH"] && items[0]["DATE OF BIRTH"] != ""){
-            var dob = moment(items[0]["DATE OF BIRTH"].replace(new RegExp("/","g"),"-"),"DD-MM-YYYY").format("YYYY-MM-DD")
+        personalDetails.oldMslid = doctor["SLID"];
+        personalDetails.name = doctor["FIRST NAME"];
+        personalDetails.middleName = doctor["MIDDLE NAME"];
+        personalDetails.lastName = doctor["LAST NAME"];
+        if(doctor["DATE OF BIRTH"] && doctor["DATE OF BIRTH"] != ""){
+            var dob = moment(doctor["DATE OF BIRTH"].replace(new RegExp("/","g"),"-"),"DD-MMM-YYYY").format("YYYY-MM-DD")
             personalDetails.dateOfBirth = new Date(dob);
         }
-        personalDetails.bloodGroup = items[0]["BLOOD GROUP"];
-        personalDetails.language = items[0]["LANGUAGE"];
-        personalDetails.gender = items[0]["GENDER"];
-        personalDetails.maritalStatus = items[0]["MARTIAL STATUS"];
-        personalDetails.anniversayDate = items[0]["ANNIVERSARY DATE"];
-        contactDetails.push({mobileNo:items[0]["MOBILE NO"], landlineNo:items[0]["LANDLINE NO"], fax:items[0]["FAX"]})
+        personalDetails.bloodGroup = doctor["BLOOD GROUP"];
+        personalDetails.language = doctor["LANGUAGE"];
+        personalDetails.gender = doctor["GENDER"];
+        personalDetails.maritalStatus = doctor["MARTIAL STATUS"];
+        personalDetails.anniversayDate = doctor["ANNIVERSARY DATE"];
+        contactDetails.push({mobileNo:doctor["MOBILE NO"], landlineNo:doctor["LANDLINE NO"], fax:doctor["FAX"]})
         personalDetails.contactDetails = contactDetails;
-        var rating = SmtCollections.SmtCustomerRating.findOne({type:items[0]["RATING"]});
+        var rating = SmtCollections.SmtCustomerRating.findOne({type:doctor["RATING"]});
         if(rating)
             personalDetails.type = rating._id;
-        var category = SmtCollections.SmtCustomerTypes.findOne({"type":items[0]["DOCTOR TYPE"]})
+        var category = SmtCollections.SmtCustomerTypes.findOne({"type":doctor["DOCTOR TYPE"]})
         if(category)
             personalDetails.category = category._id;
 
-        personalDetails.regNo = items[0]["DOCTOR REG NO"];
-        var designation = SmtCollections.SmtCustomerProfessionalTags.findOne({type:items[0]["PROFESSIONAL TAGS"]})
+        personalDetails.regNo = doctor["DOCTOR REG NO"];
+        var designation = SmtCollections.SmtCustomerProfessionalTags.findOne({type:doctor["PROFESSIONAL TAGS"]})
         if(designation)
             personalDetails.designation =  designation._id;
 
-        var qualification = SmtCollections.SmtCustomerQualification.findOne({type:items[0]["QUALIFICATION"],divisionId:SmtCompaniesCustomer.divisionId});
+        var qualification = SmtCollections.SmtCustomerQualification.findOne({type:doctor["QUALIFICATION"],divisionId:SmtCompaniesCustomer.divisionId});
         if(qualification) {
             personalDetails.qualification = qualification._id;
-            var specialisation = SmtCollections.SmtCustomerSpecialization.findOne({type:items[0]["SPECIALIZATION"],qualificationId:personalDetails.qualification});
+            var specialisation = SmtCollections.SmtCustomerSpecialization.findOne({type:doctor["SPECIALIZATION"],qualificationId:personalDetails.qualification});
             if(specialisation) {
                 personalDetails.specialisation = [specialisation._id];
             }else {
-                throw new Error("Specialization: " +items[0]["SPECIALIZATION"]+" is not in our SmtCustomerSpecialization collection");
+                throw new Error("Specialization: " +doctor["SPECIALIZATION"]+" is not in our SmtCustomerSpecialization collection");
             }
         }else{
-            throw new Error("Qualification: " + items[0]["QUALIFICATION"] +" is not in our SmtCustomerQualification collection")
+            throw new Error("Qualification: " + doctor["QUALIFICATION"] +" is not in our SmtCustomerQualification collection")
         }
 
-        //personalDetails.specialisation[0] = items[0]["SPECIALIZATION"];
-        var lop = SmtCollections.SmtCustomerLineOfPractice.findOne({type:items[0]["LINE OF PRACTISE"]});
+        //personalDetails.specialisation[0] = doctor["SPECIALIZATION"];
+        var lop = SmtCollections.SmtCustomerLineOfPractice.findOne({type:doctor["LINE OF PRACTISE"]});
         if(lop)
             personalDetails.lineOfPractise = lop._id;
 
-        personalDetails.practiseStartDate = items[0]["PRACTISE START DATE"];
-        address.addressLine1 = items[0]["ADDRESS LINE 1"];
-        address.addressLine2 = items[0]["ADDRESS LINE 2"];
-        address.addressLine3 = items[0]["ADDRESS LINE 3"];
-        address.city         = items[0]["CITY"];
-        if(items[0]["STATE"]){
-            var stateName = new RegExp(items[0]["STATE"].toLowerCase(), "i");
+        personalDetails.practiseStartDate = doctor["PRACTISE START DATE"];
+        address.addressLine1 = doctor["ADDRESS LINE 1"];
+        address.addressLine2 = doctor["ADDRESS LINE 2"];
+        address.addressLine3 = doctor["ADDRESS LINE 3"];
+        address.city         = doctor["CITY"];
+        if(doctor["STATE"]){
+            var stateName = new RegExp(doctor["STATE"].toLowerCase(), "i");
             var state =  SmtCollections.SmtStates.findOne({name:{$regex:stateName}});
-            //var state = SmtCollections.SmtStates.findOne({name:new RegExp(items[0]["STATE"].toLowerCase(), "i")});
+            //var state = SmtCollections.SmtStates.findOne({name:new RegExp(doctor["STATE"].toLowerCase(), "i")});
             if(state)
                 address.state        = state._id;
         }
 
-        address.country      = items[0]["COUNTRY"];
+        address.country      = doctor["COUNTRY"];
         personalDetails.address = {}
         personalDetails.address.address = address;
-        _.each(items, function (item) {
+        
             var job = {};
             var address = {};
             var shippinAddress = {};
@@ -262,76 +258,74 @@ function saveDoctorData(list, companyId,divisionId, customerType,filePath) {
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
+            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:doctor["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
             if(stationId){
                 job.isActive = true;
                 job.stationId = stationId._id;
-                job.regisNo = item["CLINIC REG NO"];
-                job.jobPlaceName = item["CLINIC NAME"];
-                address.addressLine1 = item["BRANCH ADDRESS LINE 1"];
-                address.addressLine2 = item["BRANCH ADDRESS LINE 2"];
-                address.addressLine3 = item["BRANCH ADDRESS LINE 3"];
-                address.city = item["BRANCH CITY"];
-                address.latitude = item["Lat"];
-                address.longitude = item["Long"];
-                var stateName = new RegExp(items[0]["STATE"].toLowerCase(), "i");
+                job.regisNo = doctor["CLINIC REG NO"];
+                job.jobPlaceName = doctor["CLINIC NAME"];
+                address.addressLine1 = doctor["BRANCH ADDRESS LINE 1"];
+                address.addressLine2 = doctor["BRANCH ADDRESS LINE 2"];
+                address.addressLine3 = doctor["BRANCH ADDRESS LINE 3"];
+                address.city = doctor["BRANCH CITY"];
+                address.latitude = doctor["Lat"];
+                address.longitude = doctor["Long"];
+                var stateName = new RegExp(doctor["STATE"].toLowerCase(), "i");
                 var state =  SmtCollections.SmtStates.findOne({name:{$regex:stateName}});
-                //var state = SmtCollections.SmtStates.findOne({name:item["BRANCH STATE"]});
+                //var state = SmtCollections.SmtStates.findOne({name:doctor["BRANCH STATE"]});
                 if(state)
                     address.state = state._id;
-                address.country = item["COUNTRY"];
+                address.country = doctor["COUNTRY"];
                 job.address = {};
                 job.address.address = address;
-                job.mobileNo = item["BRANCH MOBILE NO"];
-                job.landlineNo = item["BRANCH LANDLINE NO"];
-                 job.faxNo = item["BRANCH FAX NO"];
-                 job.website = item["BRANCH WEBSITE"];
-                 job.businessPotential = item["BRANCH BUISNESS POTENTIAL"];
-                 job.sharePercentage = item["BRANCH SHARE PERCENTAGE"];
+                job.mobileNo = doctor["BRANCH MOBILE NO"];
+                job.landlineNo = doctor["BRANCH LANDLINE NO"];
+                 job.faxNo = doctor["BRANCH FAX NO"];
+                 job.website = doctor["BRANCH WEBSITE"];
+                 job.businessPotential = doctor["BRANCH BUISNESS POTENTIAL"];
+                 job.sharePercentage = doctor["BRANCH SHARE PERCENTAGE"];
                  job.associatedProducts = [];
-                //job.associatedProducts = item["BRANCH PRODUCTS"];
-                shippinAddress.addressLine1 = item["BRANCH SHIPPING ADDRESS LINE 1"];
-                 shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                 shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                 shippinAddress.city = item["BRANCH SHIPPING CITY"];
-                 var shippingState = SmtCollections.SmtStates.findOne({name:item["BRANCH SHIPPING STATE"]});
+                //job.associatedProducts = doctor["BRANCH PRODUCTS"];
+                shippinAddress.addressLine1 = doctor["BRANCH SHIPPING ADDRESS LINE 1"];
+                 shippinAddress.addressLine2 = doctor["BRANCH SHIPPING ADDRESS LINE 2"];
+                 shippinAddress.addressLine2 = doctor["BRANCH SHIPPING ADDRESS LINE 2"];
+                 shippinAddress.city = doctor["BRANCH SHIPPING CITY"];
+                 var shippingState = SmtCollections.SmtStates.findOne({name:doctor["BRANCH SHIPPING STATE"]});
                  if(shippingState)
                      shippinAddress.state = shippingState._id;
 
-                 shippinAddress.country = item["BRANCH SHIPPING COUNTRY"];
+                 shippinAddress.country = doctor["BRANCH SHIPPING COUNTRY"];
                 job.shippingAddress = {};
                 job.shippingAddress.address = shippinAddress;
-                 timingVistit.timingFrom = item["BRANCH BEST TIME FROM"];
-                 timingVistit.timingEnd = item["BRANCH BEST TIME TO"];
+                 timingVistit.timingFrom = doctor["BRANCH BEST TIME FROM"];
+                 timingVistit.timingEnd = doctor["BRANCH BEST TIME TO"];
                  job.timingVistit = timingVistit;
-                 timingWork.days = item["BRANCH  WORK TIMINGS DAYS"];
-                 timingWork.timingTo = item["BRANCH  WORK TIMINGS FROM"];
-                 timingWork.timingEnds = item["BRANCH  WORK TIMINGS TO"];
+                 timingWork.days = doctor["BRANCH  WORK TIMINGS DAYS"];
+                 timingWork.timingTo = doctor["BRANCH  WORK TIMINGS FROM"];
+                 timingWork.timingEnds = doctor["BRANCH  WORK TIMINGS TO"];
                  job.timingWork = timingWork;
-                 job.frequencyType = item["BRANCH FREQUENCY TYPE"];
-                 job.frequencyCall = item["BRANCH FREQUENCY CALL"];
+                 job.frequencyType = doctor["BRANCH FREQUENCY TYPE"];
+                 job.frequencyCall = doctor["BRANCH FREQUENCY CALL"];
                 jobDetails.push(job);
             }else {
-                throw new Error("Station:"+item["STATION"] +" Does not Exist")
+                throw new Error("Station:"+doctor["STATION"] +" Does not Exist")
             }
-        })
+        
         SmtCompaniesCustomer.audit={};
         SmtCompaniesCustomer.personalDetails = personalDetails;
         SmtCompaniesCustomer.jobDetails      = jobDetails;
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
-        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
+        insertStatus("SUCCESS",doctor["SLID"],companyId,divisionId,customerType,filePath)
     }catch(err){
-            if(!items[0]["SLID"]) debugger;
-            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+            if(!doctor["SLID"]) debugger;
+            insertStatus("FAILED",doctor["SLID"],companyId,divisionId,customerType,filePath,err)
         }
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
-    })
 }
 
-function saveChemistData(list, companyId,divisionId,customerType,filePath) {
-    _.each(list, function (items) {
-        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+function saveChemistData(chemist, companyId,divisionId,customerType,filePath) {
+        if(!chemist["SLID"] || isDuplicate(chemist["SLID"],companyId,divisionId,customerType,filePath)){
             return;
         }
         try{
@@ -347,25 +341,25 @@ function saveChemistData(list, companyId,divisionId,customerType,filePath) {
         SmtCompaniesCustomer.customerTypeId = customerType;
         smartIdGenService.smartId(personalDetails);
         personalDetails.slId = new uniqueIdGenService({"companyId":companyId,"divisionId":divisionId}).getUniqueId("slId","SLID");
-        personalDetails.oldMslid = items[0]["SLID"];
+        personalDetails.oldMslid = chemist["SLID"];
 
-        personalDetails.name = items[0]["NAME"];
-        chemistPersonalDetails.contactNo = items[0]["CONTACT NO"];
-        chemistPersonalDetails.shortName = items[0]["SHORT NAME"];
-        chemistPersonalDetails.establishedYear =items[0]["ESTABLISHED YEAR"];
-        chemistPersonalDetails.registrationNo = items[0]["REGISTRATION NO"];
-        chemistPersonalDetails.pharmacyType = items[0]["PHARMACY TYPE"];
-        chemistPersonalDetails.pharmacyCategory = items[0]["PHARMACY CATEGORY"];
+        personalDetails.name = chemist["NAME"];
+        chemistPersonalDetails.contactNo = chemist["CONTACT NO"];
+        chemistPersonalDetails.shortName = chemist["SHORT NAME"];
+        chemistPersonalDetails.establishedYear =chemist["ESTABLISHED YEAR"];
+        chemistPersonalDetails.registrationNo = chemist["REGISTRATION NO"];
+        chemistPersonalDetails.pharmacyType = chemist["PHARMACY TYPE"];
+        chemistPersonalDetails.pharmacyCategory = chemist["PHARMACY CATEGORY"];
         chemistPersonalDetails.owner = {};
-        chemistPersonalDetails.owner.name = items[0]["PROPREITOR NAME"];
-        chemistPersonalDetails.owner.ownemailId = items[0]["PROPREITOR EMAIL ID"];
-        chemistPersonalDetails.owner.ownAddress = items[0]["PROPREITOR ADDRESS"];
-        chemistPersonalDetails.owner.name = items[0]["PROPREITOR NAME"];
-        chemistPersonalDetails.owner.name = items[0]["PROPREITOR NAME"];
+        chemistPersonalDetails.owner.name = chemist["PROPREITOR NAME"];
+        chemistPersonalDetails.owner.ownemailId = chemist["PROPREITOR EMAIL ID"];
+        chemistPersonalDetails.owner.ownAddress = chemist["PROPREITOR ADDRESS"];
+        chemistPersonalDetails.owner.name = chemist["PROPREITOR NAME"];
+        chemistPersonalDetails.owner.name = chemist["PROPREITOR NAME"];
 
-        //personalDetails.regNo = items[0]["DOCTOR REG NO"];
+        //personalDetails.regNo = chemist["DOCTOR REG NO"];
 
-        _.each(items, function (item) {
+        
             var job = {};
             var address = {};
             var shippinAddress = {};
@@ -373,72 +367,71 @@ function saveChemistData(list, companyId,divisionId,customerType,filePath) {
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
+            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:chemist["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
             if(stationId){
                 job.stationId = stationId._id;
                 job.isActive = true;
-                job.jobPlaceName = item["CHEMIST NAME"];
-                address.addressLine1 = item["BRANCH ADDRESS LINE 1"];
-                address.addressLine2 = item["BRANCH ADDRESS LINE 2"];
-                address.addressLine3 = item["BRANCH ADDRESS LINE 3"];
-                address.latitude = item["Lat"];
-                address.longitude = item["Long"];
-                address.city = item["BRANCH CITY"];
-                var state = SmtCollections.SmtStates.findOne({name:item["BRANCH STATE"]});
+                job.jobPlaceName = chemist["CHEMIST NAME"];
+                address.addressLine1 = chemist["BRANCH ADDRESS LINE 1"];
+                address.addressLine2 = chemist["BRANCH ADDRESS LINE 2"];
+                address.addressLine3 = chemist["BRANCH ADDRESS LINE 3"];
+                address.latitude = chemist["Lat"];
+                address.longitude = chemist["Long"];
+                address.city = chemist["BRANCH CITY"];
+                var state = SmtCollections.SmtStates.findOne({name:chemist["BRANCH STATE"]});
                 if(state)
                     address.state = state._id;
-                address.country = item["COUNTRY"];
+                address.country = chemist["COUNTRY"];
                 job.address = {};
                 job.address.address = address;
-                job.mobileNo = item["BRANCH MOBILE NO"];
-                job.landlineNo = item["BRANCH LANDLINE NO"];
-                job.faxNo = item["BRANCH FAX NO"];
-                job.website = item["BRANCH WEBSITE"];
-                job.category = item["CHEMIST TYPE"];
-                job.type = item["CHEMIST RATING"];
-                job.drugLicenseNo = item["BRANCH DRUG LICENSE NO"];
-                job.vat = item["BRANCH VAT"];
-                job.cst = item["BRANCH CST"];
-                job.tinRegisNo = item["BRANCH TIN REGIS NO"];
-                shippinAddress.addressLine1 = item["BRANCH SHIPPING ADDRESS LINE 1"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.city = item["BRANCH SHIPPING CITY"];
-                var shippingState = SmtCollections.SmtStates.findOne({name:item["BRANCH SHIPPING STATE"]});
+                job.mobileNo = chemist["BRANCH MOBILE NO"];
+                job.landlineNo = chemist["BRANCH LANDLINE NO"];
+                job.faxNo = chemist["BRANCH FAX NO"];
+                job.website = chemist["BRANCH WEBSITE"];
+                job.category = chemist["CHEMIST TYPE"];
+                job.type = chemist["CHEMIST RATING"];
+                job.drugLicenseNo = chemist["BRANCH DRUG LICENSE NO"];
+                job.vat = chemist["BRANCH VAT"];
+                job.cst = chemist["BRANCH CST"];
+                job.tinRegisNo = chemist["BRANCH TIN REGIS NO"];
+                shippinAddress.addressLine1 = chemist["BRANCH SHIPPING ADDRESS LINE 1"];
+                shippinAddress.addressLine2 = chemist["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.addressLine2 = chemist["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.city = chemist["BRANCH SHIPPING CITY"];
+                var shippingState = SmtCollections.SmtStates.findOne({name:chemist["BRANCH SHIPPING STATE"]});
                 if(shippingState)
                     shippinAddress.state = shippingState._id;
-                shippinAddress.country = item["BRANCH SHIPPING COUNTRY"];
+                shippinAddress.country = chemist["BRANCH SHIPPING COUNTRY"];
                 job.shippingAddress = {};
                 job.shippingAddress.address = shippinAddress;
-                timingVistit.timingFrom = item["BRANCH BEST TIME FROM"];
-                timingVistit.timingEnd = item["BRANCH BEST TIME TO"];
+                timingVistit.timingFrom = chemist["BRANCH BEST TIME FROM"];
+                timingVistit.timingEnd = chemist["BRANCH BEST TIME TO"];
                 job.timingVistit = timingVistit;
-                timingWork.days = item["BRANCH  WORK TIMINGS DAYS"];
-                timingWork.timingTo = item["BRANCH  WORK TIMINGS FROM"];
-                timingWork.timingEnds = item["BRANCH  WORK TIMINGS TO"];
+                timingWork.days = chemist["BRANCH  WORK TIMINGS DAYS"];
+                timingWork.timingTo = chemist["BRANCH  WORK TIMINGS FROM"];
+                timingWork.timingEnds = chemist["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = item["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = item["BRANCH FREQUENCY CALL"];
+                job.frequencyType = chemist["BRANCH FREQUENCY TYPE"];
+                job.frequencyCall = chemist["BRANCH FREQUENCY CALL"];
                 jobDetails.push(job);
             }else {
-                throw new Error("Station:"+item["STATION"] +" Does not Exist")
+                throw new Error("Station:"+chemist["STATION"] +" Does not Exist")
             }
-        })
+        
         //SmtCompaniesCustomer.audit={};
         SmtCompaniesCustomer.personalDetails = personalDetails;
         SmtCompaniesCustomer.chemistPersonalDetails = chemistPersonalDetails;
         SmtCompaniesCustomer.jobDetails      = jobDetails;
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
-        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
+        insertStatus("SUCCESS",chemist["SLID"],companyId,divisionId,customerType,filePath)
         //console.log(SmtCompaniesCustomer)
         }catch(err){
-            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+            insertStatus("FAILED",chemist["SLID"],companyId,divisionId,customerType,filePath,err)
         }
-    })
 }
-function saveStockistData(list, companyId,divisionId,customerType,filePath) {
-    _.each(list, function (items) {
-        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+function saveStockistData(stockist, companyId,divisionId,customerType,filePath) {
+
+        if(isDuplicate(stockist["SLID"],companyId,divisionId,customerType,filePath)){
             return;
         }
         try{
@@ -454,21 +447,21 @@ function saveStockistData(list, companyId,divisionId,customerType,filePath) {
         SmtCompaniesCustomer.divisionId = divisionId
         smartIdGenService.smartId(personalDetails);
         personalDetails.slId = new uniqueIdGenService({"companyId":companyId,"divisionId":divisionId}).getUniqueId("slId","SLID");
-        personalDetails.oldMslid = items[0]["SLID"];
-        personalDetails.name = items[0]["Owner NAME"];
-        stockistPrimaryDetails.certificationId = items[0]["CERTIFICATION ID"];
-        stockistPrimaryDetails.stockistCategory = items[0]["STOCKIST TYPE"];
-        stockistPrimaryDetails.stockistTye = items[0]["RATING"];
-        stockistPrimaryDetails.website = items[0]["WEBSITE"];
-        stockistPrimaryDetails.ownerPersonNo = [items[0]["OWNER CONTACT NO"]];
-        stockistPrimaryDetails.ownerPersonEmail = [items[0]["OWNER EMAIL ID"]];
-        var rating = SmtCollections.SmtCustomerRating.findOne({type:items[0]["RATING"]});
+        personalDetails.oldMslid = stockist["SLID"];
+        personalDetails.name = stockist["Owner NAME"];
+        stockistPrimaryDetails.certificationId = stockist["CERTIFICATION ID"];
+        stockistPrimaryDetails.stockistCategory = stockist["STOCKIST TYPE"];
+        stockistPrimaryDetails.stockistTye = stockist["RATING"];
+        stockistPrimaryDetails.website = stockist["WEBSITE"];
+        stockistPrimaryDetails.ownerPersonNo = [stockist["OWNER CONTACT NO"]];
+        stockistPrimaryDetails.ownerPersonEmail = [stockist["OWNER EMAIL ID"]];
+        var rating = SmtCollections.SmtCustomerRating.findOne({type:stockist["RATING"]});
         if(rating)
             stockistPrimaryDetails.stockistTye = rating._id;
-        var category = SmtCollections.SmtCustomerTypes.findOne({"type":items[0]["STOCKIST TYPE"]})
+        var category = SmtCollections.SmtCustomerTypes.findOne({"type":stockist["STOCKIST TYPE"]})
         if(category)
             stockistPrimaryDetails.stockistCategory = category._id;
-        _.each(items, function (item) {
+        
             var job = {};
             var address = {};
             var shippinAddress = {};
@@ -476,72 +469,71 @@ function saveStockistData(list, companyId,divisionId,customerType,filePath) {
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-            var headquarterId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["HEADQUARTER"],locationType:"LEVEL-1","companyId":companyId,"companyDivisionId":divisionId});
+            var headquarterId = SmtCollections.SmtCompanyLocations.findOne({locationName:stockist["HEADQUARTER"],locationType:"LEVEL-1","companyId":companyId,"companyDivisionId":divisionId});
             if(headquarterId){
                 job.isActive = true;
                 job.headquarterId = headquarterId._id;
-                job.drugLicenseNo = item["BRANCH DRUG LICENSE NO"];
-                job.vat = item["BRANCH VAT"];
-                job.cst = item["BRANCH CST"];
-                job.tinRegisNo = item["BRANCH TIN REGIS NO"];
-                address.addressLine1 = item["BRANCH ADDRESS LINE 1"];
-                address.addressLine2 = item["BRANCH ADDRESS LINE 2"];
-                address.addressLine3 = item["BRANCH ADDRESS LINE 3"];
-                address.latitude = item["Lat"];
-                address.longitude = item["Long"];
-                address.city = item["BRANCH CITY"];
-                var state = SmtCollections.SmtStates.findOne({name:item["BRANCH STATE"]});
+                job.drugLicenseNo = stockist["BRANCH DRUG LICENSE NO"];
+                job.vat = stockist["BRANCH VAT"];
+                job.cst = stockist["BRANCH CST"];
+                job.tinRegisNo = stockist["BRANCH TIN REGIS NO"];
+                address.addressLine1 = stockist["BRANCH ADDRESS LINE 1"];
+                address.addressLine2 = stockist["BRANCH ADDRESS LINE 2"];
+                address.addressLine3 = stockist["BRANCH ADDRESS LINE 3"];
+                address.latitude = stockist["Lat"];
+                address.longitude = stockist["Long"];
+                address.city = stockist["BRANCH CITY"];
+                var state = SmtCollections.SmtStates.findOne({name:stockist["BRANCH STATE"]});
                 if(state)
                     address.state = state._id;
-                address.country = item["COUNTRY"];
+                address.country = stockist["COUNTRY"];
                 job.address = {};
                 job.address.address = address;
-                job.mobileNo = item["BRANCH MOBILE NO"];
-                job.landlineNo = item["BRANCH LANDLINE NO"];
-                job.faxNo = item["BRANCH FAX NO"];
-                job.website = item["BRANCH WEBSITE"];
-                job.category = item["CHEMIST TYPE"];
-                job.type = item["CHEMIST RATING"];
-                shippinAddress.addressLine1 = item["BRANCH SHIPPING ADDRESS LINE 1"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.city = item["BRANCH SHIPPING CITY"];
-                var shippingState = SmtCollections.SmtStates.findOne({name:item["BRANCH SHIPPING STATE"]});
+                job.mobileNo = stockist["BRANCH MOBILE NO"];
+                job.landlineNo = stockist["BRANCH LANDLINE NO"];
+                job.faxNo = stockist["BRANCH FAX NO"];
+                job.website = stockist["BRANCH WEBSITE"];
+                job.category = stockist["CHEMIST TYPE"];
+                job.type = stockist["CHEMIST RATING"];
+                shippinAddress.addressLine1 = stockist["BRANCH SHIPPING ADDRESS LINE 1"];
+                shippinAddress.addressLine2 = stockist["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.addressLine2 = stockist["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.city = stockist["BRANCH SHIPPING CITY"];
+                var shippingState = SmtCollections.SmtStates.findOne({name:stockist["BRANCH SHIPPING STATE"]});
                 if(shippingState)
                     shippinAddress.state = shippingState._id;
-                shippinAddress.country = item["BRANCH SHIPPING COUNTRY"];
+                shippinAddress.country = stockist["BRANCH SHIPPING COUNTRY"];
                 job.shippingAddress = {};
                 job.shippingAddress.address = shippinAddress;
                 job.shippingAddress.address = shippinAddress;
-                timingVistit.timingFrom = item["BRANCH BEST TIME FROM"];
-                timingVistit.timingEnd = item["BRANCH BEST TIME TO"];
+                timingVistit.timingFrom = stockist["BRANCH BEST TIME FROM"];
+                timingVistit.timingEnd = stockist["BRANCH BEST TIME TO"];
                 job.timingVistit = timingVistit;
-                timingWork.days = item["BRANCH  WORK TIMINGS DAYS"];
-                timingWork.timingTo = item["BRANCH  WORK TIMINGS FROM"];
-                timingWork.timingEnds = item["BRANCH  WORK TIMINGS TO"];
+                timingWork.days = stockist["BRANCH  WORK TIMINGS DAYS"];
+                timingWork.timingTo = stockist["BRANCH  WORK TIMINGS FROM"];
+                timingWork.timingEnds = stockist["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = item["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = item["BRANCH FREQUENCY CALL"];
+                job.frequencyType = stockist["BRANCH FREQUENCY TYPE"];
+                job.frequencyCall = stockist["BRANCH FREQUENCY CALL"];
                 jobDetails.push(job);
             }else {
-                throw new Error("HEADQUARTER: "+item["HEADQUARTER"]+" Does not Exist")
+                throw new Error("HEADQUARTER: "+stockist["HEADQUARTER"]+" Does not Exist")
             }
-        })
+        
         SmtCompaniesCustomer.audit = {};
         SmtCompaniesCustomer.personalDetails = personalDetails;
         SmtCompaniesCustomer.stockistPrimaryDetails = stockistPrimaryDetails;
         SmtCompaniesCustomer.jobDetails = jobDetails;
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
-        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath)
+        insertStatus("SUCCESS",stockist["SLID"],companyId,divisionId,customerType,filePath)
         //console.log(SmtCompaniesCustomer)
         }catch(err){
-            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+            insertStatus("FAILED",stockist["SLID"],companyId,divisionId,customerType,filePath,err)
         }
-    })
+    
 }
-function saveHospitalData(list, companyId,divisionId, customerType,filePath) {
-    _.each(list, function (items) {
-        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+function saveHospitalData(hospital, companyId,divisionId, customerType,filePath) {
+        if(isDuplicate(hospital["SLID"],companyId,divisionId,customerType,filePath)){
             return;
         }
         try{
@@ -557,28 +549,28 @@ function saveHospitalData(list, companyId,divisionId, customerType,filePath) {
         SmtCompaniesCustomer.divisionId = divisionId
         smartIdGenService.smartId(personalDetails);
         personalDetails.slId = new uniqueIdGenService({"companyId":companyId,"divisionId":divisionId}).getUniqueId("slId","SLID");
-        personalDetails.oldMslid = items[0]["SLID"];
-        personalDetails.name = items[0]["HOSPITAL NAME"];
-        hospitalPrimaryDetails.shortName = items[0]["SHORT NAME"];
-        hospitalPrimaryDetails.establishedYear = items[0]["ESTABLISHED YEAR"];
-        hospitalPrimaryDetails.speciality = items[0]["SPECIALITY"];
-        hospitalPrimaryDetails.registrationNumber = items[0]["registrationNumber"];
-        hospitalPrimaryDetails.certificateId = items[0]["certificateId"];
+        personalDetails.oldMslid = hospital["SLID"];
+        personalDetails.name = hospital["HOSPITAL NAME"];
+        hospitalPrimaryDetails.shortName = hospital["SHORT NAME"];
+        hospitalPrimaryDetails.establishedYear = hospital["ESTABLISHED YEAR"];
+        hospitalPrimaryDetails.speciality = hospital["SPECIALITY"];
+        hospitalPrimaryDetails.registrationNumber = hospital["registrationNumber"];
+        hospitalPrimaryDetails.certificateId = hospital["certificateId"];
 
-        var rating = SmtCollections.SmtCustomerRating.findOne({type:items[0]["RATING"]});
+        var rating = SmtCollections.SmtCustomerRating.findOne({type:hospital["RATING"]});
         if(rating)
             hospitalPrimaryDetails.hospitalType = rating._id;
-        var category = SmtCollections.SmtCustomerTypes.findOne({"type":items[0]["HOSPITAL TYPE"]})
+        var category = SmtCollections.SmtCustomerTypes.findOne({"type":hospital["HOSPITAL TYPE"]})
         if(category)
             hospitalPrimaryDetails.hospitalCategory = category._id;
-        hospitalPrimaryDetails.ownerName = items[0]["PROPREITOR NAME"];
-        hospitalPrimaryDetails.ownerContactNo = [items[0]["PROPREITOR CONTACT NO"]];
-        hospitalPrimaryDetails.ownerEmailId = [items[0]["PROPREITOR EMAIL ID"]];
-        hospitalPrimaryDetails.ownerAddress = [items[0]["PROPREITOR ADDRESS"]];
-        hospitalPrimaryDetails.website = items[0]["WEBSITE"];
+        hospitalPrimaryDetails.ownerName = hospital["PROPREITOR NAME"];
+        hospitalPrimaryDetails.ownerContactNo = [hospital["PROPREITOR CONTACT NO"]];
+        hospitalPrimaryDetails.ownerEmailId = [hospital["PROPREITOR EMAIL ID"]];
+        hospitalPrimaryDetails.ownerAddress = [hospital["PROPREITOR ADDRESS"]];
+        hospitalPrimaryDetails.website = hospital["WEBSITE"];
 
 
-        _.each(items, function (item) {
+        
             var job = {};
             var address = {};
             var shippinAddress = {};
@@ -587,56 +579,56 @@ function saveHospitalData(list, companyId,divisionId, customerType,filePath) {
             var timingWork = [];
             // job.branchImage
 
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
+            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:hospital["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
             if(stationId){
                 job.isActive = true;
                 job.stationId = stationId._id;
-                job.branchRegistrationNo = item["BRANCH REG NO"];
-                job.branchName = item["BRANCH NAME"];
-                job.numberOfBeds = item["NO OF BEDS"];
-                address.addressLine1 = item["BRANCH ADDRESS LINE 1"];
-                address.addressLine2 = item["BRANCH ADDRESS LINE 2"];
-                address.addressLine3 = item["BRANCH ADDRESS LINE 3"];
-                address.latitude = item["Lat"];
-                address.longitude = item["Long"];
-                address.city = item["BRANCH CITY"];
-                var state = SmtCollections.SmtStates.findOne({name:item["BRANCH STATE"]});
+                job.branchRegistrationNo = hospital["BRANCH REG NO"];
+                job.branchName = hospital["BRANCH NAME"];
+                job.numberOfBeds = hospital["NO OF BEDS"];
+                address.addressLine1 = hospital["BRANCH ADDRESS LINE 1"];
+                address.addressLine2 = hospital["BRANCH ADDRESS LINE 2"];
+                address.addressLine3 = hospital["BRANCH ADDRESS LINE 3"];
+                address.latitude = hospital["Lat"];
+                address.longitude = hospital["Long"];
+                address.city = hospital["BRANCH CITY"];
+                var state = SmtCollections.SmtStates.findOne({name:hospital["BRANCH STATE"]});
                 if(state)
                     address.state = state._id;
-                address.country = item["COUNTRY"];
+                address.country = hospital["COUNTRY"];
                 job.address = {};
                 job.address.address = address;
-                job.mobileNo = item["BRANCH MOBILE NO"];
-                job.landlineNo = item["BRANCH LANDLINE NO"];
-                job.faxNo = item["BRANCH FAX NO"];
-                job.website = item["BRANCH WEBSITE"];
+                job.mobileNo = hospital["BRANCH MOBILE NO"];
+                job.landlineNo = hospital["BRANCH LANDLINE NO"];
+                job.faxNo = hospital["BRANCH FAX NO"];
+                job.website = hospital["BRANCH WEBSITE"];
 
-                //job.associatedProducts = item["BRANCH PRODUCTS"];
-                shippinAddress.addressLine1 = item["BRANCH SHIPPING ADDRESS LINE 1"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.city = item["BRANCH SHIPPING CITY"];
-                var shippingState = SmtCollections.SmtStates.findOne({name:item["BRANCH SHIPPING STATE"]});
+                //job.associatedProducts = hospital["BRANCH PRODUCTS"];
+                shippinAddress.addressLine1 = hospital["BRANCH SHIPPING ADDRESS LINE 1"];
+                shippinAddress.addressLine2 = hospital["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.addressLine2 = hospital["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.city = hospital["BRANCH SHIPPING CITY"];
+                var shippingState = SmtCollections.SmtStates.findOne({name:hospital["BRANCH SHIPPING STATE"]});
                 if(shippingState)
                     shippinAddress.state = shippingState._id;
 
-                shippinAddress.country = item["BRANCH SHIPPING COUNTRY"];
+                shippinAddress.country = hospital["BRANCH SHIPPING COUNTRY"];
                 job.shippingAddress = {};
                 job.shippingAddress.address = shippinAddress;
-                timingVistit.timingFrom = item["BRANCH BEST TIME FROM"];
-                timingVistit.timingEnd = item["BRANCH BEST TIME TO"];
+                timingVistit.timingFrom = hospital["BRANCH BEST TIME FROM"];
+                timingVistit.timingEnd = hospital["BRANCH BEST TIME TO"];
                 job.timingVistit = timingVistit;
-                timingWork.days = item["BRANCH  WORK TIMINGS DAYS"];
-                timingWork.timingTo = item["BRANCH  WORK TIMINGS FROM"];
-                timingWork.timingEnds = item["BRANCH  WORK TIMINGS TO"];
+                timingWork.days = hospital["BRANCH  WORK TIMINGS DAYS"];
+                timingWork.timingTo = hospital["BRANCH  WORK TIMINGS FROM"];
+                timingWork.timingEnds = hospital["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = item["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = item["BRANCH FREQUENCY CALL"];
+                job.frequencyType = hospital["BRANCH FREQUENCY TYPE"];
+                job.frequencyCall = hospital["BRANCH FREQUENCY CALL"];
                 hospitalBusinessDetails.push(job);
             }else {
-                throw new Error("Station:"+item["STATION"] +" Does not Exist")
+                throw new Error("Station:"+hospital["STATION"] +" Does not Exist")
             }
-        })
+        
         SmtCompaniesCustomer.audit={};
         SmtCompaniesCustomer.personalDetails = personalDetails
         SmtCompaniesCustomer.hospitalPrimaryDetails = hospitalPrimaryDetails;
@@ -644,15 +636,14 @@ function saveHospitalData(list, companyId,divisionId, customerType,filePath) {
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
-        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath);
+        insertStatus("SUCCESS",hospital["SLID"],companyId,divisionId,customerType,filePath);
         }catch(err){
-            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+            insertStatus("FAILED",hospital["SLID"],companyId,divisionId,customerType,filePath,err)
         }
-    })
+    
 }
-function saveInstituteData(list, companyId,divisionId, customerType,filePath) {
-    _.each(list, function (items) {
-        if(isDuplicate(items[0]["SLID"],companyId,divisionId,customerType,filePath)){
+function saveInstituteData(insti, companyId,divisionId, customerType,filePath) {
+        if(isDuplicate(insti["SLID"],companyId,divisionId,customerType,filePath)){
             return;
         }
         try{
@@ -668,28 +659,27 @@ function saveInstituteData(list, companyId,divisionId, customerType,filePath) {
         SmtCompaniesCustomer.divisionId = divisionId
         smartIdGenService.smartId(personalDetails);
         personalDetails.slId = new uniqueIdGenService({"companyId":companyId,"divisionId":divisionId}).getUniqueId("slId","SLID");
-        personalDetails.oldMslid = items[0]["SLID"];
-        personalDetails.name = items[0]["INSTITUTE NAME"];
-        hospitalPrimaryDetails.shortName = items[0]["SHORT NAME"];
-        hospitalPrimaryDetails.establishedYear = items[0]["ESTABLISHED YEAR"];
-        hospitalPrimaryDetails.speciality = items[0]["SPECIALITY"];
-        hospitalPrimaryDetails.registrationNumber = items[0]["registrationNumber"];
-        hospitalPrimaryDetails.certificateId = items[0]["certificateId"];
+        personalDetails.oldMslid = insti["SLID"];
+        personalDetails.name = insti["INSTITUTE NAME"];
+        hospitalPrimaryDetails.shortName = insti["SHORT NAME"];
+        hospitalPrimaryDetails.establishedYear = insti["ESTABLISHED YEAR"];
+        hospitalPrimaryDetails.speciality = insti["SPECIALITY"];
+        hospitalPrimaryDetails.registrationNumber = insti["registrationNumber"];
+        hospitalPrimaryDetails.certificateId = insti["certificateId"];
 
-        var rating = SmtCollections.SmtCustomerRating.findOne({type:items[0]["RATING"]});
+        var rating = SmtCollections.SmtCustomerRating.findOne({type:insti["RATING"]});
         if(rating)
             hospitalPrimaryDetails.hospitalType = rating._id;
-        var category = SmtCollections.SmtCustomerTypes.findOne({"type":items[0]["INSTITUTE TYPE"]})
+        var category = SmtCollections.SmtCustomerTypes.findOne({"type":insti["INSTITUTE TYPE"]})
         if(category)
             hospitalPrimaryDetails.hospitalCategory = category._id;
-        hospitalPrimaryDetails.ownerName = items[0]["PROPREITOR NAME"];
-        hospitalPrimaryDetails.ownerContactNo = items[0]["PROPREITOR CONTACT NO"];
-        hospitalPrimaryDetails.ownerEmailId = items[0]["PROPREITOR EMAIL ID"];
-        hospitalPrimaryDetails.ownerAddress = items[0]["PROPREITOR ADDRESS"];
-        hospitalPrimaryDetails.website = items[0]["WEBSITE"];
+        hospitalPrimaryDetails.ownerName = insti["PROPREITOR NAME"];
+        hospitalPrimaryDetails.ownerContactNo = insti["PROPREITOR CONTACT NO"];
+        hospitalPrimaryDetails.ownerEmailId = insti["PROPREITOR EMAIL ID"];
+        hospitalPrimaryDetails.ownerAddress = insti["PROPREITOR ADDRESS"];
+        hospitalPrimaryDetails.website = insti["WEBSITE"];
 
 
-        _.each(items, function (item) {
             var job = {};
             var address = {};
             var shippinAddress = {};
@@ -698,66 +688,66 @@ function saveInstituteData(list, companyId,divisionId, customerType,filePath) {
             var timingWork = [];
             // job.branchImage
 
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:item["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
+            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:insti["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
             if(stationId){
                 job.isActive = true;
                 job.stationId = stationId._id;
-                job.branchRegistrationNo = item["BRANCH REG NO"];
-                job.branchName = item["BRANCH NAME"];
-                job.numberOfBeds = item["NO OF BEDS"];
-                address.addressLine1 = item["BRANCH ADDRESS LINE 1"];
-                address.addressLine2 = item["BRANCH ADDRESS LINE 2"];
-                address.addressLine3 = item["BRANCH ADDRESS LINE 3"];
-                address.latitude = item["Lat"];
-                address.longitude = item["Long"];
-                address.city = item["BRANCH CITY"];
-                var state = SmtCollections.SmtStates.findOne({name:item["BRANCH STATE"]});
+                job.branchRegistrationNo = insti["BRANCH REG NO"];
+                job.branchName = insti["BRANCH NAME"];
+                job.numberOfBeds = insti["NO OF BEDS"];
+                address.addressLine1 = insti["BRANCH ADDRESS LINE 1"];
+                address.addressLine2 = insti["BRANCH ADDRESS LINE 2"];
+                address.addressLine3 = insti["BRANCH ADDRESS LINE 3"];
+                address.latitude = insti["Lat"];
+                address.longitude = insti["Long"];
+                address.city = insti["BRANCH CITY"];
+                var state = SmtCollections.SmtStates.findOne({name:insti["BRANCH STATE"]});
                 if(state)
                     address.state = state._id;
-                address.country = item["COUNTRY"];
+                address.country = insti["COUNTRY"];
                 job.address = {};
                 job.address.address = address;
-                job.mobileNo = item["BRANCH MOBILE NO"];
-                job.landlineNo = item["BRANCH LANDLINE NO"];
-                job.faxNo = item["BRANCH FAX NO"];
-                job.website = item["BRANCH WEBSITE"];
+                job.mobileNo = insti["BRANCH MOBILE NO"];
+                job.landlineNo = insti["BRANCH LANDLINE NO"];
+                job.faxNo = insti["BRANCH FAX NO"];
+                job.website = insti["BRANCH WEBSITE"];
 
-                //job.associatedProducts = item["BRANCH PRODUCTS"];
-                shippinAddress.addressLine1 = item["BRANCH SHIPPING ADDRESS LINE 1"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.addressLine2 = item["BRANCH SHIPPING ADDRESS LINE 2"];
-                shippinAddress.city = item["BRANCH SHIPPING CITY"];
-                var shippingState = SmtCollections.SmtStates.findOne({name:item["BRANCH SHIPPING STATE"]});
+                //job.associatedProducts = insti["BRANCH PRODUCTS"];
+                shippinAddress.addressLine1 = insti["BRANCH SHIPPING ADDRESS LINE 1"];
+                shippinAddress.addressLine2 = insti["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.addressLine2 = insti["BRANCH SHIPPING ADDRESS LINE 2"];
+                shippinAddress.city = insti["BRANCH SHIPPING CITY"];
+                var shippingState = SmtCollections.SmtStates.findOne({name:insti["BRANCH SHIPPING STATE"]});
                 if(shippingState)
                     shippinAddress.state = shippingState._id;
 
-                shippinAddress.country = item["BRANCH SHIPPING COUNTRY"];
+                shippinAddress.country = insti["BRANCH SHIPPING COUNTRY"];
                 job.shippingAddress = {};
                 job.shippingAddress.address = shippinAddress;
-                timingVistit.timingFrom = item["BRANCH BEST TIME FROM"];
-                timingVistit.timingEnd = item["BRANCH BEST TIME TO"];
+                timingVistit.timingFrom = insti["BRANCH BEST TIME FROM"];
+                timingVistit.timingEnd = insti["BRANCH BEST TIME TO"];
                 job.timingVistit = timingVistit;
-                timingWork.days = item["BRANCH  WORK TIMINGS DAYS"];
-                timingWork.timingTo = item["BRANCH  WORK TIMINGS FROM"];
-                timingWork.timingEnds = item["BRANCH  WORK TIMINGS TO"];
+                timingWork.days = insti["BRANCH  WORK TIMINGS DAYS"];
+                timingWork.timingTo = insti["BRANCH  WORK TIMINGS FROM"];
+                timingWork.timingEnds = insti["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = item["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = item["BRANCH FREQUENCY CALL"];
+                job.frequencyType = insti["BRANCH FREQUENCY TYPE"];
+                job.frequencyCall = insti["BRANCH FREQUENCY CALL"];
                 hospitalBusinessDetails.push(job);
             }else {
-                throw new Error("Station:"+item["STATION"] +" Does not Exist")
+                throw new Error("Station:"+insti["STATION"] +" Does not Exist")
             }
-        })
+        
         SmtCompaniesCustomer.audit={};
         SmtCompaniesCustomer.personalDetails = personalDetails
         SmtCompaniesCustomer.hospitalPrimaryDetails = hospitalPrimaryDetails;
         SmtCompaniesCustomer.hospitalBusinessDetails = hospitalBusinessDetails;
         //console.log(SmtCompaniesCustomer)
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
-        insertStatus("SUCCESS",items[0]["SLID"],companyId,divisionId,customerType,filePath);
+        insertStatus("SUCCESS",insti["SLID"],companyId,divisionId,customerType,filePath);
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
         }catch(err){
-            insertStatus("FAILED",items[0]["SLID"],companyId,divisionId,customerType,filePath,err)
+            insertStatus("FAILED",insti["SLID"],companyId,divisionId,customerType,filePath,err)
         }
-    })
+    
 }

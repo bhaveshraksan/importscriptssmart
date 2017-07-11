@@ -3,7 +3,7 @@ this.uniqueIdGenService = function (contexts) {
     var uniqueIdGenServiceClass = function (contexts) {
         this.contexts = contexts;
         //SerialNo = new Mongo.Collection("serialNumbers");
-        var condition = this.contexts;
+      /*  var condition = this.contexts;
 
         //condition.name = "slId";
         var data = this.contexts;
@@ -30,15 +30,14 @@ this.uniqueIdGenService = function (contexts) {
             data._id  = "inventoryFileId_"+data.companyId+"_"+data.divisionId;
             data.seq = 0;
             SerialNo.insert(data);
-        }
+        }*/
     };
 
     uniqueIdGenServiceClass.prototype.getNextSequence = function (name) {
         var condition = this.contexts;
         condition._id = name+"_"+condition.companyId+"_"+condition.divisionId;
+        SerialNo.update(condition, { $inc: { seq: 1 } },{ upsert: true });
         var ret = SerialNo.findOne(condition);
-        ret.seq = ret.seq + 1;
-        SerialNo.update(condition,{$set:{seq:ret.seq}});
         return ret.seq;
     }   ;
 
