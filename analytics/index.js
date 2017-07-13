@@ -109,9 +109,9 @@ function sendMail(data){
     });
 }
 
-reportData();
+//reportData();
 
-//new CronJob('00 30 20 * * *',reportData, null, true, 'Asia/Kolkata');
+new CronJob('00 47 12 * * *',reportData, null, true, 'Asia/Kolkata');
 
 
 
