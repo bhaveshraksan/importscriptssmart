@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "cron": "^1.2.1",
-    "mongodb-promise": "0.0.4",
     "mongojs": "^2.4.0",
-    "nodemailer": "^4.0.1"
+    "nodemailer": "^4.0.1",
+    "then-mongo": "^3.0.1"
   }
 }

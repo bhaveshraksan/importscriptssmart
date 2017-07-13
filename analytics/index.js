@@ -1,8 +1,8 @@
 var CronJob = require('cron').CronJob;
-var mp = require('mongodb-promise');
+var mongo = require('then-mongo');
 
 
-var mongoUrl = "mongodb://smartroot:smartr00t_123@52.66.116.226:2029/#?authSource=admin";
+var mongoUrl = "mongodb://analytics:pr0dreadOnly@52.66.116.226:2029/#?authSource=#";
 //"mongodb://localhost:27017/"; 
 var databases = ["smart_uat","smart_qa","smart_dev"];
 var instanceName = {smart_uat:"Veritaz UAT",smart_qa:"QA",smart_dev:"DEV"};
@@ -13,48 +13,35 @@ var instances=databases.length * 3; //3 is number of metrics
 var startedat = new Date().getTime();
 function reportData(){
     databases.forEach(function(dbName){
-        mp.MongoClient.connect(mongoUrl.replace("#",dbName))
-        .then(function(db){
-            return db.collection('users')
-            .then(function(collection) {
-                collection.count({}).then(function(count) {
-                    data[dbName]={totalUsers:count};
-                    waitForAll();
-                })
-                return collection;
-            })
-            .then(function(collection) {
-                var d = new Date();
-                d.setHours(0,0,0,0);
-                collection.count({"status.lastLogin.date":{ 
-                    $lt: new Date(), 
-                    $gte: d
-                }}).then(function(count) {
-                    data[dbName].todayLoggedInUsers = count;
-                    waitForAll();
-                    
-                })
-                return collection;
-            })
-            .then(function(collection) {
-                collection.count({_loggedIn:true}).then(function(count) {
-                    data[dbName].activeUsers = count;
-                    waitForAll();
-                })
-            })
-        })
-        .fail(function(err) {
-            console.log(err);
+        var db = mongo(mongoUrl.replace(/#/g,dbName), ['users']);
+        var d = new Date();
+        d.setHours(0,0,0,0);
+        db.users.count({}).then(function(count) {
+            data[dbName]={totalUsers:count};
             waitForAll();
         });
+        db.users.count({"status.lastLogin.date":{ 
+            $lt: new Date(), 
+            $gte: d
+        }}).then(function(count) {
+            data[dbName].todayLoggedInUsers = count;
+            waitForAll();    
+        })    
+        db.users.count({_loggedIn:true}).then(function(count) {
+            data[dbName].activeUsers = count;
+            waitForAll(db,dbName);
+        })
     })
 }
 
-function waitForAll(){
-if(--instances==0 || new Date().getTime > startedat + 15000){
-                        console.log(data);
-                       sendMail(data);
-                    }
+function waitForAll(db,name){
+    if(db){
+        db.close().then(function(){console.log("Done with " + name)})
+    }
+    if(--instances==0 || new Date().getTime > startedat + 15000){
+        console.log(data);
+        sendMail(data);
+    }
 }
 
 'use strict';
@@ -102,7 +89,7 @@ todayLoggedInUsers:"Users logged in today"  }
 function prepareHtml(json){
     var result = "<table>"
     for(key in json){
-        result+="<tr><td colspan='2'><h3>"+instanceName[key]+"</h3></td></tr>";
+        result+="<tr><td colspan='2'><br/><h3>"+instanceName[key]+"</h3></td></tr>";
         var inst = json[key];
         for(metric in inst){
             result+=" <tr><td>"+metricName[metric]+"</td><td>"+inst[metric]+"</td></tr>"
@@ -122,8 +109,9 @@ function sendMail(data){
     });
 }
 
+reportData();
 
-new CronJob('00 02 22 * * *',reportData, null, true, 'Asia/Kolkata');
+//new CronJob('00 30 20 * * *',reportData, null, true, 'Asia/Kolkata');
 
 
 
