@@ -325,7 +325,7 @@ function saveDoctorData(doctor, companyId,divisionId, customerType,filePath) {
                  job.businessPotential = doctor["BRANCH BUISNESS POTENTIAL"];
                  job.sharePercentage = doctor["BRANCH SHARE PERCENTAGE"];
                  job.associatedProducts = [];
-                //job.associatedProducts = doctor["BRANCH PRODUCTS"];
+                job.associatedProducts = doctor["BRANCH PRODUCTS"].split(',');
                 shippinAddress.addressLine1 = doctor["BRANCH SHIPPING ADDRESS LINE 1"];
                  shippinAddress.addressLine2 = doctor["BRANCH SHIPPING ADDRESS LINE 2"];
                  shippinAddress.addressLine2 = doctor["BRANCH SHIPPING ADDRESS LINE 2"];
@@ -396,8 +396,7 @@ function saveChemistData(chemist, companyId,divisionId,customerType,filePath) {
         chemistPersonalDetails.owner.name = chemist["PROPREITOR NAME"];
         chemistPersonalDetails.owner.ownemailId = chemist["PROPREITOR EMAIL ID"];
         chemistPersonalDetails.owner.ownAddress = chemist["PROPREITOR ADDRESS"];
-        chemistPersonalDetails.owner.name = chemist["PROPREITOR NAME"];
-        chemistPersonalDetails.owner.name = chemist["PROPREITOR NAME"];
+
 
         //personalDetails.regNo = chemist["DOCTOR REG NO"];
 
