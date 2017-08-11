@@ -2,18 +2,23 @@ var CronJob = require('cron').CronJob;
 var mongo = require('then-mongo');
 
 
-var mongoUrl = "mongodb://analytics:pr0dreadOnly@52.66.116.226:2029/#?authSource=#";
+var mongoUrl;
 //"mongodb://localhost:27017/"; 
-var databases = ["smart_uat","smart_qa","smart_dev"];
-var instanceName = {smart_uat:"Veritaz UAT",smart_qa:"QA",smart_dev:"DEV"};
-var sendAlertsTo = 'harishreddy.mallu@raksan.in';
-
+var databases = ["veritaz_prod","imunus_prod","sudan_prod","tanzania_prod","ethiopia_prod","uganda_prod","smart_uae_prod","emkenya_pp"];
+var instanceName = {veritaz_prod:"Veritaz",smart_uae_prod:"Smart Uae",imunus_prod:"Imunus",sudan_prod:"APL EM Sudan",tanzania_prod:"APL EM Tanzania",ethiopia_prod:"APL EM Ethiopia",uganda_prod:"APL EM Uganda",emkenya_pp:"APL EM Kenya"};
+var sendAlertsTo = 'harishreddy.mallu@raksan.in,sivakumar.vattikuti@raksan.in'
 var data={};
 var instances=databases.length * 3; //3 is number of metrics
 var startedat = new Date().getTime();
 function reportData(){
     databases.forEach(function(dbName){
-        var db = mongo(mongoUrl.replace(/#/g,dbName), ['users']);
+        if('veritaz_prod'===dbName){
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@54.254.206.34:2029/#"
+        }else{
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@54.254.219.31:2029/#";
+        }
+        var db = mongo(mongoUrl.replace(/#/g,dbName), ['users'])
+        console.log(mongoUrl);
         var d = new Date();
         d.setHours(0,0,0,0);
         db.users.count({}).then(function(count) {
@@ -62,7 +67,7 @@ let transporter = nodemailer.createTransport({
 let mailOptions = {
     from: '"field repo 🦅" <stats@fieldeagles.com>', // sender address
     to: sendAlertsTo, // list of receivers
-    subject: 'User Report Sample✔', // Subject line
+    subject: 'sMaRt application usage report (' +new Date().toISOString().substr(0,10)+')', // Subject line
 };
 
 /**
@@ -82,17 +87,18 @@ let mailOptions = {
 
 </table>
 */
-var metricName = {totalUsers:"Total Registered Users",
-activeUsers:"Users logged in at least once since registration",
-todayLoggedInUsers:"Users logged in today"  }
-
+var metricName = {totalUsers:"Total Registered Users  ",
+activeUsers:"Users logged in at least once since registration  ",
+todayLoggedInUsers:"Users logged in today ("+new Date().toISOString().substr(0,10)+" )  "  }
+var i=1;
 function prepareHtml(json){
     var result = "<table>"
     for(key in json){
-        result+="<tr><td colspan='2'><br/><h3>"+instanceName[key]+"</h3></td></tr>";
+        result+="<tr><td colspan='2'><br/><h3>"+(i++)+"."+instanceName[key]+"</h3></td></tr>";
         var inst = json[key];
+        inst = (function(s){var t={};Object.keys(s).sort().forEach(function(k){t[k]=s[k]});return t})(inst)
         for(metric in inst){
-            result+=" <tr><td>"+metricName[metric]+"</td><td>"+inst[metric]+"</td></tr>"
+            result+=" <tr><td>"+metricName[metric]+"</td><td> : "+inst[metric]+"</td></tr>"
         }
     }
     result+="</table>";
@@ -109,9 +115,9 @@ function sendMail(data){
     });
 }
 
-//reportData();
+reportData();
 
-new CronJob('00 47 12 * * *',reportData, null, true, 'Asia/Kolkata');
+// new CronJob('00 00 19 * * *',reportData, null, true, 'Asia/Kolkata');
 
 
 

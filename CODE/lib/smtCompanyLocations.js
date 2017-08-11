@@ -64,12 +64,10 @@ var SmtCompanyLocationSchema = new SimpleSchema({
         optional: true
     },
     latitude:{
-        type: String,
-        optional: true
+        type: String
     },
     longitude:{
-        type: String,
-        optional: true
+        type: String
     },
     stationsDetail: {
       type: Object,

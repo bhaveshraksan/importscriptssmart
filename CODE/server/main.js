@@ -8,8 +8,11 @@ var glob = require( 'glob' );
 
 
 Meteor.startup(function () {
+    if(!process.env.DATA_FOLDER){
+        return;
+    }
   console.log("Starting pumping data from " + process.env.DATA_FOLDER);
-    glob(process.env.DATA_FOLDER+'/**/*.csv', Meteor.bindEnvironment( function( err, files ) {
+    glob(process.env.DATA_FOLDER+path.sep+'**'+path.sep+'*.csv', Meteor.bindEnvironment( function( err, files ) {
        process.env.DATA_FOLDER=process.env.DATA_FOLDER.replace(/\/$/, "");
        var root = process.env.DATA_FOLDER.length;
         _.each(files,function (fullPath,index) {
@@ -48,6 +51,22 @@ Meteor.startup(function () {
         });
     }));
 });
+
+function validateMandatory(obj) {
+    //branch frequency type , branch frequency , lat long
+    var mandatoryFields = ["frequencyType", "frequencyCall"];
+    mandatoryFields.forEach(function (key) {
+        if (!obj.hasOwnProperty(key)) {
+            throw new Error(key+" is missing in csv file");
+        }
+    });
+    if (!obj.address.address.latitude) {
+        throw new Error("latitude is missing in csv file");
+    }
+    if (!obj.address.address.longitude) {
+        throw new Error("longitude is missing in csv file");
+    }
+}
 
 Slingshot.createDirective("uploadCampaignFile", Slingshot.S3Storage, {
     AWSAccessKeyId: Meteor.settings.private.aws.accessKey,
@@ -258,7 +277,28 @@ function saveDoctorData(doctor, companyId,divisionId, customerType,filePath) {
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:doctor["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
+            var stationQuery = {locationName:doctor["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId};
+            var stationCount = SmtCollections.SmtCompanyLocations.find(stationQuery).count();
+            if(stationCount > 1) {
+                if (doctor["HQ"]) {
+                    var headQuarterId = SmtCollections.SmtCompanyLocations.findOne({
+                        locationName: doctor["HQ"],
+                        locationType: "LEVEL-1",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    });
+                    stationQuery = {
+                        immediateParentId: headQuarterId._id,
+                        locationName: doctor["STATION"],
+                        locationType: "LEVEL-0",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    }
+                }else{
+                    throw new Error("Station:"+doctor["STATION"] +" HQ is ambiguous  ")
+                }
+            }
+            var stationId = SmtCollections.SmtCompanyLocations.findOne(stationQuery);
             if(stationId){
                 job.isActive = true;
                 job.stationId = stationId._id;
@@ -304,8 +344,10 @@ function saveDoctorData(doctor, companyId,divisionId, customerType,filePath) {
                  timingWork.timingTo = doctor["BRANCH  WORK TIMINGS FROM"];
                  timingWork.timingEnds = doctor["BRANCH  WORK TIMINGS TO"];
                  job.timingWork = timingWork;
-                 job.frequencyType = doctor["BRANCH FREQUENCY TYPE"];
-                 job.frequencyCall = doctor["BRANCH FREQUENCY CALL"];
+                 job.frequencyType = doctor["BRANCH FREQUENCY TYPE"] || doctor["BRANCHFREQUENCYTYPE"];
+                 job.frequencyCall = doctor["BRANCH FREQUENCY CALL"] || doctor["BRANCHFREQUENCYCALL"];
+
+                validateMandatory(job)
                 jobDetails.push(job);
             }else {
                 throw new Error("Station:"+doctor["STATION"] +" Does not Exist")
@@ -318,7 +360,7 @@ function saveDoctorData(doctor, companyId,divisionId, customerType,filePath) {
         SmtCollections.SmtCompaniesCustomer.insert(SmtCompaniesCustomer);
         insertStatus("SUCCESS",doctor["SLID"],companyId,divisionId,customerType,filePath)
     }catch(err){
-            if(!doctor["SLID"]) debugger;
+            if(!doctor["SLID"]) console.log(filePath + "has no SLID");
             insertStatus("FAILED",doctor["SLID"],companyId,divisionId,customerType,filePath,err)
         }
         //console.log(SmtCollections.SmtCompaniesCustomer.find().fetch())
@@ -367,7 +409,28 @@ function saveChemistData(chemist, companyId,divisionId,customerType,filePath) {
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:chemist["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
+            var stationQuery = {locationName:chemist["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId};
+            var stationCount = SmtCollections.SmtCompanyLocations.find(stationQuery).count();
+            if(stationCount > 1) {
+                if (chemist["HQ"]) {
+                    var headQuarterId = SmtCollections.SmtCompanyLocations.findOne({
+                        locationName: chemist["HQ"],
+                        locationType: "LEVEL-1",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    });
+                    stationQuery = {
+                        immediateParentId: headQuarterId._id,
+                        locationName: chemist["STATION"],
+                        locationType: "LEVEL-0",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    }
+                }else{
+                    throw new Error("Station:"+chemist["STATION"] +" HQ is ambiguous  ")
+                }
+            }
+            var stationId = SmtCollections.SmtCompanyLocations.findOne(stationQuery);
             if(stationId){
                 job.stationId = stationId._id;
                 job.isActive = true;
@@ -407,12 +470,13 @@ function saveChemistData(chemist, companyId,divisionId,customerType,filePath) {
                 timingVistit.timingFrom = chemist["BRANCH BEST TIME FROM"];
                 timingVistit.timingEnd = chemist["BRANCH BEST TIME TO"];
                 job.timingVistit = timingVistit;
-                timingWork.days = chemist["BRANCH  WORK TIMINGS DAYS"];
-                timingWork.timingTo = chemist["BRANCH  WORK TIMINGS FROM"];
-                timingWork.timingEnds = chemist["BRANCH  WORK TIMINGS TO"];
+                timingWork.days = chemist["BRANCH WORK TIMINGS DAYS"];
+                timingWork.timingTo = chemist["BRANCH WORK TIMINGS FROM"];
+                timingWork.timingEnds = chemist["BRANCH WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = chemist["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = chemist["BRANCH FREQUENCY CALL"];
+                job.frequencyType = chemist["BRANCH FREQUENCY TYPE"] || chemist["BRANCHFREQUENCYTYPE"];
+                job.frequencyCall = chemist["BRANCH FREQUENCY CALL"] || chemist["BRANCHFREQUENCYCALL"];
+                validateMandatory(job)
                 jobDetails.push(job);
             }else {
                 throw new Error("Station:"+chemist["STATION"] +" Does not Exist")
@@ -513,8 +577,9 @@ function saveStockistData(stockist, companyId,divisionId,customerType,filePath) 
                 timingWork.timingTo = stockist["BRANCH  WORK TIMINGS FROM"];
                 timingWork.timingEnds = stockist["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = stockist["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = stockist["BRANCH FREQUENCY CALL"];
+                job.frequencyType = stockist["BRANCH FREQUENCY TYPE"] || stockist["BRANCHFREQUENCYTYPE"];
+                job.frequencyCall = stockist["BRANCH FREQUENCY CALL"] || stockist["BRANCHFREQUENCYCALL"];
+                validateMandatory(job)
                 jobDetails.push(job);
             }else {
                 throw new Error("HEADQUARTER: "+stockist["HEADQUARTER"]+" Does not Exist")
@@ -578,8 +643,28 @@ function saveHospitalData(hospital, companyId,divisionId, customerType,filePath)
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:hospital["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId});
+            var stationQuery = {locationName:hospital["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId};
+            var stationCount = SmtCollections.SmtCompanyLocations.find(stationQuery).count();
+            if(stationCount > 1) {
+                if (hospital["HQ"]) {
+                    var headQuarterId = SmtCollections.SmtCompanyLocations.findOne({
+                        locationName: hospital["HQ"],
+                        locationType: "LEVEL-1",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    });
+                    stationQuery = {
+                        immediateParentId: headQuarterId._id,
+                        locationName: hospital["STATION"],
+                        locationType: "LEVEL-0",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    }
+                }else{
+                    throw new Error("Station:"+hospital["STATION"] +" HQ is ambiguous  ")
+                }
+            }
+            var stationId = SmtCollections.SmtCompanyLocations.findOne(stationQuery);
             if(stationId){
                 job.isActive = true;
                 job.stationId = stationId._id;
@@ -622,8 +707,9 @@ function saveHospitalData(hospital, companyId,divisionId, customerType,filePath)
                 timingWork.timingTo = hospital["BRANCH  WORK TIMINGS FROM"];
                 timingWork.timingEnds = hospital["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = hospital["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = hospital["BRANCH FREQUENCY CALL"];
+                job.frequencyType = hospital["BRANCH FREQUENCY TYPE"] || hospital["BRANCHFREQUENCYTYPE"];
+                job.frequencyCall = hospital["BRANCH FREQUENCY CALL"] || hospital["BRANCHFREQUENCYCALL"];
+                validateMandatory(job)
                 hospitalBusinessDetails.push(job);
             }else {
                 throw new Error("Station:"+hospital["STATION"] +" Does not Exist")
@@ -687,8 +773,28 @@ function saveInstituteData(insti, companyId,divisionId, customerType,filePath) {
             var timingVistit = {};
             var timingWork = [];
             // job.branchImage
-
-            var stationId = SmtCollections.SmtCompanyLocations.findOne({locationName:insti["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId})
+            var stationQuery = {locationName:insti["STATION"],locationType:"LEVEL-0","companyId":companyId,"companyDivisionId":divisionId};
+            var stationCount = SmtCollections.SmtCompanyLocations.find(stationQuery).count();
+            if(stationCount > 1) {
+                if (insti["HQ"]) {
+                    var headQuarterId = SmtCollections.SmtCompanyLocations.findOne({
+                        locationName: insti["HQ"],
+                        locationType: "LEVEL-1",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    });
+                    stationQuery = {
+                        immediateParentId: headQuarterId._id,
+                        locationName: insti["STATION"],
+                        locationType: "LEVEL-0",
+                        "companyId": companyId,
+                        "companyDivisionId": divisionId
+                    }
+                }else{
+                    throw new Error("Station:"+insti["STATION"] +" HQ is ambiguous  ")
+                }
+            }
+            var stationId = SmtCollections.SmtCompanyLocations.findOne(stationQuery);
             if(stationId){
                 job.isActive = true;
                 job.stationId = stationId._id;
@@ -731,8 +837,9 @@ function saveInstituteData(insti, companyId,divisionId, customerType,filePath) {
                 timingWork.timingTo = insti["BRANCH  WORK TIMINGS FROM"];
                 timingWork.timingEnds = insti["BRANCH  WORK TIMINGS TO"];
                 job.timingWork = timingWork;
-                job.frequencyType = insti["BRANCH FREQUENCY TYPE"];
-                job.frequencyCall = insti["BRANCH FREQUENCY CALL"];
+                job.frequencyType = insti["BRANCH FREQUENCY TYPE"] || insti["BRANCHFREQUENCYTYPE"];
+                job.frequencyCall = insti["BRANCH FREQUENCY CALL"] || insti["BRANCHFREQUENCYCALL"];
+                validateMandatory(job)
                 hospitalBusinessDetails.push(job);
             }else {
                 throw new Error("Station:"+insti["STATION"] +" Does not Exist")
