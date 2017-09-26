@@ -759,9 +759,9 @@ function saveInstituteData(insti, companyId,divisionId, customerType,filePath) {
         if(category)
             hospitalPrimaryDetails.hospitalCategory = category._id;
         hospitalPrimaryDetails.ownerName = insti["PROPREITOR NAME"];
-        hospitalPrimaryDetails.ownerContactNo = insti["PROPREITOR CONTACT NO"];
-        hospitalPrimaryDetails.ownerEmailId = insti["PROPREITOR EMAIL ID"];
-        hospitalPrimaryDetails.ownerAddress = insti["PROPREITOR ADDRESS"];
+        hospitalPrimaryDetails.ownerContactNo = [insti["PROPREITOR CONTACT NO"]];
+        hospitalPrimaryDetails.ownerEmailId = [insti["PROPREITOR EMAIL ID"]];
+        hospitalPrimaryDetails.ownerAddress = [insti["PROPREITOR ADDRESS"]];
         hospitalPrimaryDetails.website = insti["WEBSITE"];
 
 

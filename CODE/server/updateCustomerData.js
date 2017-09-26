@@ -102,3 +102,18 @@ function updateDocCheData(doctorORchemist, companyId,divisionId, customerType,fi
     }
     SmtCollections.SmtCompaniesCustomer.update(filter,{$set:{"jobDetails.0.frequencyType":ftype,"jobDetails.0.frequencyCall":fcall}});
 }
+
+function  updateHospitalInstData(hospitalORinst,companyId,divisionId, customerType,filePath){
+    var mslId = hospitalORinst["SLID"];
+
+    var name = hospitalORinst["FIRST NAME"] || hospitalORinst["NAME"];
+
+    var ftype = hospitalORinst["BRANCH FREQUENCY TYPE"] || hospitalORinst["BRANCHFREQUENCYTYPE"];
+    var fcall = hospitalORinst["BRANCH FREQUENCY CALL"] || hospitalORinst["BRANCHFREQUENCYCALL"];
+    var filter = {"companyId":companyId,"divisionId":divisionId,"personalDetails.oldMslid":mslId,
+        "customerTypeId":customerType,"personalDetails.name":name,
+        "hospitalBusinessDetails.frequencyCall":{$exists:false}};
+
+    SmtCollections.SmtCompaniesCustomer.update(filter,{$set:{"hospitalBusinessDetails.0.frequencyType":ftype,"hospitalBusinessDetails.0.frequencyCall":fcall}});
+
+}

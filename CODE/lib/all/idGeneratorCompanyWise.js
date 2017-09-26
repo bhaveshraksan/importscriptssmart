@@ -44,6 +44,12 @@ this.uniqueIdGenService = function (contexts) {
     uniqueIdGenServiceClass.prototype.getUniqueId = function (name,id) {
         return "SMT-"+id+"-" + FormatUtil.leadingZeros(this.getNextSequence(name), 6);
     };
+    uniqueIdGenServiceClass.prototype.getExistingSequence = function (name) {
+        var condition = this.contexts;
+        condition._id = name+"_"+condition.companyId+"_"+condition.divisionId;
+        var ret = SerialNo.findOne(condition);
+        return ret.seq;
+    };
     /*uniqueIdGenServiceClass.prototype.getUniqueinventoryFileId = function (name) {
         if(name=="Gift"){
             return "SMT-INVENTORY-GIFTS-" + FormatUtil.leadingZeros(this.getNextSequence("inventoryTransactionFileId"), 6);

@@ -174,7 +174,7 @@ SmtSchemas.SmtProductRAndDSchema = SmtProductRAndDSchema;
 var SmtProductsSchema = new SimpleSchema({
     productName:{
         type: String,
-        unique: true
+        //unique: true
     },
     productCategory:{
       type: String

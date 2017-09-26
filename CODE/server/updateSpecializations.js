@@ -1,7 +1,7 @@
 /**
  * Created by harishreddy on 8/10/17.
  */
-var filePath="/home/harishreddy/ownCloud/Export_Qualification_Specialization_hospin.csv";
+var filePath="/home/harishreddy/ownCloud/";
 var csv = Npm.require("csvtojson");
 var arrayOfchanges = [];
 
