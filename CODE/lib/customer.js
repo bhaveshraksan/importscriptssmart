@@ -36,12 +36,7 @@ var SmtCompaniesCustomerSchema = new SimpleSchema({
     },
     isActive: {
         type: Boolean,
-        autoValue: function () {
-            if (!this.isSet) {
-                return false
-            }
-        }
-
+        defaultValue:true,
     },
     reason: {
         type: String,

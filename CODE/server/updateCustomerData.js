@@ -89,18 +89,20 @@ function updateDocCheData(doctorORchemist, companyId,divisionId, customerType,fi
 
     var middleName = doctorORchemist["MIDDLE NAME"];
     var lastName = doctorORchemist["LAST NAME"];
-    var ftype = doctorORchemist["BRANCH FREQUENCY TYPE"] || doctorORchemist["BRANCHFREQUENCYTYPE"];
-    var fcall = doctorORchemist["BRANCH FREQUENCY CALL"] || doctorORchemist["BRANCHFREQUENCYCALL"];
+    var dtype = doctorORchemist["DOCTOR TYPE"] || doctorORchemist["DOCTORTYPE"];
     var filter = {"companyId":companyId,"divisionId":divisionId,"personalDetails.oldMslid":mslId,
         "customerTypeId":customerType,"personalDetails.name":name,
-        "jobDetails.frequencyCall":{$exists:false}};
+        };
     if(lastName){
         filter["personalDetails.lastName"]=lastName;
     }
     if(middleName){
         filter["personalDetails.middleName"]=middleName;
     }
-    SmtCollections.SmtCompaniesCustomer.update(filter,{$set:{"jobDetails.0.frequencyType":ftype,"jobDetails.0.frequencyCall":fcall}});
+    //console.log(filter);
+    var category = SmtCollections.SmtCustomerTypes.findOne({"type":dtype,customerId:customerType})
+    if(category)
+    SmtCollections.SmtCompaniesCustomer.update(filter,{$set:{"personalDetails.category":category._id}});
 }
 
 function  updateHospitalInstData(hospitalORinst,companyId,divisionId, customerType,filePath){
