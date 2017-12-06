@@ -14,9 +14,9 @@ var startedat = new Date().getTime();
 function reportData(){
     databases.forEach(function(dbName){
         if('veritaz_prod'===dbName){
-            mongoUrl = "mongodb://analytics:pr0dreadOnly@54.254.206.34:2029/#"
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@103.60.212.126:37290/#"
         }else{
-            mongoUrl = "mongodb://analytics:pr0dreadOnly@54.254.219.31:2029/#";
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@103.60.212.126:37290/#";
         }
         var db = mongo(mongoUrl.replace(/#/g,dbName), ['users'])
         console.log(mongoUrl);
