@@ -2,7 +2,7 @@ var CronJob = require('cron').CronJob;
 var mongo = require('then-mongo');
 
 
-var mongoUrl='mongodb://analytics:pr0dreadOnly@54.254.206.34:2029/veritaz_prod';
+var mongoUrl='mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/veritaz_prod';
 var instanceName='Veritaz'
 var sendAlertsTo = 'veritazindia_smart@raksanconsulting.com'//
 var data={};

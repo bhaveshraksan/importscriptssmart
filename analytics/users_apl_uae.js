@@ -2,7 +2,7 @@ var CronJob = require('cron').CronJob;
 var mongo = require('then-mongo');
 
 
-var mongoUrl='mongodb://analytics:pr0dreadOnly@54.254.219.31:2029/smart_uae_prod';
+var mongoUrl='mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/smart_uae_prod';
 var instanceName='Smart Uae'
 var sendAlertsTo = 'aplemuae_smart@raksanconsulting.com'//
 var data={};

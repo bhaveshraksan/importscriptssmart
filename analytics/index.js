@@ -3,20 +3,20 @@ var mongo = require('then-mongo');
 
 
 var mongoUrl;
-
+//"mongodb://localhost:27017/"; 
 var databases = ["veritaz_prod","imunus_prod","sudan_prod","tanzania_prod","ethiopia_prod","uganda_prod","smart_uae_prod","emkenya_pp"];
 var instanceName = {veritaz_prod:"Veritaz",smart_uae_prod:"Smart Uae",imunus_prod:"Imunus",sudan_prod:"APL EM Sudan",tanzania_prod:"APL EM Tanzania",ethiopia_prod:"APL EM Ethiopia",uganda_prod:"APL EM Uganda",emkenya_pp:"APL EM Kenya"};
-var sendAlertsTo = 'smartqateam@raksanconsulting.com,devops@raksan.in,vijay.pachika@raksan.in,rudrapratap.enumulu@raksan.in,rakesh@raksan.in,bhavesh.gupta@raksan.in';
+var sendAlertsTo = 'smartqateam@raksanconsulting.com,devops@raksan.in,harishreddy.mallu@raksan.in,vijay.pachika@raksan.in,rudrapratap.enumulu@raksan.in,venugopal@raksan.in,rakesh@raksan.in,bhavesh.gupta@raksan.in';
 //'harishreddy.mallu@raksan.in,sivakumar.vattikuti@raksan.in'//
 var data={};
 var instances=databases.length * 3; //3 is number of metrics
 var startedat = new Date().getTime();
 function reportData(){
     databases.forEach(function(dbName){
-        if('veritaz_prod'===dbName || 'imunus_prod'===dbName || 'emkenya_pp'===dbName){
-            mongoUrl = "mongodb://analytics:pr0dreadOnly@103.60.212.126:37290/#"
+        if('veritaz_prod'===dbName){
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/#"
         }else{
-            mongoUrl = "mongodb://analytics:pr0dreadOnly@mongodb.raksan.in:37290/#";
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/#";
         }
         var db = mongo(mongoUrl.replace(/#/g,dbName), ['users'])
         console.log(mongoUrl);
