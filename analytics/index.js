@@ -6,7 +6,7 @@ var mongoUrl;
 //"mongodb://localhost:27017/"; 
 var databases = ["veritaz_prod","imunus_prod","sudan_prod","tanzania_prod","ethiopia_prod","uganda_prod","smart_uae_prod","emkenya_pp"];
 var instanceName = {veritaz_prod:"Veritaz",smart_uae_prod:"Smart Uae",imunus_prod:"Imunus",sudan_prod:"APL EM Sudan",tanzania_prod:"APL EM Tanzania",ethiopia_prod:"APL EM Ethiopia",uganda_prod:"APL EM Uganda",emkenya_pp:"APL EM Kenya"};
-var sendAlertsTo = 'smartqateam@raksanconsulting.com,devops@raksan.in,harishreddy.mallu@raksan.in,vijay.pachika@raksan.in,rudrapratap.enumulu@raksan.in,venugopal@raksan.in,rakesh@raksan.in,bhavesh.gupta@raksan.in';
+var sendAlertsTo = 'smartqateam@raksanconsulting.com,devops@raksan.in,vijay.pachika@raksan.in,rudrapratap.enumulu@raksan.in,rakesh@raksan.in,bhavesh.gupta@raksan.in';
 //'harishreddy.mallu@raksan.in,sivakumar.vattikuti@raksan.in'//
 var data={};
 var instances=databases.length * 3; //3 is number of metrics
