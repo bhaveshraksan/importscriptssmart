@@ -13,10 +13,10 @@ var instances=databases.length * 3; //3 is number of metrics
 var startedat = new Date().getTime();
 function reportData(){
     databases.forEach(function(dbName){
-        if('veritaz_prod'===dbName || 'imunus_prod'===dbName || 'emkenya_pp'===dbName){
+        if('veritaz_prod'===dbName || 'imunus_prod'===dbName || 'emkenya_pp'===dbName || 'smart_uae_prod'===dbName){
             mongoUrl = "mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/#"
         }else{
-            mongoUrl = "mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/#";
+            mongoUrl = "mongodb://analytics:pr0dreadOnly@10.0.2.34:2089/#";
         }
         var db = mongo(mongoUrl.replace(/#/g,dbName), ['users'])
         console.log(mongoUrl);
