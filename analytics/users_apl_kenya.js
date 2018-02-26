@@ -4,7 +4,7 @@ var mongo = require('then-mongo');
 
 var mongoUrl='mongodb://analytics:pr0dreadOnly@10.0.2.36:2089/emkenya_pp';
 var instanceName='APL EM Kenya'
-var sendAlertsTo = 'aplemkenya_smart@raksanconsulting.com'//
+var sendAlertsTo = 'shivaroop.kashetty@raksan.in';//'aplemkenya_smart@raksanconsulting.com'//
 var data={};
 var queries=5; 
 var startedat = new Date().getTime();
